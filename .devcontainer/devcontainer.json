@@ -1,0 +1,143 @@
+```json
+{
+    "name": "Oracle Cloud EPM AI Automation Framework",
+
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+
+    "remoteUser": "vscode",
+
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+    "shutdownAction": "stopContainer",
+
+    "overrideCommand": false,
+
+    "postCreateCommand": "bash .devcontainer/postCreate.sh",
+
+    "forwardPorts": [
+        3000,
+        4173,
+        8080,
+        9222
+    ],
+
+    "portsAttributes": {
+        "3000": {
+            "label": "Development Server",
+            "onAutoForward": "notify"
+        },
+        "4173": {
+            "label": "Vite Preview",
+            "onAutoForward": "notify"
+        },
+        "8080": {
+            "label": "Application",
+            "onAutoForward": "notify"
+        }
+    },
+
+    "customizations": {
+
+        "vscode": {
+
+            "settings": {
+
+                "terminal.integrated.defaultProfile.linux": "bash",
+
+                "editor.formatOnSave": true,
+
+                "editor.tabSize": 4,
+
+                "files.trimTrailingWhitespace": true,
+
+                "files.insertFinalNewline": true,
+
+                "typescript.tsdk": "node_modules/typescript/lib",
+
+                "playwright.reuseBrowser": true,
+
+                "git.autofetch": true,
+
+                "git.confirmSync": false,
+
+                "explorer.confirmDelete": false,
+
+                "editor.minimap.enabled": true
+            },
+
+            "extensions": [
+
+                "ms-playwright.playwright",
+
+                "GitHub.copilot",
+
+                "GitHub.copilot-chat",
+
+                "GitHub.vscode-pull-request-github",
+
+                "dbaeumer.vscode-eslint",
+
+                "esbenp.prettier-vscode",
+
+                "ms-vscode.powershell",
+
+                "redhat.vscode-yaml",
+
+                "ms-azuretools.vscode-docker",
+
+                "DavidAnson.vscode-markdownlint",
+
+                "humao.rest-client",
+
+                "streetsidesoftware.code-spell-checker",
+
+                "eamodio.gitlens"
+            ]
+        }
+    },
+
+    "features": {
+
+        "ghcr.io/devcontainers/features/node:1": {
+
+            "version": "lts"
+        },
+
+        "ghcr.io/devcontainers/features/git:1": {},
+
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+
+        "ghcr.io/devcontainers/features/powershell:1": {}
+    },
+
+    "containerEnv": {
+
+        "FRAMEWORK_NAME": "Oracle Cloud EPM AI Automation Framework",
+
+        "FRAMEWORK_VERSION": "1.0",
+
+        "NODE_ENV": "development",
+
+        "PLAYWRIGHT_BROWSERS_PATH": "/ms-playwright"
+    },
+
+    "mounts": [
+
+        "source=${localWorkspaceFolder}/reports,target=/workspaces/${localWorkspaceFolderBasename}/reports,type=bind",
+
+        "source=${localWorkspaceFolder}/screenshots,target=/workspaces/${localWorkspaceFolderBasename}/screenshots,type=bind"
+    ],
+
+    "hostRequirements": {
+
+        "cpus": 4,
+
+        "memory": "8gb",
+
+        "storage": "32gb"
+    }
+}
+```
