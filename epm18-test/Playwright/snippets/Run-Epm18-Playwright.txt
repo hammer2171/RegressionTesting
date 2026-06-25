@@ -1,0 +1,334 @@
+﻿cd /d C:\RegressionTesting\epm18-test\Playwright
+npm install
+npm run auth:refresh
+npm run test:e2e:evidence:full
+npm run evidence:archive-latest -- --label epm18_smoke
+
+
+Russ only
+
+npm run auth:refresh -- -UserKey aigul -PodKey 11_test_fccs -BaseUrl https://epm11-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+Others
+npm run auth:refresh -- -UserKey aigul -PodKey 11_test_fccs -BaseUrl https://epm11-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+recent tasks 
+
+e2e evidence full with buffers for longer timeouts during evidence gathering
+
+
+$env:PW_AUTH_FIELD_TIMEOUT_MS="90000"
+$env:PW_AUTH_STATE_TIMEOUT_MS="180000"
+npm run test:epm22:import-all-maps-cleaned:e2e:evidence:full
+
+full E2E evidence from login to signed out
+
+
+To build eidence from above
+npm run evidence:build-ui-validations-pdf:import-all-maps-cleaned
+
+
+
+
+
+view yml file
+
+Get-Content .\path\to\file.yml -Raw
+
+Get-Content .\output\playwright\epm22test-export-map_0151_20260409_160956\.playwright-cli\page-2026-04-09T21-28-27-841Z.yml -Raw
+
+do at the beginning of the day - reauth refresh authentication
+
+npm run auth:refresh
+
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --trace on --headed
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright show-trace "C:\epm22_test\Mappings\ExportMapping\test-results\oracle-epm-0057_import_all-f7219-057-import-all-maps-cleaned-edge\trace.zip"
+
+Run test in UI mode 
+ 
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed --ui tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+Run test debug
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --debug
+
+
+Run reporter 
+
+npx playwright test --reporter=html
+
+Run Junit reporter
+
+$env:ENV_FILE=".env"
+$env:CI="true";
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts 
+
+Run blob reporter
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO="0"
+npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --reporter=blob
+      
+	  --  To view it as html - optional step
+          npx playwright merge-reports --reporter html ./blob-report
+          npx playwright show-report
+     
+
+reauth
+
+npx playwright codegen --channel=msedge --save-storage=playwright/.auth/user.json "https://epm22-test-a706571.epm.us-phoenix-1.ocs.oraclecloud.com/epmcloud"
+
+$env:PW_STORAGE_STATE="playwright/.auth/user.epm18_test.json"
+$env:EPM_SIGN_OUT="false"
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO="0"
+
+npx playwright codegen `
+    --browser chromium `
+    --channel msedge `
+    --load-storage="playwright/.auth/user.epm18_test.json" `
+    --target playwright-test `
+    --output "tests\Request_New_base_member_entity.spec.ts" `
+    https://epm18-test-a706571.epm.us2.oraclecloud.com/epm
+
+
+$env:PW_STORAGE_STATE="playwright/.auth/user.epm18_test.json"
+$env:EPM_SIGN_OUT="false"
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO="0"
+npx playwright test tests/Request_New_base_member_entity.spec.ts
+
+
+
+$env:PW_STORAGE_STATE="playwright/.auth/user.epm18_test.json"  
+$env:EPM_SIGN_OUT="false"
+$env:ENV_FILE=".env.epm18_test"
+$env:EPM_BASE_URL="https://epm22-test-a706571.epm.us-phoenix-1.ocs.oraclecloud.com/epm"
+$env:PW_SLOWMO='0' 
+npx playwright test --headed tests/Request_New_base_member_entity.spec.ts
+
+
+
+Before any branch work do this:
+ Create own auth file:
+ 
+ npx playwright codegen --channel=msedge --save-storage=playwright/.auth/aigul.json https://epm22-test-a706571.epm.us-phoenix-1.ocs.oraclecloud.com/epmcloud
+
+
+Each teammate sets their local .env (or shell env) to their file path:
+
+PW_STORAGE_STATE=playwright/.auth/user.json  change to aigul or christopher
+EPM_STORAGE_STATE_ONLY_AUTH=true
+EPM_SIGN_OUT=true
+EPM_BASE_URL=https://epm22-test-a706571.epm.us-phoenix-1.ocs.oraclecloud.com/epmcloud
+EPM_USERNAME=
+EPM_PASSWORD=
+
+
+To run under your own .env
+ - this runs all tests
+$env:ENV_FILE=".env.aigul"; npm run test:e2e
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_delete_all_maps.spec.ts
+
+$env:ENV_FILE=".env.christopher"; npm run test:e2e
+
+ 
+ 
+ 
+ 
+cd C:\epm22_test\Mappings\ExportMapping
+$ts = Get-Date -Format "yyyyMMdd_HHmmss"
+New-Item -ItemType Directory -Force -Path .\backups\helpers | Out-Null
+Copy-Item .\tests\helpers\epm-auth.ts ".\backups\helpers\epm-auth.$ts.ts"
+
+to verify:
+
+Get-ChildItem .\backups\helpers\epm-auth.*.ts | Sort-Object LastWriteTime -Descending | Select-Object -First 3 Name,LastWriteTime
+
+
+
+Snippet for pod scrape
+
+$env:START_URL="https://epm22-test-a706571.epm.us-phoenix-1.ocs.oraclecloud.com/HyperionPlanning/vb/index.html?page=ecvbs-v2&ecvbs-v2=efs&efs=efs-start&efs-start=blank"
+$env:STORAGE_STATE="tests/playwright/.auth/user.json"
+$env:MAX_PAGES="200"
+$env:CLICK_DISCOVERY="true"
+$env:MAX_CLICKS_PER_PAGE="30"
+$env:VIEW_SCRAPE="true"
+$env:TARGETED_WALKER="true"
+$env:TAB_NAMES="Dashboards,Infolets,Data,Financial Reports,Documents,Rules,Academy"
+$env:SHELL_WAIT_MS="30000"
+$env:WALKER_WAIT_MS="1000"
+$env:OUT_DIR="output/pod-scrape-$(Get-Date -Format yyyyMMdd_HHmmss)"
+node .\scripts\scrape-pod.mjs
+
+$env:PW_STORAGE_STATE="playwright/.auth/user.epm18_test.json" 
+$env:PW_AUTO_AUTH="true"
+$env:ENV_FILE=".env.epm18_test"
+npx playwright codegen --channel=msedge --load-storage=playwright/.auth/user.epm18_test.json https://epm18-test-a706571.epm.us2.oraclecloud.com/epm
+
+
+To write tests
+$env:PW_AUTH_USER_KEY="user"
+$env:PW_AUTO_AUTH="true"
+$env:PW_STORAGE_STATE="Playwright/playwright/.auth/user.epm18_test.json" 
+$env:EPM_SIGN_OUT="true"
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge --target test --output tests/Request_New_base_member_entity.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epm
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge  --target playwright-test --output tests/oracle-epm-0057_delete_map_1entry.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge  --target playwright-test --output tests/oracle-epm-0057_import_all_maps.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge  --target playwright-test --output tests/oracle-epm-0057_delete_all_maps.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge  --target playwright-test --output tests/oracle-epm-0057_delete_all_mapsv2.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge  --target playwright-test --output tests/oracle-epm-0057_import_all_maps2.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+
+Tests for page object models
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen --browser chromium --channel msedge  --target playwright-test --output pages/oracle-epm-page1.spec.ts https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+
+To play the test back
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_delete_map_1entry.cleaned.spec.ts
+
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_delete_all_maps.spec.ts
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+
+
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_delete_map_1entry.cleaned.spec.ts
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_delete_all_maps.spec.ts
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps2.spec.ts
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_delete_all_mapsv2.spec.ts
+
+To run trace
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --trace on --headed
+
+To open trace viewer
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright show-trace "C:\epm22_test\Mappings\ExportMapping\test-results\oracle-epm-0057_import_all-f7219-057-import-all-maps-cleaned-edge\trace.zip"
+
+To create storagestate to put creds in .env.epm18_test so not exposable in tests or traces
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright codegen  --browser chromium --channel msedge --save-storage=playwright\.auth\user.epm18_test.json https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+To use screenshots
+
+C:\epm22_test\Mappings\ExportMapping\scripts\Build-PlaywrightEvidence.ps1 and
+
+Documentation
+
+C:\epm22_test\Mappings\ExportMapping\docs\Playwright-Screenshots.md
+
+Command to run it - one at a time 
+
+# 1) Run evidence test (trace + screenshots via evidence config)
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npm run test:e2e:evidence -- tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+# 2) Build markdown screenshot evidence doc
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npm run evidence:build
+
+
+# 3) Extract images from trace.zip (replace <run-folder>)
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npm run evidence:extract-trace -- -TraceZip "C:\epm22_test\Mappings\ExportMapping\test-results\<run-folder>\trace.zip" -OutputDir ".\output\trace-images"
+
+# 4) Build ordered markdown from extracted trace images
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npm run evidence:build-trace-doc -- -ImagesDir ".\output\trace-images" -OutputPath ".\output\trace-images.md"
+
+# 5) Build pdf doc with one image per page (sheet)
+
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npm run evidence:build-trace-pdf -- -ImagesDir ".\output\trace-images" -OutputPath ".\output\trace-images.pdf"
+
+
+
+
+
+
+
+
+
+
+

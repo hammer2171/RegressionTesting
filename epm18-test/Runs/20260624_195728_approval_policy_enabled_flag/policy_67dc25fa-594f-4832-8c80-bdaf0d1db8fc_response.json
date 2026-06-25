@@ -1,0 +1,68 @@
+﻿{
+    "id":  "67dc25fa-594f-4832-8c80-bdaf0d1db8fc",
+    "name":  "Notify - IC LOB Changes",
+    "description":  "",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "3ad4224d-8722-43bb-8c89-2542873d4740",
+                        "name":  "Oracle Cloud Financials GL - Omega",
+                        "description":  "Oracle Cloud Financials GL Application - Omega"
+                    },
+    "dimension":  {
+                      "id":  "fe3a12aa-f721-4daa-ac25-723341fc3125",
+                      "name":  "IC_LOB_GLOBAL",
+                      "description":  ""
+                  },
+    "createdBy":  "emily.rubin@nov.com",
+    "timeCreated":  "2022-01-05T20:17:15.062Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2024-08-07T18:31:45.460Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "c76aab96-a8a5-41f1-b90d-0e0840c0ef9b",
+                               "name":  "EDM Service Administrators",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "a0c8d7bd-fea8-42a9-8b15-35786713f7c0",
+                               "name":  "Ledger Controllers",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "074194ac-318c-40e2-b2fc-efeb8bbf33ce",
+                               "name":  "Enterprise Solutions 2",
+                               "description":  ""
+                           }
+                       ],
+    "notifyOnStatusesChanged":  [
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+                         "INTERACTIVE",
+                         "SUBSCRIPTION",
+                         "IMPORT"
+                     ],
+    "allowAllRequestTypes":  false,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/fe3a12aa-f721-4daa-ac25-723341fc3125/policies/67dc25fa-594f-4832-8c80-bdaf0d1db8fc"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/67dc25fa-594f-4832-8c80-bdaf0d1db8fc/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

@@ -1,0 +1,37 @@
+epmautomate login aigul.zhakassova@nov.com C:\simulateConcurrentUsage\epmuserAZ.epw https://epm2-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\Create2testSim\AZ.zip" inbox
+epmautomate simulateConcurrentUsage AZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+epmautomate deleteFile inbox/AZ.zip
+epmautomate deleteFile inbox/Create2testSim.zip
+epmautomate deleteFile inbox/epm2_test_SaveFormWebAZ.zip
+epmautomate deleteFile inbox/epm2_test_OpenFormWebAZ.zip
+epmautomate deleteFile inbox/epm2_test_OpenFormSVAZ.zip
+
+
+
+
+
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\Create2testSim\Create2testSim.zip" inbox
+epmautomate simulateConcurrentUsage Create2testSim.zip testName=2testSim iterations=100 notificationEmails=Russell.Shellhamer@nov.com;Christopher.Zumbado@nov.com;aigul.zhakassova@nov.com  testMode=1 lagTime=4
+
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenFormWeb\epm2_test_OpenFormWebAZ.zip" inbox
+epmautomate simulateConcurrentUsage epm2_test_OpenFormWebAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenFormSV\epm2_test_OpenFormSVAZ.zip" inbox
+epmautomate simulateConcurrentUsage epm2_test_OpenFormSVAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinSup\epm2_test_FinSup_SaveFormSV.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinSup\epm2_test_FinSup_SaveFormWeb.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinPlan_Main\epm2_test_FinPlan_Main_SaveFormSV.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinPlan_Main\epm2_test_FinPlan_Main_SaveFormWeb.zip" inbox
+
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinSup\epm2_test_FinSup_OpenFormSV.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinSup\epm2_test_FinSup_OpenFormWeb.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinPlan_Main\epm2_test_FinPlan_Main_OpenFormSV.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinPlan_Main\epm2_test_FinPlan_Main_OpenFormWeb.zip" inbox
+
+
+
+
+

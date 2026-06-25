@@ -1,0 +1,1 @@
+pov=[Scenario:Forecast],[Version:Working],[Currency:USD_Reporting],[Data Source:Direct Input],[Industry:No Industry],[Intercompany:No Intercompany],[Product Line:No Product Line],[Years:&PlanYr],[Period:Dec],[Entity:NOVSegment_Input];cells=[A_61000|LOB_003->No Destination->L_00107->CC_0000|140001]

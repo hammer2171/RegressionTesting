@@ -1,0 +1,65 @@
+﻿{
+    "id":  "6bff73f4-540c-427e-90a2-494f01eb3f8a",
+    "name":  "Approval",
+    "description":  "Approval policy for TAX_ALC_Entity",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "6cd3a8a8-4724-4325-9cfd-088d94670243",
+                        "name":  "TAX_ALC",
+                        "description":  "EDM Application for PCM Tax Application"
+                    },
+    "dimension":  {
+                      "id":  "93ac9b69-a727-403f-9265-715a392089e7",
+                      "name":  "TAX_ALC_Entity",
+                      "description":  "Entity Dimension"
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:29:59.475Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:29:59.475Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/93ac9b69-a727-403f-9265-715a392089e7/policies/6bff73f4-540c-427e-90a2-494f01eb3f8a"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/6bff73f4-540c-427e-90a2-494f01eb3f8a/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

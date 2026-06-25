@@ -1,0 +1,12 @@
+﻿node_modules/
+test-results/
+playwright-report/
+blob-report/
+output/
+Runs/
+runs/
+*.log
+playwright/.auth/*.json
+.env
+.env.local
+.env.*.local

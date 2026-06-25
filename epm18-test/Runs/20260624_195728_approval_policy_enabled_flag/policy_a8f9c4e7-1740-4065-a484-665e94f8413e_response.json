@@ -1,0 +1,108 @@
+﻿{
+    "id":  "a8f9c4e7-1740-4065-a484-665e94f8413e",
+    "name":  "Facility Creation Workflow",
+    "description":  "",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "dimension":  {
+                      "id":  "d5461cd2-22dd-405b-bbfa-68d0670ce5e0",
+                      "name":  "Facility Master",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:49:16.224Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-12-12T14:32:14.681Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "fae77522-4ded-45b4-9541-c6b2112d4e92",
+                               "name":  "Facility Master Real Estate Team",
+                               "description":  "Access for  Real Estate Team"
+                           },
+                           {
+                               "id":  "30aea0f9-7db9-4adc-b196-f0b7a7622eec",
+                               "name":  "Facility Master Finance Team",
+                               "description":  "Access for Finance team"
+                           },
+                           {
+                               "id":  "98082b5c-e382-4417-8df5-110868096af9",
+                               "name":  "Facility Master Admin",
+                               "description":  "Access for Facility Admin"
+                           }
+                       ],
+    "processingType":  "SERIAL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  true,
+    "reminderNotification":  2,
+    "approvalEscalation":  2,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  true,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  false,
+    "allowedActions":  [
+                           "ADD_NODE",
+                           "INSERT_NODE"
+                       ],
+    "expression":  {
+                       "statements":  [
+                                          {
+                                              "type":  "return",
+                                              "expression":  {
+                                                                 "type":  "node",
+                                                                 "id":  "node",
+                                                                 "invoke":  {
+                                                                                "type":  "properties",
+                                                                                "invoke":  {
+                                                                                               "type":  "propertyValue",
+                                                                                               "id":  "4563b339-1901-489b-af0c-700e2cdb1441",
+                                                                                               "invoke":  {
+                                                                                                              "type":  "equals",
+                                                                                                              "argument":  {
+                                                                                                                               "type":  "booleanLiteral",
+                                                                                                                               "value":  true
+                                                                                                                           }
+                                                                                                          }
+                                                                                           }
+                                                                            }
+                                                             }
+                                          }
+                                      ]
+                   },
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/d5461cd2-22dd-405b-bbfa-68d0670ce5e0/policies/a8f9c4e7-1740-4065-a484-665e94f8413e"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/a8f9c4e7-1740-4065-a484-665e94f8413e/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

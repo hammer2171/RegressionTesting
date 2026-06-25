@@ -1,0 +1,3912 @@
+﻿[
+    {
+        "PolicyId":  "926ff5bc-c3f8-4f55-815f-8d16c173320f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/926ff5bc-c3f8-4f55-815f-8d16c173320f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "dc0e6aba-b74e-4151-9ad8-e4fd76536490",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/dc0e6aba-b74e-4151-9ad8-e4fd76536490/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3abeafff-1c4c-426c-8ab5-cc5605e273ac",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3abeafff-1c4c-426c-8ab5-cc5605e273ac/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ba87e4dd-9cc7-4065-93ba-c284587a2b59",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ba87e4dd-9cc7-4065-93ba-c284587a2b59/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ed9702a3-95f5-4935-b920-cd35474db4e3",
+        "PolicyName":  "Approval for All Omega Segments",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ed9702a3-95f5-4935-b920-cd35474db4e3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f19f111e-e142-484e-a1a1-f0bbb401fbbd",
+        "PolicyName":  "Omega Notification Policy",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f19f111e-e142-484e-a1a1-f0bbb401fbbd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "242d9ff5-4220-41e3-9a19-b0eb3ce857b7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/242d9ff5-4220-41e3-9a19-b0eb3ce857b7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c4c65dba-7aab-4163-9a04-b474b583544e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c4c65dba-7aab-4163-9a04-b474b583544e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "704d07c6-0ffa-4e2d-8fa7-0e99411269dc",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/704d07c6-0ffa-4e2d-8fa7-0e99411269dc/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "95702f41-f7a8-4c0d-8100-5609982c6b1f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/95702f41-f7a8-4c0d-8100-5609982c6b1f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d30173ba-26a9-44bf-a8af-084ead8c11fe",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d30173ba-26a9-44bf-a8af-084ead8c11fe/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e6a96c44-ac61-45f9-bdf1-382b28254014",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e6a96c44-ac61-45f9-bdf1-382b28254014/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "320c6544-1e19-48e9-8143-bebf46a140d1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/320c6544-1e19-48e9-8143-bebf46a140d1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5978768e-8f17-419e-9668-c81fef1aa4cb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5978768e-8f17-419e-9668-c81fef1aa4cb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "96409aca-f31f-4b51-bc53-f6393ff398ab",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/96409aca-f31f-4b51-bc53-f6393ff398ab/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "bedc81fd-8dfd-4c08-9d9f-92a835593810",
+        "PolicyName":  "Account Input Notification",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/bedc81fd-8dfd-4c08-9d9f-92a835593810/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "dfa75798-4e79-431d-8cc3-207b3c2d250d",
+        "PolicyName":  "Account Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/dfa75798-4e79-431d-8cc3-207b3c2d250d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9e2680f3-655a-45e1-98b5-45529eee0eac",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9e2680f3-655a-45e1-98b5-45529eee0eac/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d7543b4c-7980-49e1-a869-9313e0f9f01a",
+        "PolicyName":  "Notify - Natural Account Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d7543b4c-7980-49e1-a869-9313e0f9f01a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fd122313-dd12-4c0b-bc5b-e9a9507237e7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fd122313-dd12-4c0b-bc5b-e9a9507237e7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b245f7fc-0fe5-4d7e-8bfa-4f5e8e8cb10c",
+        "PolicyName":  "Approval for Statutory Account",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b245f7fc-0fe5-4d7e-8bfa-4f5e8e8cb10c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "160d643d-8d9f-47ab-812c-a73405ac8441",
+        "PolicyName":  "Notify - Statutory Account",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/160d643d-8d9f-47ab-812c-a73405ac8441/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "346f635f-4a94-4cff-a14e-0936be6d4c2f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/346f635f-4a94-4cff-a14e-0936be6d4c2f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "da18e4e6-530f-4a3f-b695-18bc6de2cb93",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/da18e4e6-530f-4a3f-b695-18bc6de2cb93/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "33807192-9b49-4f44-ac86-d4cd2e94f93e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/33807192-9b49-4f44-ac86-d4cd2e94f93e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6217fc15-25b5-4ac0-84c8-32160a90cd98",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6217fc15-25b5-4ac0-84c8-32160a90cd98/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "12f4bc8e-5651-4c8c-880a-963551149d43",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/12f4bc8e-5651-4c8c-880a-963551149d43/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b790b4b6-6cec-4fc6-8c14-54bc3d90dea4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b790b4b6-6cec-4fc6-8c14-54bc3d90dea4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "478353d0-d5f4-44e7-a689-b96028d56e52",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/478353d0-d5f4-44e7-a689-b96028d56e52/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f692efd8-5f97-45d2-a12f-19752d9b88ad",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f692efd8-5f97-45d2-a12f-19752d9b88ad/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d2439e32-5e41-4492-aba1-ffca0c874386",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d2439e32-5e41-4492-aba1-ffca0c874386/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8fe8887b-422e-4ff3-805b-9eca174e6d5e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8fe8887b-422e-4ff3-805b-9eca174e6d5e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "bf554400-b986-41b0-a753-f50cb5be3ce0",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/bf554400-b986-41b0-a753-f50cb5be3ce0/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "06515710-767b-4d33-983d-a5ce00bfb4b1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/06515710-767b-4d33-983d-a5ce00bfb4b1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9d6205ed-8e19-4494-ac81-2b21e08a5491",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9d6205ed-8e19-4494-ac81-2b21e08a5491/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "84c24c37-cc08-42fa-a72e-dc56106de59e",
+        "PolicyName":  "Placeholder Approval Policy",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/84c24c37-cc08-42fa-a72e-dc56106de59e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3ef40e06-1925-4570-8c64-62a7bc63d5d3",
+        "PolicyName":  "Notify - Location",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3ef40e06-1925-4570-8c64-62a7bc63d5d3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "43801c71-a6c3-4d06-922f-765203007b4d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/43801c71-a6c3-4d06-922f-765203007b4d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5a93ab5f-06cf-4ffd-bd2b-2e94b7ab2e96",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5a93ab5f-06cf-4ffd-bd2b-2e94b7ab2e96/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "212316e6-872f-44dd-8d53-d24f26c6932c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/212316e6-872f-44dd-8d53-d24f26c6932c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b8c1abbb-1094-498f-b237-fc0d29b4845b",
+        "PolicyName":  "Notify - Cost Center Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b8c1abbb-1094-498f-b237-fc0d29b4845b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e90818f4-3634-447d-802a-f1258a67be90",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e90818f4-3634-447d-802a-f1258a67be90/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ddb33e19-f1c3-4aeb-ac87-ea9d773f8f72",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ddb33e19-f1c3-4aeb-ac87-ea9d773f8f72/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f81ae453-4bef-461e-97e7-7db551a917ff",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f81ae453-4bef-461e-97e7-7db551a917ff/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "656bb325-1317-4703-b02b-780e32e610ae",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/656bb325-1317-4703-b02b-780e32e610ae/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "cc067025-6287-465c-afa1-2e0523c6bea2",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/cc067025-6287-465c-afa1-2e0523c6bea2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8e3a99fa-3d5e-49f2-a72a-ed830a8a771f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8e3a99fa-3d5e-49f2-a72a-ed830a8a771f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2aa11b79-2e88-464c-b110-0add78dbe475",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2aa11b79-2e88-464c-b110-0add78dbe475/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "71f64b05-8112-493b-802b-d8b892119eba",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/71f64b05-8112-493b-802b-d8b892119eba/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2fa0af6b-860d-43e9-bfe6-30a55e22d942",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2fa0af6b-860d-43e9-bfe6-30a55e22d942/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "77ce4273-d25e-4552-a2a2-245fc5bc7c4e",
+        "PolicyName":  "Notify - LOB",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/77ce4273-d25e-4552-a2a2-245fc5bc7c4e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "33c7f05e-d070-4763-88ad-addeff1232bf",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/33c7f05e-d070-4763-88ad-addeff1232bf/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3e0e8a6f-ab51-4dbd-b8bc-49ef195e7ebd",
+        "PolicyName":  "Input EPM Entity Base Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3e0e8a6f-ab51-4dbd-b8bc-49ef195e7ebd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "458e097a-dbcf-403b-9f31-118f6fb449f4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/458e097a-dbcf-403b-9f31-118f6fb449f4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fb42ec76-1bcf-44fc-8607-1e3def7e0d7e",
+        "PolicyName":  "Destination Location Input Notification",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fb42ec76-1bcf-44fc-8607-1e3def7e0d7e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6e4253ea-f62c-4685-a7bf-16a16c27720c",
+        "PolicyName":  "Input Destination Location Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6e4253ea-f62c-4685-a7bf-16a16c27720c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3e4fe3f0-97f0-4651-843c-f5d2b486c784",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3e4fe3f0-97f0-4651-843c-f5d2b486c784/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c88151ae-bf0e-41e7-af21-9bec2760005b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c88151ae-bf0e-41e7-af21-9bec2760005b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6375afa1-24c9-4d27-9c5d-011f8af49845",
+        "PolicyName":  "LOB Input Notification",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6375afa1-24c9-4d27-9c5d-011f8af49845/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7156405b-8731-4bab-aad7-1a9b5e40f367",
+        "PolicyName":  "Input LOB Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7156405b-8731-4bab-aad7-1a9b5e40f367/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3cd494f1-9456-4de0-b6cf-6bca9abf6555",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3cd494f1-9456-4de0-b6cf-6bca9abf6555/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a2830dc8-a29d-49ba-90b7-b1e76785500b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a2830dc8-a29d-49ba-90b7-b1e76785500b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3bf6ce2c-7ac9-40c6-a976-66f62870fd50",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3bf6ce2c-7ac9-40c6-a976-66f62870fd50/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "94537d4d-ec00-4c79-a1ce-3b2ff1e49c01",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/94537d4d-ec00-4c79-a1ce-3b2ff1e49c01/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "db332acd-a47c-455d-858f-ed74da50ab3c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/db332acd-a47c-455d-858f-ed74da50ab3c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "71490210-2343-4960-a795-04b1f4e97efd",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/71490210-2343-4960-a795-04b1f4e97efd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0aa59ae8-e63e-4086-8d97-2b5b2b3df850",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0aa59ae8-e63e-4086-8d97-2b5b2b3df850/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fee7653c-490e-4725-80c9-a8afeec65e35",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fee7653c-490e-4725-80c9-a8afeec65e35/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2360739b-6f6a-4b6a-8238-2d32307fe858",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2360739b-6f6a-4b6a-8238-2d32307fe858/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5ae509f8-679a-468a-84bd-dd0a06f0dde2",
+        "PolicyName":  "Act_DataSource Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5ae509f8-679a-468a-84bd-dd0a06f0dde2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fd8521d0-c0be-4dc2-829f-b0f098ec2694",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fd8521d0-c0be-4dc2-829f-b0f098ec2694/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e9e9a245-8a28-4b58-8651-3a98b8077c53",
+        "PolicyName":  "Notify - IC LE Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e9e9a245-8a28-4b58-8651-3a98b8077c53/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2781978a-8b53-41e0-9adb-1280757df5df",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2781978a-8b53-41e0-9adb-1280757df5df/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "da0ce79d-f2d0-4ec7-81ef-574d8c61d9c4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/da0ce79d-f2d0-4ec7-81ef-574d8c61d9c4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c20be7e3-fc65-48aa-a660-e44364a90b94",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c20be7e3-fc65-48aa-a660-e44364a90b94/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b2644e50-a471-47f4-84b9-2af71586c927",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b2644e50-a471-47f4-84b9-2af71586c927/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "606dd08f-0eb7-4af2-ad8b-f7bf519d1821",
+        "PolicyName":  "Notify - IC LE - IC LOB RVS Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/606dd08f-0eb7-4af2-ad8b-f7bf519d1821/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "1a50780a-efdf-4dff-9a7a-103dc7824c8b",
+        "PolicyName":  "Notify - Legal Entity Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/1a50780a-efdf-4dff-9a7a-103dc7824c8b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "734e8983-1481-4443-9aae-1d6c72ad39a9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/734e8983-1481-4443-9aae-1d6c72ad39a9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b5cb2020-7544-4f02-94e0-a8b0ee10847d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b5cb2020-7544-4f02-94e0-a8b0ee10847d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "63dc3874-38ef-4b96-9c34-6c06b8675103",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/63dc3874-38ef-4b96-9c34-6c06b8675103/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fc54504b-c0f4-433f-9333-44817bb0a2c3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fc54504b-c0f4-433f-9333-44817bb0a2c3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6bff73f4-540c-427e-90a2-494f01eb3f8a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6bff73f4-540c-427e-90a2-494f01eb3f8a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "14f8d61b-ec1b-4fbb-8d65-21cefff7e1b0",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/14f8d61b-ec1b-4fbb-8d65-21cefff7e1b0/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8aec3c32-31e5-4c9c-ba0e-95dfeaa1f685",
+        "PolicyName":  "NOV Legal Entity",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8aec3c32-31e5-4c9c-ba0e-95dfeaa1f685/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f9161dd2-63e9-4277-a5c3-059f0538e905",
+        "PolicyName":  "NOV Legal Entity Input Notification",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f9161dd2-63e9-4277-a5c3-059f0538e905/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "de7634c5-3942-4227-8720-e1ff7653df93",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/de7634c5-3942-4227-8720-e1ff7653df93/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5622b802-883b-4718-9cf9-ebb9e93867d9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5622b802-883b-4718-9cf9-ebb9e93867d9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "05841b6c-8afe-45de-ad42-018aabd95989",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/05841b6c-8afe-45de-ad42-018aabd95989/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6dcf4718-074a-4ccb-b62b-d6328cbf549c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6dcf4718-074a-4ccb-b62b-d6328cbf549c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5146b8c0-4ce5-4235-96b4-b38a221ebe8f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5146b8c0-4ce5-4235-96b4-b38a221ebe8f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e4787ee7-4bd8-441d-8a37-87ddc6064b70",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e4787ee7-4bd8-441d-8a37-87ddc6064b70/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f26520ef-3b38-4c22-a8d4-fee71bb92253",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f26520ef-3b38-4c22-a8d4-fee71bb92253/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "de9a83db-67d0-422e-b7f6-7a459947df39",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/de9a83db-67d0-422e-b7f6-7a459947df39/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "029f1c80-0fdc-46ac-b8ba-dd0e34353ea9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/029f1c80-0fdc-46ac-b8ba-dd0e34353ea9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "67208946-283a-432f-80fa-bda33b9db159",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/67208946-283a-432f-80fa-bda33b9db159/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7642186c-9dc9-4fe3-902a-ac2623807256",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7642186c-9dc9-4fe3-902a-ac2623807256/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c7549fc2-a4ce-4feb-b5c3-df8d36a830e8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c7549fc2-a4ce-4feb-b5c3-df8d36a830e8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "28391428-60bf-4eb9-8dc7-2222ba336ceb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/28391428-60bf-4eb9-8dc7-2222ba336ceb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9345b0ca-9bc1-48df-9b4f-6cf052bc64b6",
+        "PolicyName":  "Notify - Future 2 Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9345b0ca-9bc1-48df-9b4f-6cf052bc64b6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c8ea0d75-6808-4de5-86c7-9af64463ed81",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c8ea0d75-6808-4de5-86c7-9af64463ed81/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e241abab-9a9a-4634-a737-2e1c8dd9b4ca",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e241abab-9a9a-4634-a737-2e1c8dd9b4ca/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "eb99a8c4-ef5f-4392-8964-1c15ba692101",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/eb99a8c4-ef5f-4392-8964-1c15ba692101/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9e76e579-3cc7-424d-9108-a102d2547d94",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9e76e579-3cc7-424d-9108-a102d2547d94/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2d5dd542-e37f-4512-a184-5b36d80564db",
+        "PolicyName":  "Cost Center Input Notification",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2d5dd542-e37f-4512-a184-5b36d80564db/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7e5f495b-fb6c-4583-8071-4faf39eac614",
+        "PolicyName":  "Cost Center Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7e5f495b-fb6c-4583-8071-4faf39eac614/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "cea93aa7-6dc6-401a-8103-d72971304d48",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/cea93aa7-6dc6-401a-8103-d72971304d48/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c430dd58-942c-4a42-9304-c29400c9ac87",
+        "PolicyName":  "Notify_Facility_Team",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c430dd58-942c-4a42-9304-c29400c9ac87/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "65555a0d-2c19-45ba-97ad-6e91877316d4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/65555a0d-2c19-45ba-97ad-6e91877316d4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8a411ba2-eecc-4137-b859-947952dd1ba5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8a411ba2-eecc-4137-b859-947952dd1ba5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a8f9c4e7-1740-4065-a484-665e94f8413e",
+        "PolicyName":  "Facility Creation Workflow",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a8f9c4e7-1740-4065-a484-665e94f8413e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b034d565-63ec-4338-91f1-3888dc2310df",
+        "PolicyName":  "Notify HR Users",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b034d565-63ec-4338-91f1-3888dc2310df/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e45f38fe-42a7-4cb7-947a-629529d5b610",
+        "PolicyName":  "Update Workflow -  HCM Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e45f38fe-42a7-4cb7-947a-629529d5b610/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0b6ea33a-4a75-4418-8d4e-37267cb158be",
+        "PolicyName":  "Update Workflow -  Real Estate Team Approvals",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0b6ea33a-4a75-4418-8d4e-37267cb158be/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "1db17d70-7d42-4586-8db9-573f281c1029",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/1db17d70-7d42-4586-8db9-573f281c1029/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "35586ea7-0224-4667-aae1-e6e59c8f7273",
+        "PolicyName":  "Update Workflow - Finance Team - Approvals",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/35586ea7-0224-4667-aae1-e6e59c8f7273/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "72b6731c-5dbb-4266-bd3d-6cc38787341f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/72b6731c-5dbb-4266-bd3d-6cc38787341f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "86b10b66-9d89-4a6b-966c-62ab1c17f350",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/86b10b66-9d89-4a6b-966c-62ab1c17f350/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c5a9f275-fd7b-499a-aeda-7e57480ee7a7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c5a9f275-fd7b-499a-aeda-7e57480ee7a7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8cce81ca-cce9-484e-ad53-2418af3ae396",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8cce81ca-cce9-484e-ad53-2418af3ae396/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b87e3fe4-9fbf-41b2-9e96-d2b8cd365e58",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b87e3fe4-9fbf-41b2-9e96-d2b8cd365e58/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "972dcde1-312a-4d41-87fd-a8633408da3e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/972dcde1-312a-4d41-87fd-a8633408da3e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c6da8afc-bb9a-4953-a900-62a7225784a1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c6da8afc-bb9a-4953-a900-62a7225784a1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "cf4757af-5e69-4971-8daf-4fe847166cb1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/cf4757af-5e69-4971-8daf-4fe847166cb1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "34d35a37-2ea2-4716-a487-c644e0851dd5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/34d35a37-2ea2-4716-a487-c644e0851dd5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d1d6fa26-63f7-44c0-8a52-8942f1b69a11",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d1d6fa26-63f7-44c0-8a52-8942f1b69a11/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7f101703-0bea-4111-a5a5-191888376861",
+        "PolicyName":  "Notify - Future 1 Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7f101703-0bea-4111-a5a5-191888376861/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "822c0697-c40a-41a2-b373-c35d453d7691",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/822c0697-c40a-41a2-b373-c35d453d7691/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "eb531019-923c-4c25-b1e3-af0d9fc4bf66",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/eb531019-923c-4c25-b1e3-af0d9fc4bf66/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c4630e29-9ac0-47cb-8075-9fdc80f045c6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c4630e29-9ac0-47cb-8075-9fdc80f045c6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "881dc64a-5321-4d66-ae42-5ebf9c3fbd72",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/881dc64a-5321-4d66-ae42-5ebf9c3fbd72/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a9b4186e-d7af-46e5-8873-dd8c8c7a29f3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a9b4186e-d7af-46e5-8873-dd8c8c7a29f3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3f21bf48-ec9e-42a1-a8b2-b976f70a0e43",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3f21bf48-ec9e-42a1-a8b2-b976f70a0e43/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e246fe2f-d69e-4e0e-9c39-2db9fc466ed5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e246fe2f-d69e-4e0e-9c39-2db9fc466ed5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "04047827-5786-4a17-9944-2a9d9b81b9d8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/04047827-5786-4a17-9944-2a9d9b81b9d8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "978d4d1e-73b0-4ba9-80d7-1a1bc884b0a3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/978d4d1e-73b0-4ba9-80d7-1a1bc884b0a3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ded85df4-7414-434b-b16b-7a3763f60f22",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ded85df4-7414-434b-b16b-7a3763f60f22/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ed8b3d13-8ffb-421d-b383-c96d0a4f702f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ed8b3d13-8ffb-421d-b383-c96d0a4f702f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f6917fca-5573-438e-a6c2-624d97c2a3e3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f6917fca-5573-438e-a6c2-624d97c2a3e3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "67dc25fa-594f-4832-8c80-bdaf0d1db8fc",
+        "PolicyName":  "Notify - IC LOB Changes",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/67dc25fa-594f-4832-8c80-bdaf0d1db8fc/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "cf6849e1-5148-4bab-94b2-6e0a8b7dc782",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/cf6849e1-5148-4bab-94b2-6e0a8b7dc782/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "aecb1013-8e64-4e41-899c-6d33dd47e023",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/aecb1013-8e64-4e41-899c-6d33dd47e023/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6720a6f9-4054-47a7-b486-fc34dbb08dac",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6720a6f9-4054-47a7-b486-fc34dbb08dac/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fbc85efd-e240-4b60-950f-b9701d2f7db4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fbc85efd-e240-4b60-950f-b9701d2f7db4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "884bb39a-ac77-42d2-bdd6-4f0bbf377bef",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/884bb39a-ac77-42d2-bdd6-4f0bbf377bef/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "748164f9-86c5-46ee-b681-a0c7a8f8bb7d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/748164f9-86c5-46ee-b681-a0c7a8f8bb7d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "86618756-7a7b-45d5-9aff-7ab521595e3a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/86618756-7a7b-45d5-9aff-7ab521595e3a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "598686ed-72cc-409c-9eb7-59c3833fdd9e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/598686ed-72cc-409c-9eb7-59c3833fdd9e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0d48f663-a229-4018-ac04-0df3288dd2a7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0d48f663-a229-4018-ac04-0df3288dd2a7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a3aa4730-2bd5-4480-b26b-f90bfa3de389",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a3aa4730-2bd5-4480-b26b-f90bfa3de389/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d0796678-4492-4739-88fe-dd8545a9fce6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d0796678-4492-4739-88fe-dd8545a9fce6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8a1f5913-b4ed-4f57-8417-c8c363f9220b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8a1f5913-b4ed-4f57-8417-c8c363f9220b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "403eac8e-e12d-4ddb-b8d3-9daa6a44c74a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/403eac8e-e12d-4ddb-b8d3-9daa6a44c74a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a174a2f6-3e89-469e-9e01-f0ffdc676a5b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a174a2f6-3e89-469e-9e01-f0ffdc676a5b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "565cfaa5-569b-43a6-9575-22a7751635e4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/565cfaa5-569b-43a6-9575-22a7751635e4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8afff6a7-a784-4329-b61a-9bad3a46a66a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8afff6a7-a784-4329-b61a-9bad3a46a66a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "41b8cfbf-71d0-4215-82b3-557177a52a0b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/41b8cfbf-71d0-4215-82b3-557177a52a0b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "792ccd17-b62e-43c7-a5c5-7190395f9793",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/792ccd17-b62e-43c7-a5c5-7190395f9793/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "43d7d797-5c7b-4dfb-acd4-018cbe01e6ec",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/43d7d797-5c7b-4dfb-acd4-018cbe01e6ec/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "cd341a07-2314-426b-b1b2-1ab9ec7ed932",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/cd341a07-2314-426b-b1b2-1ab9ec7ed932/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ae6cbdd5-8db8-4601-ad3f-4c2f5efa18ce",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ae6cbdd5-8db8-4601-ad3f-4c2f5efa18ce/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d2cf8e5c-b75a-49b6-bae9-ed9f120bbf79",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d2cf8e5c-b75a-49b6-bae9-ed9f120bbf79/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fa8894a6-c39e-4b2b-8f9e-25c46ea0423c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fa8894a6-c39e-4b2b-8f9e-25c46ea0423c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fa8bb621-a2da-482b-a32e-6597ec901471",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fa8bb621-a2da-482b-a32e-6597ec901471/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "84abf337-e75d-4e86-9811-17f586f7724d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/84abf337-e75d-4e86-9811-17f586f7724d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6547edf8-3dfa-477b-a842-0d9cfd9e291b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6547edf8-3dfa-477b-a842-0d9cfd9e291b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e9038ec0-cfcc-44ce-8e6a-06b8f8d5742c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e9038ec0-cfcc-44ce-8e6a-06b8f8d5742c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7c5e2f31-4cb7-4ce2-aecb-73da5f2b1a04",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7c5e2f31-4cb7-4ce2-aecb-73da5f2b1a04/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a7d14238-2d54-47da-9ae3-d1f9114a2f75",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a7d14238-2d54-47da-9ae3-d1f9114a2f75/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fdd6434a-ef1f-42c7-9171-c244adc5a206",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fdd6434a-ef1f-42c7-9171-c244adc5a206/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d39d4a33-20d3-45f8-b507-ffb5e68478ce",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d39d4a33-20d3-45f8-b507-ffb5e68478ce/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9e457d65-81d3-4c6c-9c8e-e8033c74d576",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9e457d65-81d3-4c6c-9c8e-e8033c74d576/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "57800956-4d09-448b-a478-b408b4efdcc5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/57800956-4d09-448b-a478-b408b4efdcc5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ed5a567e-1cdd-4c05-a8f2-b50d8a23618b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ed5a567e-1cdd-4c05-a8f2-b50d8a23618b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a6dcefa5-8e8c-4dad-9eab-8aef7b5bf9eb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a6dcefa5-8e8c-4dad-9eab-8aef7b5bf9eb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fb2dbf3e-5320-49da-9d38-70812ba7c866",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fb2dbf3e-5320-49da-9d38-70812ba7c866/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "99348867-14c1-401a-87ac-9b6cd82bf573",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/99348867-14c1-401a-87ac-9b6cd82bf573/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4543767a-024f-4eda-a087-026f09b931f8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4543767a-024f-4eda-a087-026f09b931f8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ae3ab423-8cff-48a1-a89e-622bac799170",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ae3ab423-8cff-48a1-a89e-622bac799170/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "71304635-5d16-4337-8e11-ca863f47b228",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/71304635-5d16-4337-8e11-ca863f47b228/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d7af2882-4fca-425e-9f5e-87e48a412e29",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d7af2882-4fca-425e-9f5e-87e48a412e29/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2cb81189-e5c7-41e8-bd47-b0716b69d008",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2cb81189-e5c7-41e8-bd47-b0716b69d008/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c45730cf-4748-4e43-b93f-9d789dafe627",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c45730cf-4748-4e43-b93f-9d789dafe627/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2af88544-48fd-4a18-b66f-769c12fb8e72",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2af88544-48fd-4a18-b66f-769c12fb8e72/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8c8aecd1-2a62-4f34-b444-d75078a24326",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8c8aecd1-2a62-4f34-b444-d75078a24326/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3ad702a4-f1fd-413d-a183-ff6fb89c0f35",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3ad702a4-f1fd-413d-a183-ff6fb89c0f35/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "393e5288-f796-4433-9407-5f5c6f9efc0e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/393e5288-f796-4433-9407-5f5c6f9efc0e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4a1c8366-5622-43e7-aa6b-815e2de8e936",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4a1c8366-5622-43e7-aa6b-815e2de8e936/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3521a196-6abd-41ad-8098-145e26627093",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3521a196-6abd-41ad-8098-145e26627093/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ae8e4e24-14e3-4a3c-841a-fd474b59745d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ae8e4e24-14e3-4a3c-841a-fd474b59745d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0eabc140-7219-4d92-8495-b2dbe1933925",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0eabc140-7219-4d92-8495-b2dbe1933925/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "58bf0d7c-81fe-44bb-a986-8f055f6a50fb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/58bf0d7c-81fe-44bb-a986-8f055f6a50fb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4fa9d9bf-63a9-4593-9eb4-a082df9f217e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4fa9d9bf-63a9-4593-9eb4-a082df9f217e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b2a181cb-1706-472f-b0e8-420a28f86f38",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b2a181cb-1706-472f-b0e8-420a28f86f38/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "78d833a4-e45d-49cf-b60f-aca7f6be108a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/78d833a4-e45d-49cf-b60f-aca7f6be108a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f88b0897-34c9-4d8f-a22b-6fed9e936bc0",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f88b0897-34c9-4d8f-a22b-6fed9e936bc0/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "cb7bd7e6-2d9c-45f0-8251-5ae9cf916c97",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/cb7bd7e6-2d9c-45f0-8251-5ae9cf916c97/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "1877bd91-086d-4c12-a6cb-3a5a8af0e318",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/1877bd91-086d-4c12-a6cb-3a5a8af0e318/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a5f1151c-1e82-4be4-a0b3-8165e8b257d3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a5f1151c-1e82-4be4-a0b3-8165e8b257d3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7979293a-f9bf-4ebf-a5f1-eca70ce6c97b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7979293a-f9bf-4ebf-a5f1-eca70ce6c97b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c50d7029-0882-4000-9bd6-8cbc652cd4ea",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c50d7029-0882-4000-9bd6-8cbc652cd4ea/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2c13cff2-d6ca-4eb9-bb34-032d79dac133",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2c13cff2-d6ca-4eb9-bb34-032d79dac133/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "811bd554-7dd5-40ff-bb3f-74e1589c4770",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/811bd554-7dd5-40ff-bb3f-74e1589c4770/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0ccc9487-b0bd-41f2-bb03-90805970b618",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0ccc9487-b0bd-41f2-bb03-90805970b618/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7b063aa7-644c-4648-bed8-a88be31914c8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7b063aa7-644c-4648-bed8-a88be31914c8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c90ed555-6572-4c78-b4d1-eb12caa698ce",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c90ed555-6572-4c78-b4d1-eb12caa698ce/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "20b049e4-9f9c-41f9-8847-5759db45e525",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/20b049e4-9f9c-41f9-8847-5759db45e525/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "02377f54-28e8-4a15-8230-76f5675d7b8e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/02377f54-28e8-4a15-8230-76f5675d7b8e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "68087a0d-d916-4335-8788-1b2e36621351",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/68087a0d-d916-4335-8788-1b2e36621351/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e7dc57ad-dcdf-40fd-8c76-1a9278c4904c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e7dc57ad-dcdf-40fd-8c76-1a9278c4904c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "052d3b5b-dcfd-4c42-ab26-ead17b6e1687",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/052d3b5b-dcfd-4c42-ab26-ead17b6e1687/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d7869ca7-2162-46d4-842c-f1446aff41ff",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d7869ca7-2162-46d4-842c-f1446aff41ff/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "00322c94-e5f6-4ba6-b4ec-f3a67aace3fd",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/00322c94-e5f6-4ba6-b4ec-f3a67aace3fd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a5b7c7dd-4457-440a-94c1-75193f270266",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a5b7c7dd-4457-440a-94c1-75193f270266/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "61267150-d579-4cf8-923a-c31fb99f71e3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/61267150-d579-4cf8-923a-c31fb99f71e3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "eec61c0a-ca46-4958-baae-980715ec7df9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/eec61c0a-ca46-4958-baae-980715ec7df9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "27654813-57af-4049-a2d9-8bd46babb4f2",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/27654813-57af-4049-a2d9-8bd46babb4f2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "51f8efac-8bf3-438a-adfa-1819d37e2d80",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/51f8efac-8bf3-438a-adfa-1819d37e2d80/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5c26fe26-8f04-493a-b565-c59850936122",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5c26fe26-8f04-493a-b565-c59850936122/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5068934b-f09c-4610-b9cc-be0aae789dd1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5068934b-f09c-4610-b9cc-be0aae789dd1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "300ad2d2-4d17-48b1-992f-dfcf439981cc",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/300ad2d2-4d17-48b1-992f-dfcf439981cc/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9fdfcf9f-f696-421b-bc24-8af05e25c6b5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9fdfcf9f-f696-421b-bc24-8af05e25c6b5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3a4626aa-8d8f-4b35-9ef2-8413854f9d98",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3a4626aa-8d8f-4b35-9ef2-8413854f9d98/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "bf47a05e-706f-4619-8cfa-a05a1980c0bf",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/bf47a05e-706f-4619-8cfa-a05a1980c0bf/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3c3bdeff-1062-4005-a0c2-d0ce026ce8fe",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3c3bdeff-1062-4005-a0c2-d0ce026ce8fe/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "391554a3-153f-44cc-85a3-367a3ed48b9f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/391554a3-153f-44cc-85a3-367a3ed48b9f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "31b7b1fc-f68f-420f-8632-e4d02595d645",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/31b7b1fc-f68f-420f-8632-e4d02595d645/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d79a5122-3371-4c24-941e-a493be53792f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d79a5122-3371-4c24-941e-a493be53792f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "639b7c4c-a2a3-43bb-a0ea-78e996a01813",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/639b7c4c-a2a3-43bb-a0ea-78e996a01813/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "56d04170-9c23-4973-a896-ba40aff95b2e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/56d04170-9c23-4973-a896-ba40aff95b2e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c76f3849-de96-4c5a-ab95-ac37e58d2c51",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c76f3849-de96-4c5a-ab95-ac37e58d2c51/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0472a249-8aef-432a-9b9f-daabf98810bc",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0472a249-8aef-432a-9b9f-daabf98810bc/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "69a17fa0-6559-4ed4-ae12-660ba6d71f21",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/69a17fa0-6559-4ed4-ae12-660ba6d71f21/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9410f431-3c76-42d9-bf2e-4c1df66a6471",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9410f431-3c76-42d9-bf2e-4c1df66a6471/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f7c30636-355e-4f95-a979-08d13fc02df1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f7c30636-355e-4f95-a979-08d13fc02df1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0a34a261-905a-4edb-8739-fda23b224841",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0a34a261-905a-4edb-8739-fda23b224841/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4d76664d-e521-417a-bbac-d8fb86e40f8d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4d76664d-e521-417a-bbac-d8fb86e40f8d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "67a1aadf-38dc-4794-bf7d-1adf1ccf9c1c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/67a1aadf-38dc-4794-bf7d-1adf1ccf9c1c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "513fa83f-0b1f-4ed7-b3ac-205a9e29aeed",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/513fa83f-0b1f-4ed7-b3ac-205a9e29aeed/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "508ce2c3-da40-45a5-93c9-012e37975c22",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/508ce2c3-da40-45a5-93c9-012e37975c22/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e938404e-18d7-4819-a055-3fc0e2ba9f40",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e938404e-18d7-4819-a055-3fc0e2ba9f40/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5da8c72f-fd37-44b8-8836-885cb09ff27a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5da8c72f-fd37-44b8-8836-885cb09ff27a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "dc6045f6-ec11-43ef-b8f9-a50067834926",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/dc6045f6-ec11-43ef-b8f9-a50067834926/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3b097026-ff0a-4a5b-bc82-13da1ecbaded",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3b097026-ff0a-4a5b-bc82-13da1ecbaded/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "62433af5-e96a-49c0-b4bf-2148d811a653",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/62433af5-e96a-49c0-b4bf-2148d811a653/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9c139765-8986-4f33-9102-bd40e569106f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9c139765-8986-4f33-9102-bd40e569106f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2c8449c7-1ff2-4ecf-9107-c8eae93dd194",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2c8449c7-1ff2-4ecf-9107-c8eae93dd194/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "70aa5a05-9e62-47d1-983b-3bb1aee71af1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/70aa5a05-9e62-47d1-983b-3bb1aee71af1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "183f5023-14b9-456b-8b32-53ca01419b26",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/183f5023-14b9-456b-8b32-53ca01419b26/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "1067f3ac-3853-40b8-9293-1f86c39dd122",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/1067f3ac-3853-40b8-9293-1f86c39dd122/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "068f7fef-b447-4e25-b174-4324500d8005",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/068f7fef-b447-4e25-b174-4324500d8005/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "233c0d03-e2d8-41c5-bcf4-122df794a874",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/233c0d03-e2d8-41c5-bcf4-122df794a874/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7e3534b2-cdd3-4088-b4b0-83cb81b274f5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7e3534b2-cdd3-4088-b4b0-83cb81b274f5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "23a30db7-988d-4316-b773-5218d0b37590",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/23a30db7-988d-4316-b773-5218d0b37590/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "dfa98d14-a2e1-4145-8596-7494a7a251ed",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/dfa98d14-a2e1-4145-8596-7494a7a251ed/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "078c7c5f-0868-455b-b4b5-a20e0e93323f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/078c7c5f-0868-455b-b4b5-a20e0e93323f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b12f2761-6513-4b9a-b87d-17ff7b05f0c2",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b12f2761-6513-4b9a-b87d-17ff7b05f0c2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f3f1efc6-e217-4374-939c-069a7f4343a6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f3f1efc6-e217-4374-939c-069a7f4343a6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "15bdb7d0-ccc7-4466-acd1-f86d2324ad85",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/15bdb7d0-ccc7-4466-acd1-f86d2324ad85/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "57da174e-287c-4883-a020-d4f9e6621987",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/57da174e-287c-4883-a020-d4f9e6621987/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "025ba8b6-bbac-4d3f-8feb-c957d7e0dc74",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/025ba8b6-bbac-4d3f-8feb-c957d7e0dc74/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "63f76458-9226-4622-add2-99be6e9bf57f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/63f76458-9226-4622-add2-99be6e9bf57f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "53bd1526-39ba-44b5-9a57-d2defde534e1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/53bd1526-39ba-44b5-9a57-d2defde534e1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "29014fe9-a359-493a-83d1-b6395d49aa96",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/29014fe9-a359-493a-83d1-b6395d49aa96/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c3e65727-3684-4acd-9c17-15fb963b04f8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c3e65727-3684-4acd-9c17-15fb963b04f8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a9ebaff0-95aa-4650-94a2-f6d00bcd706e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a9ebaff0-95aa-4650-94a2-f6d00bcd706e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0565009a-e01a-49ad-a476-78b05fefe21f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0565009a-e01a-49ad-a476-78b05fefe21f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "887fd470-9663-40e9-9375-2a21bafa8d19",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/887fd470-9663-40e9-9375-2a21bafa8d19/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4e4a1799-f41e-410a-8506-3ae9ba139c74",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4e4a1799-f41e-410a-8506-3ae9ba139c74/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "065a261f-763c-46d7-9a95-2a25e72b5f81",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/065a261f-763c-46d7-9a95-2a25e72b5f81/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "03ff7d7a-979d-41f8-bfac-11433f464286",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/03ff7d7a-979d-41f8-bfac-11433f464286/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "261a00bc-a50e-4111-b849-238f40d6144f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/261a00bc-a50e-4111-b849-238f40d6144f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "edf5cc4a-6bcc-4b7e-aab6-315de880ba03",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/edf5cc4a-6bcc-4b7e-aab6-315de880ba03/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9ae3730f-21b9-4a1f-ba52-aae1b5c733f5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9ae3730f-21b9-4a1f-ba52-aae1b5c733f5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ac22323a-d447-4e99-b05e-65ad3eb454c5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ac22323a-d447-4e99-b05e-65ad3eb454c5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ba087288-7b4d-4ac5-8343-45a11329b668",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ba087288-7b4d-4ac5-8343-45a11329b668/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4d82863a-f377-4004-bc8c-15abe8ee9307",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4d82863a-f377-4004-bc8c-15abe8ee9307/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8ccba701-5d46-4b3e-b76d-e4024e853abb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8ccba701-5d46-4b3e-b76d-e4024e853abb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "896e6fcf-cc5f-4e5d-95d3-74c53d3cc3f7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/896e6fcf-cc5f-4e5d-95d3-74c53d3cc3f7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e3f3bdfd-fd91-49cd-9199-3e6f97ec6ec3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e3f3bdfd-fd91-49cd-9199-3e6f97ec6ec3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ae764605-f75b-4a63-b3a9-59746b237af3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ae764605-f75b-4a63-b3a9-59746b237af3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f19d5086-8149-4b85-96a1-84be49ce927c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f19d5086-8149-4b85-96a1-84be49ce927c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b79ab7ca-be45-499f-876a-ba1e188c87a9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b79ab7ca-be45-499f-876a-ba1e188c87a9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2bca109e-d0e6-4b53-8f22-cff95c2d8ee5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2bca109e-d0e6-4b53-8f22-cff95c2d8ee5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "21e3acd5-92d0-41bb-bec8-8a44940a48cf",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/21e3acd5-92d0-41bb-bec8-8a44940a48cf/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "46febbde-0146-4498-b4b5-97ca4807ebe6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/46febbde-0146-4498-b4b5-97ca4807ebe6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "451978ab-1e0b-46a5-9f73-fc1b6b0b8472",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/451978ab-1e0b-46a5-9f73-fc1b6b0b8472/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "082255ae-05ae-4150-8bce-4c950e05fcff",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/082255ae-05ae-4150-8bce-4c950e05fcff/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "04e357c3-a63d-4639-9144-c348931a00de",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/04e357c3-a63d-4639-9144-c348931a00de/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "afcb8ff2-0682-4c5a-a4ed-d67130c1f89f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/afcb8ff2-0682-4c5a-a4ed-d67130c1f89f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b3033b51-0073-42bb-b0eb-aef8d36a4e2a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b3033b51-0073-42bb-b0eb-aef8d36a4e2a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7cffb96d-c0fe-43bc-972d-499fa648275d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7cffb96d-c0fe-43bc-972d-499fa648275d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fc16f97e-8ae6-40e5-a9ed-3286db252841",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fc16f97e-8ae6-40e5-a9ed-3286db252841/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a973a081-6ef5-4023-8fa2-3df72a1ba7d7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a973a081-6ef5-4023-8fa2-3df72a1ba7d7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c96d32da-1f8e-4585-ac83-08b1931dc5a6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c96d32da-1f8e-4585-ac83-08b1931dc5a6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fc220c29-ff53-4e4c-b408-2ebf5fdd4d0a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fc220c29-ff53-4e4c-b408-2ebf5fdd4d0a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "1a438460-c830-4325-ac99-85a6fe008724",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/1a438460-c830-4325-ac99-85a6fe008724/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c8b1333a-eff5-4c41-8df4-3c4b29c0e1d2",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c8b1333a-eff5-4c41-8df4-3c4b29c0e1d2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6862a2e0-6148-4188-9bca-fe2315a7d6d9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6862a2e0-6148-4188-9bca-fe2315a7d6d9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "607f70d7-3858-49bf-bdc3-7ea8ec0aa519",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/607f70d7-3858-49bf-bdc3-7ea8ec0aa519/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "96d22fe7-e371-4e16-a6ef-60d46e986bf5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/96d22fe7-e371-4e16-a6ef-60d46e986bf5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c0d7cfef-7b9a-4ab2-a63e-6b245a024e39",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c0d7cfef-7b9a-4ab2-a63e-6b245a024e39/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "984cff2d-b5bc-4d0c-8aca-820aa1e78831",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/984cff2d-b5bc-4d0c-8aca-820aa1e78831/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "15997ab5-a35a-44d0-9ec5-598f8e751e5b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/15997ab5-a35a-44d0-9ec5-598f8e751e5b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8ed2bcee-67e7-4ba5-9d90-a51ee2121759",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8ed2bcee-67e7-4ba5-9d90-a51ee2121759/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6f9f37b9-9620-4ea7-8e9f-1a80bdaac89a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6f9f37b9-9620-4ea7-8e9f-1a80bdaac89a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "80cb746d-653e-4314-93c6-c27ab0c49f4b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/80cb746d-653e-4314-93c6-c27ab0c49f4b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4726d97f-40a2-4039-b0eb-2bcfa8e5eff8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4726d97f-40a2-4039-b0eb-2bcfa8e5eff8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ea770b22-21d2-4168-89c7-abe5f8d2a693",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ea770b22-21d2-4168-89c7-abe5f8d2a693/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3b968934-1849-44b6-b4cd-618de5684a5c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3b968934-1849-44b6-b4cd-618de5684a5c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "aca26001-894b-45d9-a823-4ee1a9df8900",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/aca26001-894b-45d9-a823-4ee1a9df8900/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "606bc984-7794-4a2b-aeb3-5668b2eca4ba",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/606bc984-7794-4a2b-aeb3-5668b2eca4ba/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8229dc4e-6d41-4c1d-a5bf-17146275c897",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8229dc4e-6d41-4c1d-a5bf-17146275c897/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "65831a8e-45e8-4e05-a89b-0569345cefae",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/65831a8e-45e8-4e05-a89b-0569345cefae/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c21e9c90-f05b-4939-8665-b80b0cb54c38",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c21e9c90-f05b-4939-8665-b80b0cb54c38/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "1fe14a6e-6d3a-44cc-95c2-1a4a6ecfb4c8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/1fe14a6e-6d3a-44cc-95c2-1a4a6ecfb4c8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "27554e11-606e-4e34-808d-d63c8c985f70",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/27554e11-606e-4e34-808d-d63c8c985f70/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0e2c0c44-4ec1-48b8-9829-1c0e1f4f60a6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0e2c0c44-4ec1-48b8-9829-1c0e1f4f60a6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8c193dbe-07a2-489d-98a8-674e74d4b26a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8c193dbe-07a2-489d-98a8-674e74d4b26a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "014a86bc-dbca-4b62-8e4e-e79cae38336e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/014a86bc-dbca-4b62-8e4e-e79cae38336e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7092aea2-8acc-4191-b224-4e5efb378ccd",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7092aea2-8acc-4191-b224-4e5efb378ccd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7f36320b-a112-4456-a551-dfdd161dcbcb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7f36320b-a112-4456-a551-dfdd161dcbcb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "320eac73-2cf5-4736-a556-acc89740f4c1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/320eac73-2cf5-4736-a556-acc89740f4c1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b9b0b8ff-f930-4113-a69d-61f81c85a404",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b9b0b8ff-f930-4113-a69d-61f81c85a404/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "09bcf6a5-9635-41b9-b2cc-b3e4e72743e4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/09bcf6a5-9635-41b9-b2cc-b3e4e72743e4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "94cf5496-8b53-4284-ab60-1823968b7a7e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/94cf5496-8b53-4284-ab60-1823968b7a7e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b050d768-9cee-4094-8af6-de3a63ed83a5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b050d768-9cee-4094-8af6-de3a63ed83a5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7050975d-d45b-47a8-8728-13721e8bf134",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7050975d-d45b-47a8-8728-13721e8bf134/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "66f5d512-17e1-4512-a0d6-f6b568f8b12f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/66f5d512-17e1-4512-a0d6-f6b568f8b12f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "90496dd4-5841-4462-a0ab-794f1612dff9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/90496dd4-5841-4462-a0ab-794f1612dff9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c958d416-5a2b-4ec9-8926-3a5c6b9917bd",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c958d416-5a2b-4ec9-8926-3a5c6b9917bd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9f517095-01d7-4db4-b56a-15488fe5cec3",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9f517095-01d7-4db4-b56a-15488fe5cec3/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "fd1d24b4-cede-4512-97ed-f22a1069ced0",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/fd1d24b4-cede-4512-97ed-f22a1069ced0/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "14c1b7d3-13e9-443b-ba4a-3751216e357b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/14c1b7d3-13e9-443b-ba4a-3751216e357b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d0f1bf17-9a19-4e3f-8448-0f7b85cf5c63",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d0f1bf17-9a19-4e3f-8448-0f7b85cf5c63/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "19636376-0d9f-4853-8767-67dfc631cee0",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/19636376-0d9f-4853-8767-67dfc631cee0/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c12c4e93-f3ef-4edb-8462-cd84f482ec05",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c12c4e93-f3ef-4edb-8462-cd84f482ec05/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e8810dbd-1663-481d-9e38-e4fe34a9a21a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e8810dbd-1663-481d-9e38-e4fe34a9a21a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0fabacf3-52fe-4e55-81e4-c58a1caae291",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0fabacf3-52fe-4e55-81e4-c58a1caae291/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9955bbee-4395-4d89-a7ba-3b57edc158c7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9955bbee-4395-4d89-a7ba-3b57edc158c7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "95337787-f1f2-4463-aa5f-99e1e51bde90",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/95337787-f1f2-4463-aa5f-99e1e51bde90/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "7e70a97b-a62a-4c15-b735-86bc8babc0dc",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/7e70a97b-a62a-4c15-b735-86bc8babc0dc/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "85e53c2b-a23c-4fbd-b028-16ffdd5f4f0e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/85e53c2b-a23c-4fbd-b028-16ffdd5f4f0e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8c0541d6-63b9-4531-81ea-d5fb0b5bfe01",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8c0541d6-63b9-4531-81ea-d5fb0b5bfe01/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "80b3fa4a-745a-4919-ac09-2022b2369e8e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/80b3fa4a-745a-4919-ac09-2022b2369e8e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3ad83680-a5a8-4066-b757-06123fd079c9",
+        "PolicyName":  "Facility Creation Workflow - Facility Managers Approval - Node Owner",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3ad83680-a5a8-4066-b757-06123fd079c9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9b1c7e5d-802e-493a-b318-ca4b5b77d50a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9b1c7e5d-802e-493a-b318-ca4b5b77d50a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "84bc685a-ace9-43d8-9c36-8bff448a727d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/84bc685a-ace9-43d8-9c36-8bff448a727d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f4dfa482-f4ba-41ea-bae4-19d2ab7df246",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f4dfa482-f4ba-41ea-bae4-19d2ab7df246/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "e18367ff-3394-4395-a144-fe38a0af251e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/e18367ff-3394-4395-a144-fe38a0af251e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0ec88694-2054-4e65-945d-7097a939b338",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0ec88694-2054-4e65-945d-7097a939b338/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "c5b0cb71-5f2f-47ab-bf95-3500d7694c12",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/c5b0cb71-5f2f-47ab-bf95-3500d7694c12/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "de0ecdcd-8db2-461b-a7df-5c70a69730d4",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/de0ecdcd-8db2-461b-a7df-5c70a69730d4/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "eca54ffb-c968-4799-8771-9bb0add888ff",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/eca54ffb-c968-4799-8771-9bb0add888ff/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3e158b17-73d8-4c75-b356-649935b857a8",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3e158b17-73d8-4c75-b356-649935b857a8/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "3cbc81e0-dca1-491b-be60-cdb55153fde6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/3cbc81e0-dca1-491b-be60-cdb55153fde6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b25d4851-345a-4480-8a16-025df7e50789",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b25d4851-345a-4480-8a16-025df7e50789/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5914ad3e-a302-44a4-b293-8cdee0478137",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5914ad3e-a302-44a4-b293-8cdee0478137/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b3b35aa8-e2b3-456a-8423-121d10d326e2",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b3b35aa8-e2b3-456a-8423-121d10d326e2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "99557492-a007-4cce-91c0-ef7a0b4e3e21",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/99557492-a007-4cce-91c0-ef7a0b4e3e21/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "538a5187-1368-496f-bee0-834a7cf923cf",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/538a5187-1368-496f-bee0-834a7cf923cf/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b8ad38a3-66d0-44fd-8bca-3116c8194f4d",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b8ad38a3-66d0-44fd-8bca-3116c8194f4d/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "6fd48d13-b579-4386-af2a-c71f5e2b1359",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/6fd48d13-b579-4386-af2a-c71f5e2b1359/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9ae60ea5-c96e-422c-822a-8e6c9f894cec",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9ae60ea5-c96e-422c-822a-8e6c9f894cec/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "189623b3-71f5-4d42-a546-7f049a339e92",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/189623b3-71f5-4d42-a546-7f049a339e92/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "a75c9c63-b4b9-4ccd-b15d-c66c944b66c5",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/a75c9c63-b4b9-4ccd-b15d-c66c944b66c5/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "70665dc7-94a0-42a9-881f-2d2237084fdd",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/70665dc7-94a0-42a9-881f-2d2237084fdd/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "8667f5e0-16d3-4040-b456-7b2f99cdff3e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/8667f5e0-16d3-4040-b456-7b2f99cdff3e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "f234d3a2-cf6e-46aa-b254-b66bb737b8c7",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/f234d3a2-cf6e-46aa-b254-b66bb737b8c7/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "abbefbce-6190-440c-be6d-415f9e8eac7f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/abbefbce-6190-440c-be6d-415f9e8eac7f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "98284f1f-cffd-439f-9103-a6c5205f900e",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/98284f1f-cffd-439f-9103-a6c5205f900e/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "31522031-6c10-4c4e-9370-12afe8b05321",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/31522031-6c10-4c4e-9370-12afe8b05321/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "640e09ba-5e6d-4fda-bc2c-70ac8b4b6c92",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/640e09ba-5e6d-4fda-bc2c-70ac8b4b6c92/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "33a9a8ee-8a05-4e42-95d4-5667d16ee7bb",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/33a9a8ee-8a05-4e42-95d4-5667d16ee7bb/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "637f255d-aded-424c-a237-dae4c94ebf0b",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/637f255d-aded-424c-a237-dae4c94ebf0b/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "9f23e900-5cc9-4713-82f7-0e56d0351c12",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/9f23e900-5cc9-4713-82f7-0e56d0351c12/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5d414346-6348-45df-abfc-6efc3fe54015",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5d414346-6348-45df-abfc-6efc3fe54015/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "4c2e8962-d83f-4a9f-a452-c6f859ed51ae",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/4c2e8962-d83f-4a9f-a452-c6f859ed51ae/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "906f5960-6b03-4533-88e3-141639ed921c",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/906f5960-6b03-4533-88e3-141639ed921c/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "0d062977-7f30-42ef-9743-4e81373a89ce",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/0d062977-7f30-42ef-9743-4e81373a89ce/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "99a2fede-001c-4628-9319-109d2f6df582",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/99a2fede-001c-4628-9319-109d2f6df582/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "5043cd8a-608f-4bc2-b956-b665a0920d78",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/5043cd8a-608f-4bc2-b956-b665a0920d78/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "37cd7243-f725-4ebd-8bea-1c3c575d364f",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/37cd7243-f725-4ebd-8bea-1c3c575d364f/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "b8ae6fc3-d3a9-416c-ab38-7ce65a95fd9a",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/b8ae6fc3-d3a9-416c-ab38-7ce65a95fd9a/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "475ee820-4164-425d-9fca-0b6207b08fd6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/475ee820-4164-425d-9fca-0b6207b08fd6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "22d6a66e-85c6-40c7-94b6-86a1ddafe940",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/22d6a66e-85c6-40c7-94b6-86a1ddafe940/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "25c97755-80da-4108-93e3-2dac37490fd0",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/25c97755-80da-4108-93e3-2dac37490fd0/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "ba8267fd-f028-4c63-b719-c91d43aa7be1",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/ba8267fd-f028-4c63-b719-c91d43aa7be1/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "2073278f-5e01-4c09-813d-e10ce8906ea9",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/2073278f-5e01-4c09-813d-e10ce8906ea9/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "aef3df79-34c5-4ff9-a0aa-cd3b8dc6d7a6",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/aef3df79-34c5-4ff9-a0aa-cd3b8dc6d7a6/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    },
+    {
+        "PolicyId":  "d211bcde-a954-4fd0-b934-f89bd48294f2",
+        "PolicyName":  "Approval",
+        "ViewId":  null,
+        "ViewName":  null,
+        "RequestedAction":  "Disable",
+        "Uri":  "https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies/d211bcde-a954-4fd0-b934-f89bd48294f2/updateEnabledFlag",
+        "Status":  "Success",
+        "Message":  "Updated"
+    }
+]

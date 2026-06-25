@@ -1,0 +1,70 @@
+﻿{
+    "id":  "e8810dbd-1663-481d-9e38-e4fe34a9a21a",
+    "name":  "Approval",
+    "description":  "Approval policy for TAX_ALC_Account",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "NODE_TYPE",
+    "application":  {
+                        "id":  "6cd3a8a8-4724-4325-9cfd-088d94670243",
+                        "name":  "TAX_ALC",
+                        "description":  "EDM Application for PCM Tax Application"
+                    },
+    "dimension":  {
+                      "id":  "6054112e-1a57-4815-8f55-a09de65fe517",
+                      "name":  "TAX_ALC_Account",
+                      "description":  "Account Dimension"
+                  },
+    "nodeType":  {
+                     "id":  "9b5d72d8-e39b-4a7b-b3e1-687ed3919951",
+                     "name":  "TAX_ALC_Account",
+                     "description":  "Account Dimension"
+                 },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:29:59.475Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:29:59.475Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/nodeTypes/9b5d72d8-e39b-4a7b-b3e1-687ed3919951/policies/e8810dbd-1663-481d-9e38-e4fe34a9a21a"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/e8810dbd-1663-481d-9e38-e4fe34a9a21a/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

@@ -1,0 +1,371 @@
+﻿{
+    "id":  "0b6ea33a-4a75-4418-8d4e-37267cb158be",
+    "name":  "Update Workflow -  Real Estate Team Approvals",
+    "description":  "",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "dimension":  {
+                      "id":  "d5461cd2-22dd-405b-bbfa-68d0670ce5e0",
+                      "name":  "Facility Master",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:49:16.224Z",
+    "modifiedBy":  "Sreehari Seerla",
+    "timeModified":  "2025-12-15T18:09:52.866Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "fae77522-4ded-45b4-9541-c6b2112d4e92",
+                               "name":  "Facility Master Real Estate Team",
+                               "description":  "Access for  Real Estate Team"
+                           },
+                           {
+                               "id":  "98082b5c-e382-4417-8df5-110868096af9",
+                               "name":  "Facility Master Admin",
+                               "description":  "Access for Facility Admin"
+                           }
+                       ],
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  true,
+    "reminderNotification":  2,
+    "approvalEscalation":  2,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  true,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  10,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "expression":  {
+                       "statements":  [
+                                          {
+                                              "type":  "return",
+                                              "expression":  {
+                                                                 "type":  "node",
+                                                                 "id":  "node",
+                                                                 "invoke":  {
+                                                                                "type":  "properties",
+                                                                                "invoke":  {
+                                                                                               "type":  "propertyValue",
+                                                                                               "id":  "4563b339-1901-489b-af0c-700e2cdb1441",
+                                                                                               "invoke":  {
+                                                                                                              "type":  "equals",
+                                                                                                              "argument":  {
+                                                                                                                               "type":  "booleanLiteral",
+                                                                                                                               "value":  false
+                                                                                                                           }
+                                                                                                          }
+                                                                                           }
+                                                                            }
+                                                             }
+                                          }
+                                      ]
+                   },
+    "propertyFilterConfigurationType":  "INCLUDE",
+    "configuredProperties":  [
+                                 {
+                                     "id":  "d123605b-3ace-4b8f-9fd2-1b1009b1fb2b",
+                                     "name":  "Facility Operation",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/d123605b-3ace-4b8f-9fd2-1b1009b1fb2b"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "cde4e92e-8d16-46f6-9a42-fb655718a346",
+                                     "name":  "Facility Street Name",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/cde4e92e-8d16-46f6-9a42-fb655718a346"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "39add5f3-be7d-4bde-a1b1-d212117d08fc",
+                                     "name":  "Mailing Address2",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/39add5f3-be7d-4bde-a1b1-d212117d08fc"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "0df2fe93-30ef-4200-8eb3-1694b12c6f74",
+                                     "name":  "Number of Buildings associated with the Facility",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/0df2fe93-30ef-4200-8eb3-1694b12c6f74"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "b487bc6d-3191-43bb-beaa-f5b13d034543",
+                                     "name":  "CoStar B-ID",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/b487bc6d-3191-43bb-beaa-f5b13d034543"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "8f49177e-4ec6-44e6-afbc-e0c65ebd1373",
+                                     "name":  "Facility City",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/8f49177e-4ec6-44e6-afbc-e0c65ebd1373"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "6d203369-2f6f-4e74-b793-9d6ab84a9e8f",
+                                     "name":  "Confirmed Date",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/6d203369-2f6f-4e74-b793-9d6ab84a9e8f"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "9f03fe60-b1a1-46dc-9964-95af99ddc4f9",
+                                     "name":  "Latitude",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/9f03fe60-b1a1-46dc-9964-95af99ddc4f9"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "83bef7a0-7c80-40c6-a88e-31b03309706a",
+                                     "name":  "Facility Manager Email ID",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/83bef7a0-7c80-40c6-a88e-31b03309706a"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "b86f8740-d3f6-457e-8701-a2ae444199bd",
+                                     "name":  "Facility Address 2",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/b86f8740-d3f6-457e-8701-a2ae444199bd"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "0b5da64f-9d4b-4ca9-937e-b0a547625109",
+                                     "name":  "Pending Acquisition",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/0b5da64f-9d4b-4ca9-937e-b0a547625109"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "4b6bd006-8a49-4263-b100-aeaa449c9dbc",
+                                     "name":  "Mailing Zip Code",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/4b6bd006-8a49-4263-b100-aeaa449c9dbc"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "8ec8e96f-54e4-49b3-90d7-eba0f34ba213",
+                                     "name":  "Campus Active Flag",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/8ec8e96f-54e4-49b3-90d7-eba0f34ba213"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "491287a4-7095-4d64-9da3-7450a5b6ba9d",
+                                     "name":  "Mailing Address1",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/491287a4-7095-4d64-9da3-7450a5b6ba9d"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "aee363c1-0216-4e55-84b1-0937eabb9a61",
+                                     "name":  "Mailing Country",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/aee363c1-0216-4e55-84b1-0937eabb9a61"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "0a37af97-bf25-4fdc-ad44-8d6246f56d0d",
+                                     "name":  "Building Address Active Flag",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/0a37af97-bf25-4fdc-ad44-8d6246f56d0d"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "015d27af-4649-4ff3-9115-b10a92993afc",
+                                     "name":  "Permanent Unmatched",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/015d27af-4649-4ff3-9115-b10a92993afc"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "73c22eaa-14ac-4dc3-bc80-89bbfa6f1862",
+                                     "name":  "FR Number",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/73c22eaa-14ac-4dc3-bc80-89bbfa6f1862"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "e9382e03-d2fa-4cbb-872a-34804c970ea5",
+                                     "name":  "Is this the main building",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/e9382e03-d2fa-4cbb-872a-34804c970ea5"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "5a0b26a3-b363-4a60-b69d-82203da5ce92",
+                                     "name":  "Mailing City",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/5a0b26a3-b363-4a60-b69d-82203da5ce92"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "a577809e-4998-46a4-bec2-7ed31ab90364",
+                                     "name":  "Will there be an employee in this facility?",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/a577809e-4998-46a4-bec2-7ed31ab90364"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "81234241-84a9-412b-b2c6-c7d3006d46f4",
+                                     "name":  "Exclude Externally",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/81234241-84a9-412b-b2c6-c7d3006d46f4"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "c444409a-55d1-4d16-b1ab-d72d5e0a0b70",
+                                     "name":  "Ownership",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/c444409a-55d1-4d16-b1ab-d72d5e0a0b70"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "a5f8cd92-d4bc-4bab-9bda-4ed5738f6401",
+                                     "name":  "Longitude",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/a5f8cd92-d4bc-4bab-9bda-4ed5738f6401"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "2362009b-d225-4b4e-b3e3-e81321a5117c",
+                                     "name":  "CoStar L-ID",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/2362009b-d225-4b4e-b3e3-e81321a5117c"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "dd6c58f0-4f73-4d19-93d6-5fe38592de0e",
+                                     "name":  "Map Link",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/dd6c58f0-4f73-4d19-93d6-5fe38592de0e"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "27dd2553-7e14-4700-afbe-b54687467e3e",
+                                     "name":  "Mailing State",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/27dd2553-7e14-4700-afbe-b54687467e3e"
+                                                   }
+                                               ]
+                                 }
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/d5461cd2-22dd-405b-bbfa-68d0670ce5e0/policies/0b6ea33a-4a75-4418-8d4e-37267cb158be"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/0b6ea33a-4a75-4418-8d4e-37267cb158be/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

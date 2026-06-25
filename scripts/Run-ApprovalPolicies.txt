@@ -1,0 +1,17 @@
+﻿cd /d C:\RegressionTesting\<Folder>\scripts
+
+REM Generate the full approval policy inventory.
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Get-EpmApprovalPolicies.ps1 -Folder "<Folder>"
+
+REM Dry-run disable all policies.
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Set-ApprovalPolicyEnabledFlag.ps1 -Action Disable -Folder "<Folder>" -All -WhatIf
+
+REM Enable a selected list of policies.
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Set-Epm18ApprovalPolicyEnabledFlag.ps1 -Action Enable -Folder "<Folder>" -PolicyIds "POLICY_ID_1","POLICY_ID_2" -Confirm:$false
+
+REM Disable policies from a CSV or text file. CSV columns can be PolicyId, policyId, Id, or id.
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Set-ApprovalPolicyEnabledFlag.ps1 -Action Disable -Folder "<Folder>" -PolicyIdFile C:\RegressionTesting\<Folder>\scripts\policy-ids.txt -Confirm:$false
+
+REM Enable all policies for a particular view.
+powershell -NoProfile -ExecutionPolicy Bypass -File .\Set-ApprovalPolicyEnabledFlag.ps1 -Action Enable -Folder "<Folder>" -ViewName "VIEW_NAME" -Confirm:$false
+

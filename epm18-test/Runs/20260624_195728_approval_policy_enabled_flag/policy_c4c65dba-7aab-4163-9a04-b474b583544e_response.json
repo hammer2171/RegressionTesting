@@ -1,0 +1,60 @@
+﻿{
+    "id":  "c4c65dba-7aab-4163-9a04-b474b583544e",
+    "name":  "Approval",
+    "description":  "Approval policy for NOV Master",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "APPLICATION",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2024-09-30T15:45:42.384Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2024-09-30T15:45:42.384Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/4a013e45-f2bd-4445-9f60-fc4154b28141/policies/c4c65dba-7aab-4163-9a04-b474b583544e"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/c4c65dba-7aab-4163-9a04-b474b583544e/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

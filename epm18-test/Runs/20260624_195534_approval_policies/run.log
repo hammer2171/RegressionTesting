@@ -1,0 +1,14 @@
+﻿[2026-06-24 19:55:34.892] [INFO]  
+[2026-06-24 19:55:34.920] [INFO] ================================================================================
+[2026-06-24 19:55:34.923] [INFO] EXPORT APPROVAL POLICIES
+[2026-06-24 19:55:34.925] [INFO] ================================================================================
+[2026-06-24 19:55:34.926] [INFO] Run folder: C:\RegressionTesting\epm18-test\Runs\20260624_195534_approval_policies
+[2026-06-24 19:55:34.927] [INFO] Base URL: https://epm18-test-a706571.epm.us2.oraclecloud.com
+[2026-06-24 19:55:34.999] [WARNING] Multiple certificates matched 'CN=OracleEpmSecret'. Using Thumbprint=CCB2AE4E0BE09D06D3E25A8C0E0BF48703CC35F2
+[2026-06-24 19:55:34.999] [SUCCESS] Using CMS certificate: Subject='CN=OracleEpmSecret_Aigul' Thumbprint=CCB2AE4E0BE09D06D3E25A8C0E0BF48703CC35F2
+[2026-06-24 19:55:35.046] [SUCCESS] Authentication initialized for Oracle EPM user 'russell.shellhamer@nov.com'
+[2026-06-24 19:55:35.046] [INFO] GET https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/rest/v1/policies
+[2026-06-24 19:55:36.694] [SUCCESS] Policies exported: 391
+[2026-06-24 19:55:36.697] [INFO] CSV: C:\RegressionTesting\epm18-test\Runs\20260624_195534_approval_policies\approval-policies.csv
+[2026-06-24 19:55:36.698] [INFO] JSON: C:\RegressionTesting\epm18-test\Runs\20260624_195534_approval_policies\approval-policies.normalized.json
+[2026-06-24 19:55:36.700] [INFO] Raw response: C:\RegressionTesting\epm18-test\Runs\20260624_195534_approval_policies\approval-policies.raw.json

@@ -1,0 +1,65 @@
+﻿{
+    "id":  "f81ae453-4bef-461e-97e7-7db551a917ff",
+    "name":  "Approval",
+    "description":  "Approval policy for CPX_CostCenter",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "151ca09b-9cc9-4e5e-8789-cb8cf2a78e3c",
+                        "name":  "FINMod",
+                        "description":  "EPBCS Capital Planning Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "43398905-d70e-42ea-94b9-75b5caf2279a",
+                      "name":  "CPX_CostCenter",
+                      "description":  "Capital Planning Cost Center Dimension"
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-04-29T18:36:47.514Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-04-29T18:36:47.514Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/43398905-d70e-42ea-94b9-75b5caf2279a/policies/f81ae453-4bef-461e-97e7-7db551a917ff"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/f81ae453-4bef-461e-97e7-7db551a917ff/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

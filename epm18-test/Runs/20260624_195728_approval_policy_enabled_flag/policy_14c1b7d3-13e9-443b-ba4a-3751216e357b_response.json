@@ -1,0 +1,70 @@
+﻿{
+    "id":  "14c1b7d3-13e9-443b-ba4a-3751216e357b",
+    "name":  "Approval",
+    "description":  "Approval policy for CER_Currency",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "NODE_TYPE",
+    "application":  {
+                        "id":  "491ba6a8-bc3a-4858-aedf-ebc4d114bfb7",
+                        "name":  "FINPLAN_Test",
+                        "description":  "EPBCS Financials Test Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "118276e4-5afc-4164-99c0-39e16d209434",
+                      "name":  "CER_Currency",
+                      "description":  "CER_Currency Attribute Dimension"
+                  },
+    "nodeType":  {
+                     "id":  "95ddb753-b73d-40d7-8e70-7bc154a579ee",
+                     "name":  "CER_Currency",
+                     "description":  "CER_Currency Attribute Node Type"
+                 },
+    "createdBy":  "andrew.manikham@nov.com",
+    "timeCreated":  "2026-02-23T19:49:57.913Z",
+    "modifiedBy":  "andrew.manikham@nov.com",
+    "timeModified":  "2026-02-23T19:49:57.913Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/nodeTypes/95ddb753-b73d-40d7-8e70-7bc154a579ee/policies/14c1b7d3-13e9-443b-ba4a-3751216e357b"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/14c1b7d3-13e9-443b-ba4a-3751216e357b/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

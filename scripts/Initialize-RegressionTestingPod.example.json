@@ -1,0 +1,11 @@
+﻿{
+  "Folders": [
+    "epm-test",
+    "<Folder>",
+    "epm2-test"
+  ],
+  "RegressionRoot": "C:\\RegressionTesting",
+  "TemplateRoot": "C:\\RegressionTesting\\<Folder>",
+  "CopyTemplates": true
+}
+

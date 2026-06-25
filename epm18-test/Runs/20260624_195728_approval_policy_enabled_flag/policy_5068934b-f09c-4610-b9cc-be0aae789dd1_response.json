@@ -1,0 +1,70 @@
+﻿{
+    "id":  "5068934b-f09c-4610-b9cc-be0aae789dd1",
+    "name":  "Approval",
+    "description":  "Approval policy for NOV Global Legal Entity",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "HIERARCHY_SET",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "dimension":  {
+                      "id":  "d39752b6-216c-438a-8c58-18c94b7c4e22",
+                      "name":  "NOV Global Legal Entity",
+                      "description":  ""
+                  },
+    "hierarchySet":  {
+                         "id":  "cda735ff-602c-4e66-b1bd-b10f11f072da",
+                         "name":  "NOV Global Legal Entity",
+                         "description":  ""
+                     },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2024-09-30T15:45:42.384Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2024-09-30T15:45:42.384Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/hierarchySets/cda735ff-602c-4e66-b1bd-b10f11f072da/policies/5068934b-f09c-4610-b9cc-be0aae789dd1"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/5068934b-f09c-4610-b9cc-be0aae789dd1/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

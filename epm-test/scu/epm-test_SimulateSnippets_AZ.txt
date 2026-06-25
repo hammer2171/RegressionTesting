@@ -1,0 +1,8 @@
+epmautomate login aigul.zhakassova@nov.com C:\simulateConcurrentUsage\epmuserAZ.epw https://epm-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+epmautomate uploadfile "C:\RegressionTesting\epm-test\scu\CreatetestSim\AZ.zip" inbox
+epmautomate simulateConcurrentUsage AZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+epmautomate deleteFile inbox/AZ.zip
+
+epmautomate uploadfile "C:\RegressionTesting\epm-test\scu\CreatetestSim\CreatetestSim.zip" inbox
+epmautomate simulateConcurrentUsage CreatetestSim.zip testName=testSim iterations=100 notificationEmails=Russell.Shellhamer@nov.com;Christopher.Zumbado@nov.com;aigul.zhakassova@nov.com  testMode=1 lagTime=4

@@ -1,0 +1,45 @@
+﻿{
+    "id":  "f19f111e-e142-484e-a1a1-f0bbb401fbbd",
+    "name":  "Omega Notification Policy",
+    "description":  "Notification Policy for In-Flight Omega Requests",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "APPLICATION",
+    "application":  {
+                        "id":  "3ad4224d-8722-43bb-8c89-2542873d4740",
+                        "name":  "Oracle Cloud Financials GL - Omega",
+                        "description":  "Oracle Cloud Financials GL Application - Omega"
+                    },
+    "createdBy":  "anthony.silk@nov.com",
+    "timeCreated":  "2025-06-06T21:20:50.123Z",
+    "modifiedBy":  "anthony.silk@nov.com",
+    "timeModified":  "2025-06-06T21:20:50.123Z",
+    "enabled":  false,
+    "valid":  true,
+    "notifyOnStatusesChanged":  [
+                                    "IN_FLIGHT",
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/3ad4224d-8722-43bb-8c89-2542873d4740/policies/f19f111e-e142-484e-a1a1-f0bbb401fbbd"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/f19f111e-e142-484e-a1a1-f0bbb401fbbd/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

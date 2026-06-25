@@ -1,0 +1,72 @@
+﻿{
+    "id":  "c90ed555-6572-4c78-b4d1-eb12caa698ce",
+    "name":  "Approval",
+    "description":  "Approval policy for IC LE - IC LOB RVS Hierarchy Set",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "HIERARCHY_SET",
+    "application":  {
+                        "id":  "3ad4224d-8722-43bb-8c89-2542873d4740",
+                        "name":  "Oracle Cloud Financials GL - Omega",
+                        "description":  "Oracle Cloud Financials GL Application - Omega"
+                    },
+    "dimension":  {
+                      "id":  "817d9174-1e15-48c2-8513-fbf4ef83c60a",
+                      "name":  "IC LE - IC LOB RVS",
+                      "description":  "Related Value Set for IC LE and IC LOB"
+                  },
+    "hierarchySet":  {
+                         "id":  "ab8ae618-8c92-41f8-bbbd-35bccbff9377",
+                         "name":  "IC LE - IC LOB RVS Hierarchy Set",
+                         "description":  "IC LE - IC LOB RVS Hierarchy Set"
+                     },
+    "createdBy":  "noah.yao@nov.com",
+    "timeCreated":  "2021-11-05T18:53:20.410Z",
+    "modifiedBy":  "noah.yao@nov.com",
+    "timeModified":  "2021-11-05T18:53:20.410Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+                         "INTERACTIVE",
+                         "SUBSCRIPTION",
+                         "IMPORT"
+                     ],
+    "allowAllRequestTypes":  false,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/hierarchySets/ab8ae618-8c92-41f8-bbbd-35bccbff9377/policies/c90ed555-6572-4c78-b4d1-eb12caa698ce"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/c90ed555-6572-4c78-b4d1-eb12caa698ce/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

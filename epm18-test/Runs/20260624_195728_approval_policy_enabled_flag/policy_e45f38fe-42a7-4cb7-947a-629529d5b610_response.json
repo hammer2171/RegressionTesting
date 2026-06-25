@@ -1,0 +1,106 @@
+﻿{
+    "id":  "e45f38fe-42a7-4cb7-947a-629529d5b610",
+    "name":  "Update Workflow -  HCM Approval",
+    "description":  "Conditional Workflow based on facility has employees or not.",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "dimension":  {
+                      "id":  "d5461cd2-22dd-405b-bbfa-68d0670ce5e0",
+                      "name":  "Facility Master",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:49:16.224Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-11-19T14:13:19.877Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "98082b5c-e382-4417-8df5-110868096af9",
+                               "name":  "Facility Master Admin",
+                               "description":  "Access for Facility Admin"
+                           }
+                       ],
+    "processingType":  "SERIAL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  true,
+    "reminderNotification":  2,
+    "approvalEscalation":  2,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  true,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  false,
+    "allowedActions":  [
+
+                       ],
+    "expression":  {
+                       "statements":  [
+                                          {
+                                              "type":  "return",
+                                              "expression":  {
+                                                                 "type":  "node",
+                                                                 "id":  "node",
+                                                                 "invoke":  {
+                                                                                "type":  "properties",
+                                                                                "invoke":  {
+                                                                                               "type":  "propertyValue",
+                                                                                               "id":  "a577809e-4998-46a4-bec2-7ed31ab90364",
+                                                                                               "invoke":  {
+                                                                                                              "type":  "equals",
+                                                                                                              "argument":  {
+                                                                                                                               "type":  "booleanLiteral",
+                                                                                                                               "value":  true
+                                                                                                                           }
+                                                                                                          }
+                                                                                           }
+                                                                            }
+                                                             }
+                                          }
+                                      ]
+                   },
+    "propertyFilterConfigurationType":  "INCLUDE",
+    "configuredProperties":  [
+                                 {
+                                     "id":  "a577809e-4998-46a4-bec2-7ed31ab90364",
+                                     "name":  "Will there be an employee in this facility?",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/a577809e-4998-46a4-bec2-7ed31ab90364"
+                                                   }
+                                               ]
+                                 }
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/d5461cd2-22dd-405b-bbfa-68d0670ce5e0/policies/e45f38fe-42a7-4cb7-947a-629529d5b610"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/e45f38fe-42a7-4cb7-947a-629529d5b610/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

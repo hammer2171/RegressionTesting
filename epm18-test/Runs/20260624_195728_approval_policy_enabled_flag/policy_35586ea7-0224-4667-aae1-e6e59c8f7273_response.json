@@ -1,0 +1,161 @@
+﻿{
+    "id":  "35586ea7-0224-4667-aae1-e6e59c8f7273",
+    "name":  "Update Workflow - Finance Team - Approvals",
+    "description":  "",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "dimension":  {
+                      "id":  "d5461cd2-22dd-405b-bbfa-68d0670ce5e0",
+                      "name":  "Facility Master",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:49:16.224Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-12-12T14:33:12.539Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "30aea0f9-7db9-4adc-b196-f0b7a7622eec",
+                               "name":  "Facility Master Finance Team",
+                               "description":  "Access for Finance team"
+                           },
+                           {
+                               "id":  "98082b5c-e382-4417-8df5-110868096af9",
+                               "name":  "Facility Master Admin",
+                               "description":  "Access for Facility Admin"
+                           }
+                       ],
+    "processingType":  "SERIAL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  true,
+    "reminderNotification":  2,
+    "approvalEscalation":  2,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  true,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  10,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  false,
+    "allowedActions":  [
+
+                       ],
+    "expression":  {
+                       "statements":  [
+                                          {
+                                              "type":  "return",
+                                              "expression":  {
+                                                                 "type":  "node",
+                                                                 "id":  "node",
+                                                                 "invoke":  {
+                                                                                "type":  "properties",
+                                                                                "invoke":  {
+                                                                                               "type":  "propertyValue",
+                                                                                               "id":  "4563b339-1901-489b-af0c-700e2cdb1441",
+                                                                                               "invoke":  {
+                                                                                                              "type":  "equals",
+                                                                                                              "argument":  {
+                                                                                                                               "type":  "booleanLiteral",
+                                                                                                                               "value":  false
+                                                                                                                           }
+                                                                                                          }
+                                                                                           }
+                                                                            }
+                                                             }
+                                          }
+                                      ]
+                   },
+    "propertyFilterConfigurationType":  "INCLUDE",
+    "configuredProperties":  [
+                                 {
+                                     "id":  "5ada37de-7af6-4d9e-baad-3b9753d729b9",
+                                     "name":  "Facility Segments",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/5ada37de-7af6-4d9e-baad-3b9753d729b9"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "614a704a-ae2f-4b63-82df-1077785d1fac",
+                                     "name":  "Facility Business Sub-Units",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/614a704a-ae2f-4b63-82df-1077785d1fac"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "854a16a6-b7b9-4cda-adb2-32943c60a5c6",
+                                     "name":  "Finance - Line of Business",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/854a16a6-b7b9-4cda-adb2-32943c60a5c6"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "b2e4371b-3ae6-4a1b-987c-0a9b392ad52d",
+                                     "name":  "Facility Business Units",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/b2e4371b-3ae6-4a1b-987c-0a9b392ad52d"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "d292b80e-279f-45f4-9222-392c182b4a95",
+                                     "name":  "General Ledger (GL) Location ID",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/d292b80e-279f-45f4-9222-392c182b4a95"
+                                                   }
+                                               ]
+                                 },
+                                 {
+                                     "id":  "68aeddc0-0c9d-4ac0-9431-201794c44f77",
+                                     "name":  "Finance - Legal Entity",
+                                     "links":  [
+                                                   {
+                                                       "rel":  "self",
+                                                       "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/68aeddc0-0c9d-4ac0-9431-201794c44f77"
+                                                   }
+                                               ]
+                                 }
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/d5461cd2-22dd-405b-bbfa-68d0670ce5e0/policies/35586ea7-0224-4667-aae1-e6e59c8f7273"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/35586ea7-0224-4667-aae1-e6e59c8f7273/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

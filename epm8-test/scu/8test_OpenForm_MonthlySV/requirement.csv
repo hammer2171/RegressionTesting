@@ -1,0 +1,4 @@
+# Type of Operation,Artifact Name,Number of Users,Input File,Additional Info
+Open Form,Library/NOV Rollforwards/CIP Cash Flow Form,1,openform_input.csv,
+Open Form,Library/NOV Rollforwards/Fixed Asset Cash Flow Form,1,openform_input.csv,
+Open Form,Library/NOV Rollforwards/Accumulated Depreciation Cash Flow Form,1,openform_input.csv,

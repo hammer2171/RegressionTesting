@@ -1,0 +1,5 @@
+# Type of Operation,Artifact Name,Number of Users,Input File,Additional Info
+Open Form,Library/NOV Rollforwards/AR Reserve Cash Flow Form,1,openform_input.csv,
+Open Form,Library/NOV Rollforwards/Inventory Reserve Cash Flow Form,1,openform_input.csv,
+Open Form,Library/NOV Rollforwards/Revenue Recognition Cash Flow Form,1,openform_input.csv,
+Open Form,Library/NOV Rollforwards/Warranties Cash Flow Form,1,openform_input.csv,

@@ -1,0 +1,70 @@
+﻿{
+    "id":  "fa8bb621-a2da-482b-a32e-6597ec901471",
+    "name":  "Approval",
+    "description":  "Approval policy for Cost Center",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "HIERARCHY_SET",
+    "application":  {
+                        "id":  "1c39cc0f-ac1a-46c4-be65-47a59a8a2dcd",
+                        "name":  "SalesPln",
+                        "description":  "EPBCS Sales Planning Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "7c2fc843-bd73-4c1b-9b69-6d7d1ed4cb20",
+                      "name":  "GSP_LOB",
+                      "description":  ""
+                  },
+    "hierarchySet":  {
+                         "id":  "44d30c2d-f0ee-40d9-9e82-e186eef1bbcd",
+                         "name":  "GSP_LOB",
+                         "description":  "LOB dimension for Sales Planning application"
+                     },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:31:49.980Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:31:49.980Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/hierarchySets/44d30c2d-f0ee-40d9-9e82-e186eef1bbcd/policies/fa8bb621-a2da-482b-a32e-6597ec901471"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/fa8bb621-a2da-482b-a32e-6597ec901471/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

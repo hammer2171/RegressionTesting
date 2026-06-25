@@ -1,0 +1,72 @@
+﻿{
+    "id":  "8667f5e0-16d3-4040-b456-7b2f99cdff3e",
+    "name":  "Approval",
+    "description":  "Approval policy for Statutory Account Global",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "NODE_TYPE",
+    "application":  {
+                        "id":  "3ad4224d-8722-43bb-8c89-2542873d4740",
+                        "name":  "Oracle Cloud Financials GL - Omega",
+                        "description":  "Oracle Cloud Financials GL Application - Omega"
+                    },
+    "dimension":  {
+                      "id":  "0ace329b-b00d-4a40-b7ca-15e97a4f6954",
+                      "name":  "Statutory Account Global",
+                      "description":  ""
+                  },
+    "nodeType":  {
+                     "id":  "cb6bce9c-dc21-49f4-9215-c8e453d30dd4",
+                     "name":  "Statutory Account Global",
+                     "description":  ""
+                 },
+    "createdBy":  "emily.rubin@nov.com",
+    "timeCreated":  "2021-12-13T19:08:59.750Z",
+    "modifiedBy":  "emily.rubin@nov.com",
+    "timeModified":  "2021-12-13T19:08:59.750Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+                         "INTERACTIVE",
+                         "SUBSCRIPTION",
+                         "IMPORT"
+                     ],
+    "allowAllRequestTypes":  false,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/nodeTypes/cb6bce9c-dc21-49f4-9215-c8e453d30dd4/policies/8667f5e0-16d3-4040-b456-7b2f99cdff3e"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/8667f5e0-16d3-4040-b456-7b2f99cdff3e/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

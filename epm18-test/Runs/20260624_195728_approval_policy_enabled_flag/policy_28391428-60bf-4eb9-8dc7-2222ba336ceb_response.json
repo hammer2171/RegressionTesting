@@ -1,0 +1,65 @@
+﻿{
+    "id":  "28391428-60bf-4eb9-8dc7-2222ba336ceb",
+    "name":  "Approval",
+    "description":  "Approval policy for Cost Center",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "24293281-20e2-4b2b-a0ca-0b1f591adbcb",
+                        "name":  "WFPMod",
+                        "description":  "EPBCS Workforce Planning Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "bfab22e8-45a1-4351-866d-1a1c0658b282",
+                      "name":  "WFP_CostCenter",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:32:36.076Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:32:36.076Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/bfab22e8-45a1-4351-866d-1a1c0658b282/policies/28391428-60bf-4eb9-8dc7-2222ba336ceb"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/28391428-60bf-4eb9-8dc7-2222ba336ceb/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

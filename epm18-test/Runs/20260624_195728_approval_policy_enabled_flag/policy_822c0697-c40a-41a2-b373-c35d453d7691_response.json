@@ -1,0 +1,65 @@
+﻿{
+    "id":  "822c0697-c40a-41a2-b373-c35d453d7691",
+    "name":  "Approval",
+    "description":  "Approval policy for Users",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "6f4ac7ec-3e13-4208-81fe-71954cab5a65",
+                        "name":  "NOV User Application",
+                        "description":  "This User application will be used for Node Ownership and Escalations"
+                    },
+    "dimension":  {
+                      "id":  "e4c50146-732a-42f8-84f8-b76df514f0c1",
+                      "name":  "Users",
+                      "description":  "User Dimension"
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:52:31.513Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-11-19T13:52:31.513Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/e4c50146-732a-42f8-84f8-b76df514f0c1/policies/822c0697-c40a-41a2-b373-c35d453d7691"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/822c0697-c40a-41a2-b373-c35d453d7691/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

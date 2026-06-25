@@ -1,0 +1,65 @@
+﻿{
+    "id":  "8fe8887b-422e-4ff3-805b-9eca174e6d5e",
+    "name":  "Approval",
+    "description":  "Approval policy for FCS_Entity",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "8c1ad516-41c5-4990-b531-e52e6df6a44e",
+                        "name":  "FC_PROD",
+                        "description":  "FCCS Production Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "21f0d082-17cc-4cc0-af30-5fe8f700034f",
+                      "name":  "FC_Prod_Entity",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:27:33.680Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:27:33.680Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/21f0d082-17cc-4cc0-af30-5fe8f700034f/policies/8fe8887b-422e-4ff3-805b-9eca174e6d5e"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/8fe8887b-422e-4ff3-805b-9eca174e6d5e/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

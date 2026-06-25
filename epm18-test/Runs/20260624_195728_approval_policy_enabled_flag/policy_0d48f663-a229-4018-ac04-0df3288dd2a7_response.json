@@ -1,0 +1,70 @@
+﻿{
+    "id":  "0d48f663-a229-4018-ac04-0df3288dd2a7",
+    "name":  "Approval",
+    "description":  "Approval policy for User Hierarchy",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "HIERARCHY_SET",
+    "application":  {
+                        "id":  "6f4ac7ec-3e13-4208-81fe-71954cab5a65",
+                        "name":  "NOV User Application",
+                        "description":  "This User application will be used for Node Ownership and Escalations"
+                    },
+    "dimension":  {
+                      "id":  "e4c50146-732a-42f8-84f8-b76df514f0c1",
+                      "name":  "Users",
+                      "description":  "User Dimension"
+                  },
+    "hierarchySet":  {
+                         "id":  "18d28230-ff75-4809-b5fe-2f29d4ffdcf1",
+                         "name":  "User Hierarchy",
+                         "description":  "Hierarchy of users"
+                     },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:52:31.513Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-11-19T13:52:31.513Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/hierarchySets/18d28230-ff75-4809-b5fe-2f29d4ffdcf1/policies/0d48f663-a229-4018-ac04-0df3288dd2a7"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/0d48f663-a229-4018-ac04-0df3288dd2a7/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

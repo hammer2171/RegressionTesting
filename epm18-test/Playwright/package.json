@@ -1,0 +1,27 @@
+﻿{
+  "name": "epm18-test-playwright",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Oracle EDM epm18-test regression Playwright scaffold.",
+  "scripts": {
+    "test:e2e": "playwright test --project=edge --headed",
+    "test:e2e:headed": "playwright test --project=edge --headed",
+    "test:e2e:evidence": "playwright test --project=edge --headed -c playwright.evidence.config.js",
+    "test:e2e:evidence:full": "playwright test --project=edge --headed -c playwright.evidence.config.js --reporter=list,html,junit,blob",
+    "codegen": "playwright codegen --channel=msedge",
+    "auth:reuse": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\Auth-Session.ps1 -Mode reuse -PodKey epm18_test -BaseUrl https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud",
+    "auth:refresh": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\Auth-Session.ps1 -Mode refresh -PodKey epm18_test -BaseUrl https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud",
+    "evidence:archive-latest": "node .\\scripts\\archive-playwright-artifacts.mjs",
+    "evidence:build": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\Build-PlaywrightEvidence.ps1 -ResultsRoot .\\test-results -OutputPath .\\output\\playwright-evidence.md",
+    "evidence:extract-trace": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\Extract-PlaywrightTraceImages.ps1",
+    "evidence:build-trace-doc": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\Build-TraceImageDoc.ps1",
+    "evidence:build-trace-word": "powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\Build-TraceImageWordDoc.ps1",
+    "evidence:build-trace-pdf": "node .\\scripts\\Build-TraceImagePdf.mjs",
+    "evidence:build-ui-validations-pdf": "node .\\scripts\\Build-UiValidationsPdf.mjs --imagesDir .\\output\\ui-validations --outputPath .\\output\\test_ui_validations.pdf --title \"EPM18 UI Validations\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "dotenv": "^16.6.1",
+    "tsx": "^4.21.0"
+  }
+}

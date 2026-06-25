@@ -1,0 +1,108 @@
+﻿{
+    "id":  "1a50780a-efdf-4dff-9a7a-103dc7824c8b",
+    "name":  "Notify - Legal Entity Changes",
+    "description":  "",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "3ad4224d-8722-43bb-8c89-2542873d4740",
+                        "name":  "Oracle Cloud Financials GL - Omega",
+                        "description":  "Oracle Cloud Financials GL Application - Omega"
+                    },
+    "dimension":  {
+                      "id":  "8b72c4a6-819b-4613-9537-526a6eaad71b",
+                      "name":  "Legal Entity Global",
+                      "description":  ""
+                  },
+    "createdBy":  "emily.rubin@nov.com",
+    "timeCreated":  "2022-01-05T20:18:36.502Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2024-08-07T18:33:05.356Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "c76aab96-a8a5-41f1-b90d-0e0840c0ef9b",
+                               "name":  "EDM Service Administrators",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "a0c8d7bd-fea8-42a9-8b15-35786713f7c0",
+                               "name":  "Ledger Controllers",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "074194ac-318c-40e2-b2fc-efeb8bbf33ce",
+                               "name":  "Enterprise Solutions 2",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "5e69ea46-ddbe-46f3-9ddf-af9f751d75d6",
+                               "name":  "IT",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "c0489332-24e5-440b-ac73-6d9d33035b8b",
+                               "name":  "HR",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "1edc94d4-3538-4ba1-8d18-eaeff1f8556b",
+                               "name":  "Treasury",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "3cd0735a-8070-4b4f-99d2-97d54e648cfb",
+                               "name":  "Tax",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "e988c172-f236-4794-a905-9db23b607ba9",
+                               "name":  "Legal",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "09b5e0ca-4d2a-4ddc-90d0-24c6a226d2a0",
+                               "name":  "Internal Control",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "594f128f-280b-4493-b569-d1582a4ccd65",
+                               "name":  "Real Estate",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "91d60e89-c1c1-441c-bd35-de203bd4f66f",
+                               "name":  "Facility Data Manager",
+                               "description":  "Facility Data Manager"
+                           }
+                       ],
+    "notifyOnStatusesChanged":  [
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+                         "INTERACTIVE",
+                         "SUBSCRIPTION",
+                         "IMPORT"
+                     ],
+    "allowAllRequestTypes":  false,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/8b72c4a6-819b-4613-9537-526a6eaad71b/policies/1a50780a-efdf-4dff-9a7a-103dc7824c8b"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/1a50780a-efdf-4dff-9a7a-103dc7824c8b/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

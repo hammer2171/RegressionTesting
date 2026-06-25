@@ -1,0 +1,11 @@
+# Type of Operation,Artifact Name,Number of Users,Input File,Additional Info
+Open Form,Library/Supplemental Data/Fixed Asset Rentals,1,save_form_input_FixedAssetRentals.csv,
+Open Form,Library/Supplemental Data/Jackups & Floaters,1,save_form_input_JackupsFloaters.csv,
+Open Form,Library/Supplemental Data/Oil & Gas Prices,1,save_form_input_OilGasPrices.csv,
+Open Form,Library/Supplemental Data/Research & Development,1,save_form_input_ResearchDevelopment.csv,
+Open Form,Library/Supplemental Data/Revenue by Type,1,save_form_input_RevenuebyType.csv,
+Open Form,Library/Supplemental Data/Revenue Category,1,save_form_input_RevenueCategory.csv,
+Open Form,Library/Supplemental Data/Rig Count - Input,1,save_form_input_RigCountInput.csv,
+Open Form,Library/Supplemental Data/EP Supplemental Flex Form,1,save_form_input_EPSupplementalFlexForm.csv,
+Open Form,Library/Supplemental Data/Safety,1,save_form_input_Safety.csv,
+Open Form,Library/Supplemental Data/Supplemental Admin/Backlogs and Bookings - Flex Form,1,save_form_input_BacklogsandBookingsFlexForm.csv,

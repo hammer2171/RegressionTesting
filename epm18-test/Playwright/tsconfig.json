@@ -1,0 +1,29 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "types": ["node", "@playwright/test"]
+  },
+  "include": [
+    "playwright.config.ts",
+    "tests/**/*.ts",
+    "pages/**/*.ts",
+    "components/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "Runs",
+    "runs",
+    "test-results",
+    "playwright-report",
+    "blob-report",
+    "output"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Example Batch",
+  "scu": false,
+  "postBody": {
+    "enabled": true
+  },
+  "endpoints": [
+    "/epm/rest/v1/policies/123/updateEnabledFlag",
+    "/epm/rest/v1/policies/456/updateEnabledFlag"
+  ]
+}

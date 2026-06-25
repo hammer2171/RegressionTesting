@@ -1,0 +1,70 @@
+﻿{
+    "id":  "0a34a261-905a-4edb-8739-fda23b224841",
+    "name":  "Approval",
+    "description":  "Approval policy for PCM_CostCenter",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "HIERARCHY_SET",
+    "application":  {
+                        "id":  "edd2f3d8-f469-4114-a68d-eaaff5389151",
+                        "name":  "CORP_ALC",
+                        "description":  "PCMCS Corporate Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "79bd83df-b9fc-4a62-a3dc-847c9f2b1b42",
+                      "name":  "CORP_ALC_Cost_Center",
+                      "description":  "Cost Center dimension for CORP_ALC application"
+                  },
+    "hierarchySet":  {
+                         "id":  "ee6a6a37-44d6-4b78-8115-e26e7fbc1a4f",
+                         "name":  "CORP_ALC_CostCenter",
+                         "description":  "Cost Center dimension for the CORP_ALC EDM application"
+                     },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:29:12.586Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:29:12.586Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/hierarchySets/ee6a6a37-44d6-4b78-8115-e26e7fbc1a4f/policies/0a34a261-905a-4edb-8739-fda23b224841"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/0a34a261-905a-4edb-8739-fda23b224841/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

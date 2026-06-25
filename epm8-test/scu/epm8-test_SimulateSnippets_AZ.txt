@@ -1,0 +1,43 @@
+epmautomate login aigul.zhakassova@nov.com C:\simulateConcurrentUsage\epmuserAZ.epw https://epm8-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+
+-------------------------AZ-TM4-G-O-O-D---------------------
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\8test_OpenForm_ARReserveCashFlowForm\AZ.zip" inbox
+epmautomate simulateConcurrentUsage AZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+
+-------------------------AZ-TM4-G-O-O-D---------------------
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\8test_OpenForm_Monthly\8test_OpenForm_MonthlyAZ.zip" inbox
+epmautomate simulateConcurrentUsage 8test_OpenForm_MonthlyAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\8test_OpenForm_Quarterly\8test_OpenForm_QuarterlyAZ.zip" inbox
+epmautomate simulateConcurrentUsage 8test_OpenForm_QuarterlyAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\8test_SaveForm_Monthly\8test_SaveForm_MonthlyAZ.zip" inbox
+epmautomate simulateConcurrentUsage 8test_SaveForm_MonthlyAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+
+
+
+epmautomate deleteFile inbox/8test_SaveForm_MonthlyAZ.zip
+epmautomate deleteFile inbox/8test_OpenForm_QuarterlyAZ.zip
+epmautomate deleteFile inbox/8test_OpenForm_MonthlySVAZ.zip
+epmautomate deleteFile inbox/8test_OpenForm_QuarterlySVAZ.zip
+
+
+-------------------------Uploads-TM3---------------------
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\scu\Create8testSim\Create8testSim.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\scu\8test_OpenForm_Monthly\8test_OpenForm_Monthly.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\scu\8test_OpenForm_Quarterly\8test_OpenForm_Quarterly.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\scu\8test_OpenForm_MonthlySV\8test_OpenForm_MonthlySV.zip" inbox
+epmautomate uploadfile "C:\RegressionTesting\epm8-test\scu\8test_OpenForm_QuarterlySV\8test_OpenForm_QuarterlySV.zip" inbox
+
+
+
+
+
+epmautomate simulateConcurrentUsage 8test_OpenForm_MonthlySV.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+epmautomate simulateConcurrentUsage 8test_OpenForm_QuarterlySV.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
+
+
+

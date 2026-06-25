@@ -1,0 +1,60 @@
+﻿{
+    "id":  "ba87e4dd-9cc7-4065-93ba-c284587a2b59",
+    "name":  "Approval",
+    "description":  "Approval policy for WFPMod",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "APPLICATION",
+    "application":  {
+                        "id":  "24293281-20e2-4b2b-a0ca-0b1f591adbcb",
+                        "name":  "WFPMod",
+                        "description":  "EPBCS Workforce Planning Application Adapter for EDM"
+                    },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:32:36.076Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:32:36.076Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/applications/24293281-20e2-4b2b-a0ca-0b1f591adbcb/policies/ba87e4dd-9cc7-4065-93ba-c284587a2b59"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/ba87e4dd-9cc7-4065-93ba-c284587a2b59/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

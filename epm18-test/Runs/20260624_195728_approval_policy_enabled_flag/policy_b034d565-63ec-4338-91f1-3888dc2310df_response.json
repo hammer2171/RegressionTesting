@@ -1,0 +1,81 @@
+﻿{
+    "id":  "b034d565-63ec-4338-91f1-3888dc2310df",
+    "name":  "Notify HR Users",
+    "description":  "",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "4a013e45-f2bd-4445-9f60-fc4154b28141",
+                        "name":  "NOV Master",
+                        "description":  "NOV Master Application"
+                    },
+    "dimension":  {
+                      "id":  "d5461cd2-22dd-405b-bbfa-68d0670ce5e0",
+                      "name":  "Facility Master",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-11-19T13:49:16.224Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-12-12T14:33:27.728Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "c7c2b501-ba80-40fa-90ad-cedea2f4c3b1",
+                               "name":  "Facility Master HCM Team",
+                               "description":  "Access for HCM Team"
+                           }
+                       ],
+    "notifyOnStatusesChanged":  [
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "expression":  {
+                       "statements":  [
+                                          {
+                                              "type":  "return",
+                                              "expression":  {
+                                                                 "type":  "node",
+                                                                 "id":  "node",
+                                                                 "invoke":  {
+                                                                                "type":  "properties",
+                                                                                "invoke":  {
+                                                                                               "type":  "propertyValue",
+                                                                                               "id":  "a577809e-4998-46a4-bec2-7ed31ab90364",
+                                                                                               "invoke":  {
+                                                                                                              "type":  "equals",
+                                                                                                              "argument":  {
+                                                                                                                               "type":  "booleanLiteral",
+                                                                                                                               "value":  true
+                                                                                                                           }
+                                                                                                          }
+                                                                                           }
+                                                                            }
+                                                             }
+                                          }
+                                      ]
+                   },
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/d5461cd2-22dd-405b-bbfa-68d0670ce5e0/policies/b034d565-63ec-4338-91f1-3888dc2310df"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/b034d565-63ec-4338-91f1-3888dc2310df/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

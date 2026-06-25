@@ -1,0 +1,83 @@
+﻿{
+    "id":  "3ef40e06-1925-4570-8c64-62a7bc63d5d3",
+    "name":  "Notify - Location",
+    "description":  "",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "3ad4224d-8722-43bb-8c89-2542873d4740",
+                        "name":  "Oracle Cloud Financials GL - Omega",
+                        "description":  "Oracle Cloud Financials GL Application - Omega"
+                    },
+    "dimension":  {
+                      "id":  "2bb4b02d-6c7d-4e22-84f8-c95fae662e65",
+                      "name":  "Location GLOBAL",
+                      "description":  ""
+                  },
+    "createdBy":  "emily.rubin@nov.com",
+    "timeCreated":  "2022-01-05T20:26:56.941Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2024-08-07T18:34:15.051Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "c76aab96-a8a5-41f1-b90d-0e0840c0ef9b",
+                               "name":  "EDM Service Administrators",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "a0c8d7bd-fea8-42a9-8b15-35786713f7c0",
+                               "name":  "Ledger Controllers",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "074194ac-318c-40e2-b2fc-efeb8bbf33ce",
+                               "name":  "Enterprise Solutions 2",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "c0489332-24e5-440b-ac73-6d9d33035b8b",
+                               "name":  "HR",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "594f128f-280b-4493-b569-d1582a4ccd65",
+                               "name":  "Real Estate",
+                               "description":  ""
+                           },
+                           {
+                               "id":  "91d60e89-c1c1-441c-bd35-de203bd4f66f",
+                               "name":  "Facility Data Manager",
+                               "description":  "Facility Data Manager"
+                           }
+                       ],
+    "notifyOnStatusesChanged":  [
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+                         "INTERACTIVE",
+                         "SUBSCRIPTION",
+                         "IMPORT"
+                     ],
+    "allowAllRequestTypes":  false,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/2bb4b02d-6c7d-4e22-84f8-c95fae662e65/policies/3ef40e06-1925-4570-8c64-62a7bc63d5d3"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/3ef40e06-1925-4570-8c64-62a7bc63d5d3/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

@@ -1,0 +1,1 @@
+pov=[LOB:LOB_003],[Currency:Functional_Currency];cells=[Actual->Final->&CurYr->&CurMonth->Total Excluding Allocation|NOVSegment->Total Destination->Total Location->Total Balance Sheet|130001]

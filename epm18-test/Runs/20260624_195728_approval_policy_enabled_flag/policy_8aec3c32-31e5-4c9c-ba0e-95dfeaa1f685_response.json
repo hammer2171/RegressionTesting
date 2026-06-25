@@ -1,0 +1,82 @@
+﻿{
+    "id":  "8aec3c32-31e5-4c9c-ba0e-95dfeaa1f685",
+    "name":  "NOV Legal Entity",
+    "description":  "NOV Legal Entity Approval Policy",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "666d23b1-2638-4a25-927e-054391895b44",
+                        "name":  "ACTSTAGE",
+                        "description":  "EPBCS - Actual Stage Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "a351f510-8763-4943-a6a1-097276ac60ab",
+                      "name":  "NOV_Legal_Entity",
+                      "description":  ""
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:20:05.696Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:20:05.696Z",
+    "enabled":  false,
+    "valid":  true,
+    "inviteeSummary":  [
+                           {
+                               "id":  "73e95eba-82ca-4d0f-8cbf-c4b471d89b9b",
+                               "name":  "Legal_Approval",
+                               "description":  "Legal Approval"
+                           },
+                           {
+                               "id":  "da4d15f8-450d-499c-8bd4-ee730df0225c",
+                               "name":  "Tax_Approval",
+                               "description":  "Tax Approval"
+                           },
+                           {
+                               "id":  "b9d2e54e-22dd-45f9-b94e-d046067ca726",
+                               "name":  "Corp_Accounting_Approval",
+                               "description":  "Corp Accounting Approval"
+                           }
+                       ],
+    "processingType":  "SERIAL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  true,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/a351f510-8763-4943-a6a1-097276ac60ab/policies/8aec3c32-31e5-4c9c-ba0e-95dfeaa1f685"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/8aec3c32-31e5-4c9c-ba0e-95dfeaa1f685/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

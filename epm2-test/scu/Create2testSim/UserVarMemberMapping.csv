@@ -1,0 +1,5 @@
+#Dimension,User Variable,Member
+Entity,BU_Input,E_RT_Input
+Entity,BusinessUnit,E_RT
+Entity,Ledger,E_0152
+Entity,Segment,E_RT

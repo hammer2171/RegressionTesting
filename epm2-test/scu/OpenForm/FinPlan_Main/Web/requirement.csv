@@ -1,0 +1,6 @@
+# Type of Operation,Artifact Name,Number of Users,Input File,Additional Info
+Open Form,Library/Cash Flow/Cash Forecast - Input,1,openform_input_CashForecastInput.csv,
+Open Form,Library/Cash Flow/IC AP Cash Input,1,openform_input_ICAPCashInput.csv,
+Open Form,Library/Legacy Web Forms/Currency Exposure Data Entry Form,1,openform_input_CurrencyExposureDataEntryForm.csv,
+Open Form,Library/Expense Planning/Expenses - Seeded Adjustments,1,openform_input_ExpensesSeededAdjustments.csv,
+Open Form,Library/Balance Sheet/Review and Adjust Balance Sheet,1,openform_input_ReviewandAdjustBalanceSheet.csv,

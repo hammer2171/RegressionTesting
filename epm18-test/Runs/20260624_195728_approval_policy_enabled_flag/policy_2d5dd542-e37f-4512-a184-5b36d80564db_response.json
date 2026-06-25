@@ -1,0 +1,50 @@
+﻿{
+    "id":  "2d5dd542-e37f-4512-a184-5b36d80564db",
+    "name":  "Cost Center Input Notification",
+    "description":  "Cost Center Input Notification Policy",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "666d23b1-2638-4a25-927e-054391895b44",
+                        "name":  "ACTSTAGE",
+                        "description":  "EPBCS - Actual Stage Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "ce1ad93a-4b4f-4547-b71a-1b34d0dbb582",
+                      "name":  "Input_CostCenter",
+                      "description":  "Input form for the Act Stage Cost Center Dimension"
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:20:05.696Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:20:05.696Z",
+    "enabled":  false,
+    "valid":  true,
+    "notifyOnStatusesChanged":  [
+                                    "IN_FLIGHT",
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/ce1ad93a-4b4f-4547-b71a-1b34d0dbb582/policies/2d5dd542-e37f-4512-a184-5b36d80564db"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/2d5dd542-e37f-4512-a184-5b36d80564db/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

@@ -1,0 +1,23 @@
+{
+  "runLabel": "sample_rest_run",
+  "notificationText": "",
+  "operations": [
+    {
+      "name": "List Policies",
+      "method": "GET",
+      "endpoint": "/epm/rest/v1/policies",
+      "auditEndpoint": "/epm/rest/v1/auditRecords",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Enable Policy",
+      "method": "POST",
+      "endpoint": "/epm/rest/v1/policies/123/updateEnabledFlag",
+      "requestBody": {
+        "enabled": true
+      },
+      "auditEndpoint": "/epm/rest/v1/auditRecords",
+      "expectedStatus": 200
+    }
+  ]
+}

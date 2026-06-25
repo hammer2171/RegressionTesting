@@ -1,0 +1,50 @@
+﻿{
+    "id":  "fb42ec76-1bcf-44fc-8607-1e3def7e0d7e",
+    "name":  "Destination Location Input Notification",
+    "description":  "Destination Location Input Notification Policy",
+    "policyType":  "NOTIFY",
+    "policyLevel":  "DIMENSION",
+    "application":  {
+                        "id":  "666d23b1-2638-4a25-927e-054391895b44",
+                        "name":  "ACTSTAGE",
+                        "description":  "EPBCS - Actual Stage Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "617dfb19-5c09-423f-a769-3b34392a9b19",
+                      "name":  "Input_Destination_Location",
+                      "description":  "Input form for Destination and Location Dimensions"
+                  },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:20:05.696Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:20:05.696Z",
+    "enabled":  false,
+    "valid":  true,
+    "notifyOnStatusesChanged":  [
+                                    "IN_FLIGHT",
+                                    "COMPLETED"
+                                ],
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/dimensions/617dfb19-5c09-423f-a769-3b34392a9b19/policies/fb42ec76-1bcf-44fc-8607-1e3def7e0d7e"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/fb42ec76-1bcf-44fc-8607-1e3def7e0d7e/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

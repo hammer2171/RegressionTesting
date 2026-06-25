@@ -1,0 +1,70 @@
+﻿{
+    "id":  "c0d7cfef-7b9a-4ab2-a63e-6b245a024e39",
+    "name":  "Approval",
+    "description":  "Approval policy for FINPLAN_Prod_Data_Source",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "NODE_TYPE",
+    "application":  {
+                        "id":  "6c2e28cf-045b-4dac-a074-1da003b76172",
+                        "name":  "FINPLAN_Prod",
+                        "description":  "EPBCS Financials Production Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "d808d786-d54a-4e89-b282-c38b256b869f",
+                      "name":  "FINPLAN_Prod_Data_Source",
+                      "description":  "Data Source Dimension for FINPLAN Prod Application"
+                  },
+    "nodeType":  {
+                     "id":  "5b9ba85d-1a3d-4a10-a3c5-779ce768eae2",
+                     "name":  "FINPLAN_Prod_Data_Source",
+                     "description":  "Data Source Dimension for FINPLAN Prod Application"
+                 },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:25:13.015Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:25:13.015Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/nodeTypes/5b9ba85d-1a3d-4a10-a3c5-779ce768eae2/policies/c0d7cfef-7b9a-4ab2-a63e-6b245a024e39"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/c0d7cfef-7b9a-4ab2-a63e-6b245a024e39/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}

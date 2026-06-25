@@ -1,0 +1,70 @@
+﻿{
+    "id":  "6fd48d13-b579-4386-af2a-c71f5e2b1359",
+    "name":  "Approval",
+    "description":  "Approval policy for TR_Domicile",
+    "policyType":  "APPROVAL",
+    "policyLevel":  "NODE_TYPE",
+    "application":  {
+                        "id":  "02698967-59ce-482e-8da5-35ca26503912",
+                        "name":  "TRCS",
+                        "description":  "TRCS Application Adapter for EDM"
+                    },
+    "dimension":  {
+                      "id":  "d5ba0f68-9347-43f5-99ed-c6ef38dddecc",
+                      "name":  "TR_Domicile",
+                      "description":  "TR_Domicile Attribute Dimension"
+                  },
+    "nodeType":  {
+                     "id":  "c541b0a0-fe94-4df3-ae3f-327ef0cb7f1b",
+                     "name":  "TR_Domicile",
+                     "description":  "TR_Domicile Attribute Node Type"
+                 },
+    "createdBy":  "Christopher Zumbado",
+    "timeCreated":  "2025-03-20T14:30:55.847Z",
+    "modifiedBy":  "Christopher Zumbado",
+    "timeModified":  "2025-03-20T14:30:55.847Z",
+    "enabled":  false,
+    "valid":  true,
+    "processingType":  "PARALLEL",
+    "allInviteesMustApprove":  true,
+    "numberOfApprovalsRequired":  0,
+    "submitterAutoApproves":  false,
+    "reminderNotification":  0,
+    "approvalEscalation":  0,
+    "daysUntilOverdue":  0,
+    "allowEnrichment":  false,
+    "allowSettingFutureTimeLabel":  false,
+    "excludeWeekendsFromReminderDays":  false,
+    "policyOrder":  1,
+    "ownershipPropertyId":  null,
+    "managementHierarchyNodeSet":  null,
+    "fulfillmentType":  null,
+    "fulfillmentLevels":  0,
+    "fulfillmentExpression":  null,
+    "preventAutoApprovalForEnrichedRequest":  false,
+    "requireApprovalType":  null,
+    "commentRequiredOnTransition":  false,
+    "allowAllActions":  true,
+    "allowedActions":  [
+
+                       ],
+    "propertyFilterConfigurationType":  "ALL",
+    "configuredProperties":  [
+
+                             ],
+    "requestTypes":  [
+
+                     ],
+    "allowAllRequestTypes":  true,
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/nodeTypes/c541b0a0-fe94-4df3-ae3f-327ef0cb7f1b/policies/6fd48d13-b579-4386-af2a-c71f5e2b1359"
+                  },
+                  {
+                      "rel":  "updateEnabledFlag",
+                      "href":  "https://epm18-test-a706571.epm.us2.oraclecloud.com:443/epm/rest/v1/policies/6fd48d13-b579-4386-af2a-c71f5e2b1359/updateEnabledFlag",
+                      "method":  "POST"
+                  }
+              ]
+}
