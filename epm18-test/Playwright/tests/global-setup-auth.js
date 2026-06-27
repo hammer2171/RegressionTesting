@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: process.env.ENV_FILE || '.env' });
 
 const DEFAULT_EPM_BASE_URL =
-  'https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud';
+  'https://epm18-test-a706571.epm.us2.oraclecloud.com/epm';
 const DEFAULT_STORAGE_STATE_PATH = 'playwright/.auth/user.json';
 const AUTH_FIELD_TIMEOUT_MS = parseMsEnv('PW_AUTH_FIELD_TIMEOUT_MS', 60000);
 const AUTH_STATE_TIMEOUT_MS = parseMsEnv('PW_AUTH_STATE_TIMEOUT_MS', 120000);

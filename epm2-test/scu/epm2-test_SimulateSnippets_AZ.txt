@@ -4,28 +4,19 @@ epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\Create2testSim\AZ.zip
 epmautomate simulateConcurrentUsage AZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
 epmautomate deleteFile inbox/AZ.zip
 epmautomate deleteFile inbox/Create2testSim.zip
-epmautomate deleteFile inbox/epm2_test_SaveFormWebAZ.zip
-epmautomate deleteFile inbox/epm2_test_OpenFormWebAZ.zip
-epmautomate deleteFile inbox/epm2_test_OpenFormSVAZ.zip
-
-
+epmautomate deleteFile inbox/epm2_test_FinSup_OpenFormWeb.zip
+epmautomate deleteFile inbox/epm2_test_FinSup_OpenFormSV.zip
 
 
 
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\Create2testSim\Create2testSim.zip" inbox
 epmautomate simulateConcurrentUsage Create2testSim.zip testName=2testSim iterations=100 notificationEmails=Russell.Shellhamer@nov.com;Christopher.Zumbado@nov.com;aigul.zhakassova@nov.com  testMode=1 lagTime=4
 
-epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenFormWeb\epm2_test_OpenFormWebAZ.zip" inbox
-epmautomate simulateConcurrentUsage epm2_test_OpenFormWebAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
-
-epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenFormSV\epm2_test_OpenFormSVAZ.zip" inbox
-epmautomate simulateConcurrentUsage epm2_test_OpenFormSVAZ.zip iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=4 lagTime=4
 
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinSup\epm2_test_FinSup_SaveFormSV.zip" inbox
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinSup\epm2_test_FinSup_SaveFormWeb.zip" inbox
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinPlan_Main\epm2_test_FinPlan_Main_SaveFormSV.zip" inbox
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\SaveForm\FinPlan_Main\epm2_test_FinPlan_Main_SaveFormWeb.zip" inbox
-
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinSup\epm2_test_FinSup_OpenFormSV.zip" inbox
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinSup\epm2_test_FinSup_OpenFormWeb.zip" inbox
 epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinPlan_Main\epm2_test_FinPlan_Main_OpenFormSV.zip" inbox
@@ -33,5 +24,154 @@ epmautomate uploadfile "C:\RegressionTesting\epm2-test\scu\OpenForm\FinPlan_Main
 
 
 
+---------------------------------------------------------------------------------------------Run OpenFormWeb
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinSup_OpenFormWeb.zip') `
+  -PackageKind 'OpenFormWeb' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
 
 
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinPlan_Main_OpenFormWeb.zip') `
+  -PackageKind 'OpenFormWeb' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+  
+---------------------------------------------------------------------------------------------Run OpenFormSV - list of zips
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinSup_OpenFormSV.zip') `
+  -PackageKind 'OpenFormSV' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+
+
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinPlan_Main_OpenFormSV.zip') `
+  -PackageKind 'OpenFormSV' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+  
+---------------------------------------------------------------------------------------------Run SaveFormWeb
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinSup_SaveFormWeb.zip') `
+  -PackageKind 'SaveFormWeb' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+  
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinPlan_Main_SaveFormWeb.zip') `
+  -PackageKind 'SaveFormWeb' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+  
+---------------------------------------------------------------------------------------------Run SaveFormSV
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinSup_SaveFormSV.zip') `
+  -PackageKind 'SaveFormSV' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+  
+
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-SimConForms.ps1' `
+  -BaseUrl 'https://epm2-test-a706571.epm.us2.oraclecloud.com' `
+  -WorkDir 'C:\RegressionTesting\epm2-test\scu' `
+  -RunsRoot 'C:\RegressionTesting\epm2-test\scu\Runs' `
+  -ZipFiles @('epm2_test_FinPlan_Main_SaveFormSV.zip') `
+  -PackageKind 'SaveFormSV' `
+  -TestName '2testSim' `
+  -TestMode 3 `
+  -NumberOfIterations 1 `
+  -LagTime 4
+  
+  
+---------------------------------------------------------------------------------------------Run from Framework
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-ScuWorkload.ps1' `
+  -WorkloadJsonPath 'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinSup_SaveFormSV.json'
+
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+& 'C:\simulateConcurrentUsage\_PS1_scripts\Run-ScuWorkload.ps1' `
+  -WorkloadJsonPath 'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinSup_SaveFormWeb.json'
+
+Set-Location 'C:\RegressionTesting\epm2-test\scu'
+
+$workloads = @(
+  'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinPlan_Main_SaveFormSV.json'
+  'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinPlan_Main_SaveFormWeb.json'
+  'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinSup_OpenFormSV.json'
+  'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinSup_OpenFormWeb.json'
+  'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinPlan_Main_OpenFormSV.json'
+  'C:\RegressionTesting\epm2-test\scu\workloads\epm2_test_FinPlan_Main_OpenFormWeb.json'
+)
+
+foreach ($workload in $workloads) {
+  & 'C:\simulateConcurrentUsage\_PS1_scripts\Run-ScuWorkload.ps1' `
+    -WorkloadJsonPath $workload
+}  
+
+
+
+------------------------------------------------------------------------------------------------------------------Run to create AllForms, BRandBRS, etc.
+& "C:\simulateConcurrentUsage\_PS1_scripts\New-PlanningMigrationCatalog.ps1" `
+  -BaseUrl "https://epm30-test-a706571.epm.us-phoenix-1.ocs.oraclecloud.com" `
+  -ExportFirst `
+  -CubeNames @("SALESREP","OEP_GSP","OEP_GREP") `
+  -OutputDir "C:\simulateConcurrentUsage\30\_epm30-test\PlanningMigrationCatalog\analysis\$(Get-Date -Format yyyyMMdd_HHmmss)"
+
+& "C:\simulateConcurrentUsage\_PS1_scripts\New-PlanningRequirementsFromAllForms.ps1" `
+  -AllFormsCsv "C:\simulateConcurrentUsage\30\_epm30-test\PlanningMigrationCatalog\analysis\20260626_163004" `
+  -OutputRoot "C:\simulateConcurrentUsage\30\_epm30-test"
+
+& "C:\simulateConcurrentUsage\_PS1_scripts\New-PlanningPackageInputsFromRequirements.ps1" `
+  -RootDir "C:\simulateConcurrentUsage\30\_epm30-test"
+
+& "C:\simulateConcurrentUsage\_PS1_scripts\New-PlanningPackageSupplementalFiles.ps1" `
+  -RootDir "C:\simulateConcurrentUsage\30\_epm30-test"
+
+& "C:\simulateConcurrentUsage\_PS1_scripts\New-PlanningPackageZipFiles.ps1" `
+  -RootDir "C:\simulateConcurrentUsage\30\_epm30-test"
+  

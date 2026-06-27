@@ -1,0 +1,5 @@
+﻿Save the Outlook Simulate Concurrent Usage report .msg file for this package in this folder.
+Package ZIP: epm2_test_FinSup_OpenFormWeb.zip
+Expected .msg naming convention: epm2_test_FinSup_OpenFormWeb_YYYYMMDD_HHMMSS.msg
+Example: epm2_test_FinSup_OpenFormWeb_20260626_125436.msg
+Keep the package stem in the .msg name so the email evidence ties back to the original package.

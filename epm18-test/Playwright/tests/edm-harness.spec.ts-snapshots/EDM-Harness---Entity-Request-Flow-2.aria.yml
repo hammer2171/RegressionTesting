@@ -1,0 +1,333 @@
+- application "Views List":
+  - rowgroup:
+    - row "Name and Description Created Last Modified Actions":
+      - columnheader "Name and Description"
+      - columnheader "Created"
+      - columnheader "Last Modified"
+      - columnheader "Actions"
+  - rowgroup:
+    - row / A_Entry_ Account Maintenance View for Account Dimension\. Make Requests on Input_Account\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_ Account Maintenance View for Account Dimension. Make Requests on Input_Account.":
+        - text: ""
+        - link "A_Entry_ Account":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_CostCenter Maintenance View for Cost Center Dimension\. Make Requests on Input_CostCenter\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_CostCenter Maintenance View for Cost Center Dimension. Make Requests on Input_CostCenter.":
+        - text: ""
+        - link "A_Entry_CostCenter":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_DataSource Maintenance View for Data Source Dimension\. Make Requests on ACT_DataSource\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_DataSource Maintenance View for Data Source Dimension. Make Requests on ACT_DataSource.":
+        - text: ""
+        - link "A_Entry_DataSource":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_Destination_Location Maintenance View for Destination Dimension\. Make Requests on Input_Destination_Location\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_Destination_Location Maintenance View for Destination Dimension. Make Requests on Input_Destination_Location.":
+        - text: ""
+        - link "A_Entry_Destination_Location":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_Entity Maintenance View for Entity Dimension\. Make Requests for Legal Entities & Ledgers on NOV_Legal_Entity and EPM Base Members on Input_EPM_Entity_Base\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " A_Entry_Entity Maintenance View for Entity Dimension. Make Requests for Legal Entities & Ledgers on NOV_Legal_Entity and EPM Base Members on Input_EPM_Entity_Base.":
+        - text: ""
+        - link "A_Entry_Entity":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / A_Entry_Industry Maintenance View for Industry Dimension\. Make Requests on ACT_Industry\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_Industry Maintenance View for Industry Dimension. Make Requests on ACT_Industry.":
+        - text: ""
+        - link "A_Entry_Industry":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_Intercompany Maintenance View for Intercompany Dimension\. Make Requests on ACT_Intercompany\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_Intercompany Maintenance View for Intercompany Dimension. Make Requests on ACT_Intercompany.":
+        - text: ""
+        - link "A_Entry_Intercompany":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_Jurisdiction Maintenance View for Jurisdiction Dimension\. Make Requests on TRCS_Jurisdiction\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " A_Entry_Jurisdiction Maintenance View for Jurisdiction Dimension. Make Requests on TRCS_Jurisdiction.":
+        - text: ""
+        - link "A_Entry_Jurisdiction":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / A_Entry_Ledger Maintenance View for NOV_Ledger Attribute Dimension\. Make Requests on FC_Test_NOV_Ledger Avatar of anthony\.silk@nov\.com 6\/9\/\d+ anthony\.silk@nov\.com Avatar of anthony\.silk@nov\.com 6\/9\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_Ledger Maintenance View for NOV_Ledger Attribute Dimension. Make Requests on FC_Test_NOV_Ledger":
+        - text: ""
+        - link "A_Entry_Ledger":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 6\/9\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 6\/9\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / A_Entry_LOB Maintenance View for LOB dimension\. Make Requests on Input_LOB\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " A_Entry_LOB Maintenance View for LOB dimension. Make Requests on Input_LOB.":
+        - text: ""
+        - link "A_Entry_LOB":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / A_Entry_Movement Maintenance View for Movement Dimension\. Make Requests on FC_Test_Movement\. Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " A_Entry_Movement Maintenance View for Movement Dimension. Make Requests on FC_Test_Movement.":
+        - text: ""
+        - link "A_Entry_Movement":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / A_Entry_Responsibility Maintenance View for Responsibility Dimension\. Make Requests here on FINPLAN_Test_Responsibility Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " A_Entry_Responsibility Maintenance View for Responsibility Dimension. Make Requests here on FINPLAN_Test_Responsibility":
+        - text: ""
+        - link "A_Entry_Responsibility":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 4\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - Actual Stage Actual Stage Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - Actual Stage Actual Stage Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - Actual Stage":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - CORP_ALC CORP_ALC Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - CORP_ALC CORP_ALC Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - CORP_ALC":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - FC_PROD FC PROD Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - FC_PROD FC PROD Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - FC_PROD":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - FC_TEST FC TEST Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - FC_TEST FC TEST Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - FC_TEST":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - FINMod FINMod Default View Avatar of Christopher Zumbado 4\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 4\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - FINMod FINMod Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - FINMod":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 4\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 4\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - FINPLAN_PROD FINPLAN PROD Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - FINPLAN_PROD FINPLAN PROD Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - FINPLAN_PROD":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - FINPLAN_TEST FINPLAN TEST Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - FINPLAN_TEST FINPLAN TEST Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - FINPLAN_TEST":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - Omega - COA Oracle Cloud Financials GL - Omega COA Avatar of Kate Helmer \d+\/\d+\/\d+ Kate Helmer Avatar of anthony\.silk@nov\.com 3\/\d+\/\d+ anthony\.silk@nov\.com/:
+      - cell " DO NOT UPDATE HERE - Omega - COA Oracle Cloud Financials GL - Omega COA":
+        - text: ""
+        - link "DO NOT UPDATE HERE - Omega - COA":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Kate Helmer \d+\/\d+\/\d+ Kate Helmer/:
+        - img "Avatar of Kate Helmer"
+        - text: ""
+      - cell /Avatar of anthony\.silk@nov\.com 3\/\d+\/\d+ anthony\.silk@nov\.com/:
+        - img "Avatar of anthony.silk@nov.com"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - SalesPln SalesPln Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - SalesPln SalesPln Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - SalesPln":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - TAX_ALC TAX_ALC Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - TAX_ALC TAX_ALC Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - TAX_ALC":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - TRCS TRCS Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - TRCS TRCS Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - TRCS":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / DO NOT UPDATE HERE - WFPMod WFPMod Default View Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " DO NOT UPDATE HERE - WFPMod WFPMod Default View":
+        - text: ""
+        - link "DO NOT UPDATE HERE - WFPMod":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell
+    - row / EBSGP Input & Mapping EBS Grant Prideco Input & Mapping Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+      - cell " EBSGP Input & Mapping EBS Grant Prideco Input & Mapping":
+        - text: ""
+        - link "EBSGP Input & Mapping":
+          - /url: "#"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell /Avatar of Christopher Zumbado 3\/\d+\/\d+ Christopher Zumbado/:
+        - img "Avatar of Christopher Zumbado"
+        - text: ""
+      - cell

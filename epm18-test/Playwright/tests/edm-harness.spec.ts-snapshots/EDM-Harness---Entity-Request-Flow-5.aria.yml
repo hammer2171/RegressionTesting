@@ -1,0 +1,20 @@
+- dialog:
+  - text: Select a Node for Ledger Number
+  - button "User Assistance Menu": 
+  - text: NOV_Legal_Entity_Ownership >
+  - button ""
+  - textbox "Search for a node"
+  - button ""
+  - button "Show Node Property":  
+  - grid:
+    - row "3010LE (NOV Inc.)":
+      - gridcell "3010LE (NOV Inc.)":
+        - text: ""
+        - img: 
+    - row "3rd PartyLE (3rd Party)":
+      - gridcell "3rd PartyLE (3rd Party)":
+        - text: ""
+        - img: 
+  - text: Loaded
+  - button "OK" [disabled]
+  - button "Cancel"

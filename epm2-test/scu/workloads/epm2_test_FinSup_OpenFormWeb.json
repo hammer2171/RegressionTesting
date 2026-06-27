@@ -1,0 +1,51 @@
+{
+  "runLabel": "epm2_test_FinSup_OpenFormWeb",
+  "zipFileName": "epm2_test_FinSup_OpenFormWeb.zip",
+  "baseUrl": "https://epm2-test-a706571.epm.us2.oraclecloud.com",
+  "folder": "epm2-test",
+  "packageKind": "OpenFormWeb",
+  "testName": "2testSim",
+  "testMode": 3,
+  "iterations": 1,
+  "lagTime": 4,
+  "notificationEmails": "aigul.zhakassova@nov.com",
+  "workDir": "C:\\RegressionTesting\\epm2-test\\scu",
+  "runsRoot": "C:\\RegressionTesting\\epm2-test\\scu\\Runs",
+  "notification": {
+    "source": "SimCon notification",
+    "successPattern": "Completed",
+    "failurePattern": "Error|Failed|Exception",
+    "pollSeconds": 10,
+    "timeoutSeconds": 3600
+  },
+  "audit": {
+    "endpoint": "C:\\simulateConcurrentUsage\\_PS1_scripts\\Export-ScuAudit.ps1",
+    "ignoreOperations": ["OpenForm"],
+    "ignoreOpenForm": true,
+    "downloadFileNamePattern": "Audit_All_{runLabel}.csv"
+  },
+  "retry": {
+    "count": 3,
+    "delaySeconds": 30,
+    "throttleMilliseconds": 250
+  },
+  "report": {
+    "filenamePattern": "report_*.csv",
+    "saveToRunRoot": true,
+    "downloadFromInboxOnly": true
+  },
+  "package": {
+    "zipFiles": ["epm2_test_FinSup_OpenFormWeb.zip"],
+    "allowMultipleZipFiles": false,
+    "testMode3RequiresTestName": true,
+    "validateZipNameOnly": true
+  },
+  "operations": [
+    {
+      "name": "simulateConcurrentUsage",
+      "method": "POST",
+      "endpoint": "simulateConcurrentUsage",
+      "expectedStatus": 202
+    }
+  ]
+}

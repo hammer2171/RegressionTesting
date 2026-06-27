@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "epm18-test-playwright",
   "private": true,
   "version": "1.0.0",
@@ -20,6 +20,7 @@
     "evidence:build-ui-validations-pdf": "node .\\scripts\\Build-UiValidationsPdf.mjs --imagesDir .\\output\\ui-validations --outputPath .\\output\\test_ui_validations.pdf --title \"EPM18 UI Validations\""
   },
   "devDependencies": {
+    "@playwright/mcp": "^0.0.76",
     "@playwright/test": "^1.54.0",
     "dotenv": "^16.6.1",
     "tsx": "^4.21.0"

@@ -1,0 +1,20 @@
+﻿{
+    "ZipName":  "epm2_test_FinPlan_Main_SaveFormWeb.zip",
+    "TestName":  "2testSim",
+    "JobStatusHref":  "https://epm2-test-a706571.epm.us2.oraclecloud.com:443/interop/rest/v1/concurrentusage/jobs/2916450844126555",
+    "Status":  2,
+    "Details":  "Simulation Errors found and exported to inbox. File Name :report_2916450844126555.csv",
+    "Raw":  {
+                "details":  "Simulation Errors found and exported to inbox. File Name :report_2916450844126555.csv",
+                "status":  2,
+                "items":  null,
+                "links":  [
+                              {
+                                  "href":  "https://epm2-test-a706571.epm.us2.oraclecloud.com:443/interop/rest/v1/concurrentusage/jobs/2916450844126555",
+                                  "action":  "GET",
+                                  "rel":  "self",
+                                  "data":  null
+                              }
+                          ]
+            }
+}

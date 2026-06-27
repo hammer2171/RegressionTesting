@@ -1,0 +1,167 @@
+- application "Viewpoint Grid":
+  - rowgroup:
+    - 'row "  New EPM Entity Name Alias: Default Currency"':
+      - columnheader "":
+        - columnheader ""
+      - columnheader "":
+        - columnheader ""
+      - columnheader "New EPM Entity Name"
+      - columnheader
+      - 'columnheader "Alias: Default"'
+      - columnheader "Currency"
+  - rowgroup:
+    - row /E_0536EEA Node menu for node E_0536EEA \d+ - EE - Energy Equipment Admin USD/:
+      - cell
+      - cell
+      - cell "E_0536EEA"
+      - cell "Node menu for node E_0536EEA":
+        - button "Node menu for node E_0536EEA": 
+      - cell /\d+ - EE - Energy Equipment Admin/
+      - cell "USD"
+    - row /E_0536MC \d+ - EE - Marine and Construction USD/:
+      - cell
+      - cell
+      - cell "E_0536MC"
+      - cell
+      - cell /\d+ - EE - Marine and Construction/
+      - cell "USD"
+    - row /E_0521FM \d+ - EE - Fluid Motion Solution USD/:
+      - cell
+      - cell
+      - cell "E_0521FM"
+      - cell
+      - cell /\d+ - EE - Fluid Motion Solution/
+      - cell "USD"
+    - row /E_0521MC \d+ - EE - Marine and Construction USD/:
+      - cell
+      - cell
+      - cell "E_0521MC"
+      - cell
+      - cell /\d+ - EE - Marine and Construction/
+      - cell "USD"
+    - row /E_1060FG \d+ - EP - Fiberglass USD/:
+      - cell
+      - cell
+      - cell "E_1060FG"
+      - cell
+      - cell /\d+ - EP - Fiberglass/
+      - cell "USD"
+    - row /E_3077MC \d+ - EE - Marine and Construction QAR/:
+      - cell
+      - cell
+      - cell "E_3077MC"
+      - cell
+      - cell /\d+ - EE - Marine and Construction/
+      - cell "QAR"
+    - row /E_3069RT \d+ - EE - Rig Technology SAR/:
+      - cell
+      - cell
+      - cell "E_3069RT"
+      - cell
+      - cell /\d+ - EE - Rig Technology/
+      - cell "SAR"
+    - row /E_3080OT \d+ - OT - NOV Corporate USD/:
+      - cell
+      - cell
+      - cell "E_3080OT"
+      - cell
+      - cell /\d+ - OT - NOV Corporate/
+      - cell "USD"
+    - row /E_3004RW \d+ - EE - Renewables GBP/:
+      - cell
+      - cell
+      - cell "E_3004RW"
+      - cell
+      - cell /\d+ - EE - Renewables/
+      - cell "GBP"
+    - row /E_3072IS \d+ - EE - Intervention and Stimulation Equipment USD/:
+      - cell
+      - cell
+      - cell "E_3072IS"
+      - cell
+      - cell /\d+ - EE - Intervention and Stimulation Equipment/
+      - cell "USD"
+    - row /E_3073OT \d+ - OT - NOV Corporate USD/:
+      - cell
+      - cell
+      - cell "E_3073OT"
+      - cell
+      - cell /\d+ - OT - NOV Corporate/
+      - cell "USD"
+    - row /E_3073RT \d+ - EE - Rig Technology USD/:
+      - cell
+      - cell
+      - cell "E_3073RT"
+      - cell
+      - cell /\d+ - EE - Rig Technology/
+      - cell "USD"
+    - row /E_3074FG \d+ - EP - Fiberglass OMR/:
+      - cell
+      - cell
+      - cell "E_3074FG"
+      - cell
+      - cell /\d+ - EP - Fiberglass/
+      - cell "OMR"
+    - row /E_3074OT \d+ - OT - NOV Corporate OMR/:
+      - cell
+      - cell
+      - cell "E_3074OT"
+      - cell
+      - cell /\d+ - OT - NOV Corporate/
+      - cell "OMR"
+    - row /E_3069IS \d+ - EE - Intervention and Stimulation Equipment SAR/:
+      - cell
+      - cell
+      - cell "E_3069IS"
+      - cell
+      - cell /\d+ - EE - Intervention and Stimulation Equipment/
+      - cell "SAR"
+    - row /E_3069OT \d+ - OT - NOV Corporate SAR/:
+      - cell
+      - cell
+      - cell "E_3069OT"
+      - cell
+      - cell /\d+ - OT - NOV Corporate/
+      - cell "SAR"
+    - row /E_3070MC \d+ - EE - Marine and Construction SAR/:
+      - cell
+      - cell
+      - cell "E_3070MC"
+      - cell
+      - cell /\d+ - EE - Marine and Construction/
+      - cell "SAR"
+    - row /E_3070OT \d+ - OT - NOV Corporate SAR/:
+      - cell
+      - cell
+      - cell "E_3070OT"
+      - cell
+      - cell /\d+ - OT - NOV Corporate/
+      - cell "SAR"
+    - row /E_3070WS \d+ - EP - WellSite Services SAR/:
+      - cell
+      - cell
+      - cell "E_3070WS"
+      - cell
+      - cell /\d+ - EP - WellSite Services/
+      - cell "SAR"
+    - row /E_3071DI \d+ - EP - Downhole USD/:
+      - cell
+      - cell
+      - cell "E_3071DI"
+      - cell
+      - cell /\d+ - EP - Downhole/
+      - cell "USD"
+    - row /E_3071FG \d+ - EP - Fiberglass USD/:
+      - cell
+      - cell
+      - cell "E_3071FG"
+      - cell
+      - cell /\d+ - EP - Fiberglass/
+      - cell "USD"
+    - row /E_3071MC \d+ - EE - Marine and Construction USD/:
+      - cell
+      - cell
+      - cell "E_3071MC"
+      - cell
+      - cell /\d+ - EE - Marine and Construction/
+      - cell "USD"

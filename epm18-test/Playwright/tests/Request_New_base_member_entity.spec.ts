@@ -1,52 +1,96 @@
-import { test, expect } from '@playwright/test';
+import { test } from './fixtures/authFixture';
+
+import { Epm18testMainHomePage } from '../pages/Epm18testMainHomePage';
+import { ViewsPage } from '../pages/ViewsPage';
+import { RequestPage } from '../pages/RequestPage';
+import { PropertyGrid } from '../pages/PropertyGrid';
 
 test.use({
-  storageState: 'playwright/.auth/user.epm18_test.json'
+    viewport: {
+        width: 1366,
+        height: 900
+    }
 });
 
-test('test', async ({ page }) => {
-  await page.goto('https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/');
-  await expect(page.getByRole('banner', { name: 'Global Header' })).toBeVisible();
 
-  await page.getByRole('img', { name: 'Views' }).click();
-  await expect(page.getByRole('application', { name: 'Views List' })).toBeVisible();
 
-  await page.getByRole('link', { name: 'A_Entry_Entity' }).click();
-  await expect(page.getByRole('application', { name: 'Viewpoint Hierarchy' })).toBeVisible();
+const request = {
 
-  await page.getByRole('tab', { name: 'Input_EPM_Entity_Base' }).click();
-  await expect(page.getByRole('application', { name: 'Viewpoint Grid' })).toBeVisible();
+    view: 'A_Entry_Entity',
 
-  await page.getByRole('button', { name: 'New Request' }).click();
-  await expect(page.getByRole('grid', { name: 'List of Requests' })).toBeVisible();
+    viewpoint: 'Input_EPM_Entity_Base',
 
-  await page.getByRole('button', { name: 'Add Node' }).click();
-  await page.getByRole('menuitem', { name: 'Add New' }).click();
-  await expect(page.getByRole('row', { name: 'Request 35251 Show Item' })).toBeVisible();
+    ledgerNumber: '0940',
 
-  await page.getByRole('textbox', { name: 'Ledger Number' }).click();
-  await expect(page.getByRole('row', { name: '3010LE (NOV Inc.)' })).toBeVisible();
+    businessUnit: 'EE - Renewables'
 
-  await page.getByRole('textbox', { name: 'Search for a node' }).click();
-  await page.getByRole('textbox', { name: 'Search for a node' }).fill('0536');
-  await page.getByRole('textbox', { name: 'Search for a node' }).press('Enter');
-  await expect(page.getByRole('row', { name: '0536 (NOV Products Middle' })).toBeVisible();
+};
 
-  await page.getByText('(NOV Products Middle East FZE)').click();
-  await page.getByRole('button', { name: 'OK' }).click();
-  await expect(page.getByRole('row', { name: 'Request 35251 Show Item' })).toBeVisible();
+test('Request New Base Member Entity', async ({ page }) => {
 
-  await page.locator('#oj-combobox-choice-50b08f12-f44f-4241-9e68-328f3b2a1622_e882c03c-72cc-4a88-be22-9c4d58207f07 > .oj-text-field-end > .oj-combobox-arrow').click();
-  await expect(page.getByRole('listbox', { name: 'Business Unit' })).toBeVisible();
+    await page.goto(
+        'https://epm18-test-a706571.epm.us2.oraclecloud.com/epm'
+    );
 
-  await page.getByRole('option', { name: 'EE - Energy Equipment Admin' }).click();
-  await expect(page.getByRole('row', { name: 'Request 35251 Show Item' })).toBeVisible();
+    const home = new Epm18testMainHomePage(page);
 
-  await page.getByRole('button', { name: 'Submit' }).click();
-  await expect(page.getByRole('tab', { name: 'Requests' })).toBeVisible();
+    const views = new ViewsPage(page);
 
-  await page.getByRole('button', { name: 'Close' }).click();
-  await expect(page.getByRole('application', { name: 'Views List' })).toBeVisible();
+    const requestPage = new RequestPage(page);
 
-  await page.getByRole('button', { name: 'Home' }).click();
+    const propertyGrid = new PropertyGrid(page);
+
+    //---------------------------------------------------------------------
+    // Navigation
+    //---------------------------------------------------------------------
+
+    await home.open();
+
+    await views.open();
+
+    await views.openView(request.view);
+
+    await views.openViewpoint(request.viewpoint);
+
+    //---------------------------------------------------------------------
+    // Request
+    //---------------------------------------------------------------------
+
+    await requestPage.newRequest();
+
+    await requestPage.addNode();
+
+    //---------------------------------------------------------------------
+    // Ledger Selection
+    //---------------------------------------------------------------------
+
+    await page
+        .getByRole('textbox', {
+            name: 'Search for a node'
+        })
+        .fill(request.ledgerNumber);
+
+    await page
+        .getByRole('textbox', {
+            name: 'Search for a node'
+        })
+        .press('Enter');
+
+    //---------------------------------------------------------------------
+    // Business Unit
+    //---------------------------------------------------------------------
+
+    await propertyGrid.setComboBox(
+        'Business Unit',
+        request.businessUnit
+    );
+
+    //---------------------------------------------------------------------
+    // Submit
+    //---------------------------------------------------------------------
+
+    await requestPage.submit();
+
+    await requestPage.done();
+
 });

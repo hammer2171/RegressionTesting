@@ -1,0 +1,33 @@
+﻿{
+    "runLabel":  "epm2_test_FinPlan_Main_SaveFormWeb",
+    "zipFileName":  "epm2_test_FinPlan_Main_SaveFormWeb.zip",
+    "baseUrl":  "https://epm2-test-a706571.epm.us2.oraclecloud.com",
+    "folder":  "epm2-test",
+    "packageKind":  "SaveFormWeb",
+    "testName":  "2testSim",
+    "testMode":  3,
+    "iterations":  1,
+    "lagTime":  4,
+    "notificationEmails":  "aigul.zhakassova@nov.com",
+    "workDir":  "C:\\RegressionTesting\\epm2-test\\scu",
+    "runsRoot":  "C:\\RegressionTesting\\epm2-test\\scu\\Runs",
+    "started":  "2026-06-26T12:52:03.7872605-05:00",
+    "ended":  "2026-06-26T12:53:07.3645189-05:00",
+    "elapsedSeconds":  63.577,
+    "runScript":  "C:\\simulateConcurrentUsage\\_PS1_scripts\\Run-SimConForms.ps1",
+    "runResult":  "Success",
+    "runError":  "",
+    "runLogRoot":  "C:\\RegressionTesting\\epm2-test\\scu\\Runs\\Run_epm2_test_FinPlan_Main_SaveFormWeb_20260626_125203",
+    "audit":  {
+                  "endpoint":  "C:\\simulateConcurrentUsage\\_PS1_scripts\\Export-ScuAudit.ps1",
+                  "mode":  "All",
+                  "outcome":  "Unknown",
+                  "path":  "",
+                  "error":  "",
+                  "ignoreOperations":  [
+                                           "OpenForm"
+                                       ],
+                  "ignoreOpenForm":  true,
+                  "downloadFileNamePattern":  "Audit_All_{runLabel}.csv"
+              }
+}

@@ -1,0 +1,26 @@
+﻿Why Email Is Not Saved Automatically
+
+Run-SimConForms.ps1 creates this email folder as an evidence location, but it does not automatically save Outlook report emails as .msg files.
+
+The Oracle EPM REST and EPM Automate commands can run simulateConcurrentUsage and can download report_*.csv files from inbox when Oracle creates them. They cannot access Aigul's Outlook mailbox or save the received email message as a .msg file.
+
+What this folder contains automatically:
+- SAVE_REPORT_EMAIL_HERE.txt placeholder notes
+- Package-specific .msg naming instructions
+
+What must be saved manually:
+- The Outlook Simulate Concurrent Usage Report email as a .msg file
+
+Recommended naming convention:
+<package_name>_<YYYYMMDD_HHMMSS>.msg
+
+Example:
+epm28_test_OpenFormWeb_20260602_161700.msg
+
+Manual save options:
+1. Drag the email from Outlook into this folder.
+2. Or open the email in Outlook and use File > Save As, then save it as Outlook Message Format (.msg) in this folder.
+
+The downloaded report CSV, if Oracle provides report_*.csv in non-zero simulation details and the script can download it from inbox, is saved directly in the run folder root next to the package log files.
+
+The .msg email is still useful evidence because it captures the user-facing Oracle Cloud notification and attachment exactly as received.

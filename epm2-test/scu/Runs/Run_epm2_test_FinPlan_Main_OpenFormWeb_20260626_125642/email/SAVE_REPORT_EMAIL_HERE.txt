@@ -1,0 +1,4 @@
+﻿Save the Outlook Simulate Concurrent Usage report .msg file in this folder.
+Naming convention: <package_name>_YYYYMMDD_HHMMSS.msg
+Example: epm28_test_OpenFormWeb_20260602_150000.msg
+A package-specific SAVE_REPORT_EMAIL_HERE note is also created for each ZIP in this run.

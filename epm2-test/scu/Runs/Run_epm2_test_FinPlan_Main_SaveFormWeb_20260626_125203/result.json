@@ -1,0 +1,24 @@
+﻿{
+    "status":  "Success",
+    "workload":  "C:\\RegressionTesting\\epm2-test\\scu\\workloads\\epm2_test_FinPlan_Main_SaveFormWeb.json",
+    "runFolder":  "C:\\RegressionTesting\\epm2-test\\scu\\Runs\\Run_epm2_test_FinPlan_Main_SaveFormWeb_20260626_125203",
+    "summary":  "C:\\RegressionTesting\\epm2-test\\scu\\Runs\\Run_epm2_test_FinPlan_Main_SaveFormWeb_20260626_125203\\summary.json",
+    "notes":  "C:\\RegressionTesting\\epm2-test\\scu\\Runs\\Run_epm2_test_FinPlan_Main_SaveFormWeb_20260626_125203\\run-notes.md",
+    "audit":  {
+                  "endpoint":  "C:\\simulateConcurrentUsage\\_PS1_scripts\\Export-ScuAudit.ps1",
+                  "mode":  "All",
+                  "outcome":  "Unknown",
+                  "path":  "",
+                  "error":  "",
+                  "ignoreOperations":  [
+                                           "OpenForm"
+                                       ],
+                  "ignoreOpenForm":  true,
+                  "downloadFileNamePattern":  "Audit_All_{runLabel}.csv"
+              },
+    "started":  "2026-06-26T12:52:03.7872605-05:00",
+    "ended":  "2026-06-26T12:53:07.3695183-05:00",
+    "runOutput":  [
+
+                  ]
+}

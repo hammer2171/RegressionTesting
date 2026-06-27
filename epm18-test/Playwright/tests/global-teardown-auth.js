@@ -8,7 +8,7 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 dotenv.config({ path: resolveEnvFilePath() });
 
 const DEFAULT_EPM_BASE_URL =
-  'https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud';
+  'https://epm18-test-a706571.epm.us2.oraclecloud.com/epm';
 const DEFAULT_STORAGE_STATE_PATH = path.join(PROJECT_ROOT, 'playwright', '.auth', 'user.json');
 const AUTH_HEADLESS = parseBooleanEnv('PW_AUTH_HEADLESS', true);
 

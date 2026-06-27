@@ -1,0 +1,7 @@
+- banner "Global Header":
+  - button "Navigate"
+  - img "Custom Logo"
+  - text: Fusion Cloud Enterprise Data Management
+  - button "Home":  Home
+  - button "Favorites"
+  - button "Russell Shellhamer"
