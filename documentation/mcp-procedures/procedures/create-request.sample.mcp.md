@@ -34,21 +34,22 @@ Navigate to the target EDM view and create a request using the test data below. 
 
 ## Steps
 
-1. Open the <Folder> URL.
-   - Expected: EDM home page or global header is visible.
+1. Open the URL - https://epm18-test-a706571.epm.us2.oraclecloud.com/epm
+   - Expected: EDM home or landing page is visible.
    - Evidence: screenshot named `01-home.png`.
 
-2. Navigate to the Views or Requests area needed to create the request.
-   - Expected: Navigation completes and the target area is visible.
-   - Evidence: screenshot named `02-navigation.png`.
+2. Navigate to `Views` and click the Views link.
+   - Expected: `Views` page is visible.
+   - Evidence: screenshot named `02-area.png`.
 
-3. Open the View named `<enter view name>`.
-   - Expected: The selected view opens without error.
-   - Evidence: screenshot named `03-view-open.png`.
+3. Click on the View `A_Entry_Entity`.
+   - Expected: `A_Entry_Entity` page is visible.
+   - Evidence: screenshot named `03-action.png`.
 
-4. Open the Viewpoint named `<enter viewpoint name>`.
-   - Expected: The selected viewpoint is visible and ready for request actions.
-   - Evidence: screenshot named `04-viewpoint-open.png`.
+4. Click on the Viewpoint `A_Entry_Entity`.
+   - Expected: `Input_EPM_Entity_Base` tab is visible.
+   - Evidence: screenshot named `03-action.png`.
+
 
 5. Start a new request.
    - Expected: New request panel, dialog, or request context is visible.

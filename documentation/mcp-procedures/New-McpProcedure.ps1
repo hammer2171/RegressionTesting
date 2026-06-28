@@ -2,10 +2,10 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)]
-    [string]$ProcedureId,
-    [string]$ProcedureName,
-    [string]$ProceduresDirectory = (Join-Path $PSScriptRoot "procedures"),
-    [string]$TemplatePath = (Join-Path $PSScriptRoot "templates\mcp-procedure-template.md")
+    [string]$ProcedureId = "create-edm-request-sample-entity",
+    [string]$ProcedureName = "Create-EDM-Request",
+    [string]$ProceduresDirectory = "C:\RegressionTesting\documentation\mcp-procedures\procedures",
+    [string]$TemplatePath = "C:\RegressionTesting\documentation\mcp-procedures\templates\create-edm-request-sample-entity.md"
 )
 
 $ErrorActionPreference = "Stop"

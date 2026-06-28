@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File C:\RegressionTesting\epm18-test\Playwright\scripts\Run-McpProcedure.ps1 -Procedure "create-edm-request-sample-entity.mcp.md"

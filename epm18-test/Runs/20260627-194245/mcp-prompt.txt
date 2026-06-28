@@ -1,0 +1,30 @@
+﻿Use Playwright MCP.
+
+Run in headed mode.
+
+Read and execute:
+
+C:\RegressionTesting\documentation\mcp-procedures\procedures\create-edm-request-sample-entity.mcp.md
+
+Follow the evidence protocol:
+
+C:\RegressionTesting\documentation\mcp-procedures\evidence-protocol.md
+
+Store all screenshots,
+videos,
+logs,
+trace files,
+and evidence into:
+
+C:\RegressionTesting\epm18-test\Runs\20260627-194245
+
+When complete return:
+
+â€¢ Pass / Fail
+
+â€¢ Summary
+
+â€¢ Blockers
+
+â€¢ Evidence Generated
+

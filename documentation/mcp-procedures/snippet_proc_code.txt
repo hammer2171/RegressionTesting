@@ -1,0 +1,1 @@
+powershell -NoProfile -ExecutionPolicy Bypass -File .\New-McpProcedure.ps1 -ProcedureId "create-edm-request-sample-entity" -ProcedureName "Create-EDM-Request"
