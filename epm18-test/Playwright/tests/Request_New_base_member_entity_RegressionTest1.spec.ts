@@ -8,13 +8,17 @@ test.use({
   storageState: 'playwright/.auth/user.epm18_test.json'
 });
 
+test.use({ viewport: { width: 1366, height: 900 } });
+
+const linkName: { tilename: string } = { tilename: 'Views' };
+
 const request = {
-  view: 'A_Entry_Entity',
-  viewpoint: 'Input_EPM_Entity_Base',
+  viewName: 'A_Entry_Entity',
+  viewpointName: 'Input_EPM_Entity_Base',
   ledgerNumberRow: '3010LE (NOV Inc.)',
-  searchTerm: '0536',
-  searchResultText: '(NOV Products Middle East FZE)',
-  businessUnit: 'EE - Energy Equipment Admin'
+  searchTerm: '0940',
+  searchResultRowText: '0940 (National Oilwell Varco, L.P. (EE-Branch))',
+  businessUnit: 'EP - WellSite Services'
 };
 
 test('test', async ({ page }) => {
@@ -24,7 +28,11 @@ test('test', async ({ page }) => {
 
   await home.open();
 
-  await views.openViewHierarchy(request.view, request.viewpoint);
+  await home.epm18testtilesopen(linkName.tilename);
+  
+  await views.openView(request.viewName);
+
+  await views.openViewpoint(request.viewpointName);
 
   await requestPage.newRequest();
 
@@ -34,7 +42,7 @@ test('test', async ({ page }) => {
 
   await requestPage.submit();
 
-  await requestPage.done();
+  await requestPage.returnHome();
 
-  await home.epm18testhomeicon();
+  
 });

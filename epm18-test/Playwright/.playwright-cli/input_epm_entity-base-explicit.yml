@@ -1,0 +1,557 @@
+- generic [ref=e1]:
+  - tooltip " ACT_Entity viewpoint  ACTSTAGE application  ACT_Entity dimension  A_Entry_Entity | Input_EPM_Entity_Base subscription +1  Node Set Bound binding status" [ref=e2270]:
+    - generic [ref=e2271]:
+      - generic [ref=e2272]:
+        - generic [ref=e2273]: 
+        - generic "ACT_Entity" [ref=e2274]
+        - generic "viewpoint" [ref=e2275]
+      - list [ref=e2276]:
+        - listitem [ref=e2277]:
+          - generic [ref=e2279]: 
+          - generic "ACTSTAGE" [ref=e2280]
+          - generic "application" [ref=e2281]
+        - listitem [ref=e2282]:
+          - generic [ref=e2284]: 
+          - generic "ACT_Entity" [ref=e2285]
+          - generic "dimension" [ref=e2286]
+        - listitem [ref=e2287]:
+          - generic [ref=e2289]: 
+          - generic "A_Entry_Entity | Input_EPM_Entity_Base" [ref=e2290]
+          - generic "subscription" [ref=e2291]
+          - generic [ref=e2293]: "+1"
+        - listitem [ref=e2294]:
+          - generic [ref=e2296]: 
+          - generic "Node Set Bound" [ref=e2297]
+          - generic "binding status" [ref=e2298]
+  - generic [ref=e8]:
+    - text:                        
+    - generic [ref=e10]:
+      - banner "Global Header" [ref=e11]:
+        - generic:  
+        - generic [ref=e12]:
+          - generic "Navigate" [ref=e13]:
+            - button "Navigate" [ref=e14] [cursor=pointer]:
+              - generic [ref=e15]:
+                - generic [ref=e17]: 
+                - generic [ref=e18]: Navigate
+          - text: 
+          - img "Custom Logo" [ref=e19] [cursor=pointer]
+          - generic [ref=e20]: Fusion Cloud Enterprise Data Management
+          - generic "Home" [ref=e21]:
+            - button "Home" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]:
+                - generic [ref=e25]: 
+                - generic [ref=e26]: Home
+          - generic "Favorites" [ref=e27]:
+            - button "Favorites" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]:
+                - generic [ref=e31]: 
+                - generic [ref=e32]: Favorites
+          - 'generic "Russell Shellhamer : Settings and Actions" [ref=e33]':
+            - button "Russell Shellhamer" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: Russell Shellhamer
+                - generic [ref=e37]: 
+      - generic:  
+      - generic [ref=e103]:
+        - text:         
+        - generic "Toggle Filmstrip" [ref=e137] [cursor=pointer]
+        - generic [ref=e139]:
+          - generic [ref=e860]:
+            - generic [ref=e861]:
+              - tablist "oj.Translations.getTranslatedString('view.enrichmentpane.txt_enrichment_toolbar')" [ref=e863]:
+                - tab "Requests" [ref=e864] [cursor=pointer]:
+                  - img "Requests" [ref=e865]: 
+                - tab "Match and Deduplicate" [ref=e867] [cursor=pointer]:
+                  - img "Match and Deduplicate" [ref=e868]: 
+                - tab "Query Viewpoint" [ref=e870] [cursor=pointer]:
+                  - img "Query Viewpoint" [ref=e871]: 
+                - tab "Compare" [ref=e873] [cursor=pointer]:
+                  - img "Compare" [ref=e874]: 
+                - tab "Validate Viewpoint" [ref=e876] [cursor=pointer]:
+                  - img "Validate Viewpoint" [ref=e877]: 
+                - tab "Node Clipboard" [ref=e879] [cursor=pointer]:
+                  - img "Node Clipboard" [ref=e880]: 
+              - text:                                 ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●                
+            - generic:      
+            - generic: 
+            - generic "Expand/Collapse" [ref=e883]:
+              - button "Expand/Collapse" [ref=e884] [cursor=pointer]:
+                - generic [ref=e887]: 
+            - generic [ref=e888]:
+              - generic:
+                - text: 
+                - generic [ref=e889]: The view has been modified. Refresh the request to view the changes.
+                - generic "Refresh" [ref=e890]:
+                  - button "Refresh" [ref=e891] [cursor=pointer]:
+                    - generic [ref=e894]: 
+              - generic [ref=e895]:
+                - generic "A_Entry_Entity" [ref=e896]
+                - button "New Request" [ref=e898] [cursor=pointer]:
+                  - generic [ref=e901]: New Request
+                - button "Close" [ref=e903] [cursor=pointer]:
+                  - generic [ref=e906]: Close
+              - generic [ref=e907]:
+                - generic [ref=e908]:
+                  - generic [ref=e909]:
+                    - generic [ref=e910]:
+                      - button [ref=e2300] [cursor=pointer]:
+                        - generic [ref=e2301]: 
+                      - tablist [ref=e913]:
+                        - tab "NOV_Legal_Entity" [ref=e2302] [cursor=pointer]:
+                          - generic [ref=e917]:
+                            - generic [ref=e918]: NOV_Legal_Entity
+                            - text: ● 
+                        - tab "Omega_Entity" [ref=e924] [cursor=pointer]:
+                          - generic [ref=e927]:
+                            - generic [ref=e928]: Omega_Entity
+                            - text: ● 
+                        - tab "Input_EPM_Entity_Base Viewpoint Input_EPM_Entity_Base Actions" [active] [selected] [ref=e2303] [cursor=pointer]:
+                          - generic [ref=e931]:
+                            - generic [ref=e932]:
+                              - generic [ref=e933]: Input_EPM_Entity_Base
+                              - text: ● 
+                            - generic "Viewpoint Input_EPM_Entity_Base Actions" [ref=e2304]:
+                              - button "Viewpoint Input_EPM_Entity_Base Actions" [ref=e2305]:
+                                - generic [ref=e2308]: 
+                        - tab "ACT_Entity" [ref=e934] [cursor=pointer]:
+                          - generic [ref=e937]:
+                            - generic [ref=e938]: ACT_Entity
+                            - text: ● 
+                        - tab "ACT_Entity_ALT_Legal" [ref=e939] [cursor=pointer]:
+                          - generic [ref=e942]:
+                            - generic [ref=e943]: ACT_Entity_ALT_Legal
+                            - text: ● 
+                        - tab "FC_Test_Entity" [ref=e944] [cursor=pointer]:
+                          - generic [ref=e947]:
+                            - generic [ref=e948]: FC_Test_Entity
+                            - text: ● 
+                        - tab "FINPLAN_Test_Entity" [ref=e949] [cursor=pointer]:
+                          - generic [ref=e952]:
+                            - generic [ref=e953]: FINPLAN_Test_Entity
+                            - text: ● 
+                        - tab "FC_Prod_Entity" [ref=e954] [cursor=pointer]:
+                          - generic [ref=e957]:
+                            - generic [ref=e958]: FC_Prod_Entity
+                            - text: ● 
+                        - tab "FINPLAN_Prod_Entity" [ref=e959] [cursor=pointer]:
+                          - generic [ref=e962]:
+                            - generic [ref=e963]: FINPLAN_Prod_Entity
+                            - text: ● 
+                        - tab "CORP_ALC_Entity" [ref=e964] [cursor=pointer]:
+                          - generic [ref=e967]:
+                            - generic [ref=e968]: CORP_ALC_Entity
+                            - text: ● 
+                        - tab "TAX_ALC_Entity" [ref=e969] [cursor=pointer]:
+                          - generic [ref=e972]:
+                            - generic [ref=e973]: TAX_ALC_Entity
+                            - text: ● 
+                        - tab "TRCS_Entity" [ref=e974] [cursor=pointer]:
+                          - generic [ref=e977]:
+                            - generic [ref=e978]: TRCS_Entity
+                            - text: ● 
+                        - tab "TRC_Entity" [ref=e979] [cursor=pointer]:
+                          - generic [ref=e982]:
+                            - generic [ref=e983]: TRC_Entity
+                            - text: ● 
+                        - tab "GSP_Entity" [ref=e984] [cursor=pointer]:
+                          - generic [ref=e987]:
+                            - generic [ref=e988]: GSP_Entity
+                            - text: ● 
+                        - tab "WFP_Entity" [ref=e989] [cursor=pointer]:
+                          - generic [ref=e992]:
+                            - generic [ref=e993]: WFP_Entity
+                            - text: ● 
+                        - tab "CPX_Entity" [ref=e994] [cursor=pointer]:
+                          - generic [ref=e997]:
+                            - generic [ref=e998]: CPX_Entity
+                            - text: ● 
+                        - tab "IC_LE_Values" [ref=e999] [cursor=pointer]:
+                          - generic [ref=e1002]:
+                            - generic [ref=e1003]: IC_LE_Values
+                            - text: ● 
+                        - tab "Legal Entity - Statutory Account RVS" [ref=e1004] [cursor=pointer]:
+                          - generic [ref=e1007]:
+                            - generic [ref=e1008]: Legal Entity - Statutory Account RVS
+                            - text: ● 
+                        - tab "NOV_Legal_Entity_Ownership" [ref=e1009] [cursor=pointer]:
+                          - generic [ref=e1012]:
+                            - generic [ref=e1013]: NOV_Legal_Entity_Ownership
+                            - text: ● 
+                        - tab "Input_List" [ref=e1014] [cursor=pointer]:
+                          - generic [ref=e1017]:
+                            - generic [ref=e1018]: Input_List
+                            - text: ● 
+                      - button [ref=e1020] [cursor=pointer]:
+                        - generic [ref=e1021]: 
+                    - generic [ref=e1022]:
+                      - generic [ref=e1023]:
+                        - combobox "Select Viewpoint" [ref=e1026]
+                        - generic [ref=e1028] [cursor=pointer]: 
+                      - generic "Side by Side Layout" [ref=e1029]:
+                        - button "Side by Side Layout" [ref=e1030] [cursor=pointer]:
+                          - generic [ref=e1033]: 
+                  - text:       
+                  - generic [ref=e1034]:
+                    - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                    - generic [ref=e2311]:
+                      - generic [ref=e2313]:
+                        - generic [ref=e2314]:
+                          - generic "Editing Toolbar" [ref=e2315]:
+                            - generic "Search Input_EPM_Entity_Base" [ref=e2316]:
+                              - button "Search Input_EPM_Entity_Base" [ref=e2317] [cursor=pointer]:
+                                - generic [ref=e2320]: 
+                            - generic "Back Input_EPM_Entity_Base" [ref=e2321]:
+                              - button "Back Input_EPM_Entity_Base" [disabled] [ref=e2322]:
+                                - generic [ref=e2325]: 
+                            - generic "Forward Input_EPM_Entity_Base" [ref=e2326]:
+                              - button "Forward Input_EPM_Entity_Base" [disabled] [ref=e2327]:
+                                - generic [ref=e2330]: 
+                            - text: 
+                          - text: 
+                        - generic [ref=e2332]:
+                          - generic "Viewpoint Grid" [ref=e2333]:
+                            - application "Viewpoint Grid" [ref=e2335]:
+                              - rowgroup [ref=e2343]:
+                                - 'row "  New EPM Entity Name Alias: Default Currency" [ref=e2344]':
+                                  - columnheader "" [ref=e2345]:
+                                    - columnheader "" [ref=e2346]
+                                  - columnheader "" [ref=e2347]:
+                                    - columnheader "" [ref=e2348]
+                                  - columnheader "New EPM Entity Name" [ref=e2349]:
+                                    - generic [ref=e2351]: New EPM Entity Name
+                                  - columnheader [ref=e2352]
+                                  - 'columnheader "Alias: Default" [ref=e2355]':
+                                    - generic [ref=e2357]: "Alias: Default"
+                                  - columnheader "Currency" [ref=e2358]:
+                                    - generic [ref=e2360]: Currency
+                              - rowgroup [ref=e2361]:
+                                - row "E_0638EEA Node menu for node E_0638EEA 0638 - EE - Energy Equipment Admin USD" [ref=e2362]:
+                                  - cell [ref=e2363]
+                                  - cell [ref=e2364]
+                                  - cell "E_0638EEA" [ref=e2365]
+                                  - cell "Node menu for node E_0638EEA" [ref=e2366]:
+                                    - generic "Node menu for node E_0638EEA" [ref=e2367]:
+                                      - button "Node menu for node E_0638EEA" [ref=e2368] [cursor=pointer]:
+                                        - generic [ref=e2371]: 
+                                  - cell "0638 - EE - Energy Equipment Admin" [ref=e2372]
+                                  - cell "USD" [ref=e2373]
+                                - row "E_0536EEA 0536 - EE - Energy Equipment Admin USD" [ref=e2374]:
+                                  - cell [ref=e2375]
+                                  - cell [ref=e2376]
+                                  - cell "E_0536EEA" [ref=e2377]
+                                  - cell [ref=e2378]
+                                  - cell "0536 - EE - Energy Equipment Admin" [ref=e2379]
+                                  - cell "USD" [ref=e2380]
+                                - row "E_0536MC 0536 - EE - Marine and Construction USD" [ref=e2381]:
+                                  - cell [ref=e2382]
+                                  - cell [ref=e2383]
+                                  - cell "E_0536MC" [ref=e2384]
+                                  - cell [ref=e2385]
+                                  - cell "0536 - EE - Marine and Construction" [ref=e2386]
+                                  - cell "USD" [ref=e2387]
+                                - row "E_0521FM 0521 - EE - Fluid Motion Solution USD" [ref=e2388]:
+                                  - cell [ref=e2389]
+                                  - cell [ref=e2390]
+                                  - cell "E_0521FM" [ref=e2391]
+                                  - cell [ref=e2392]
+                                  - cell "0521 - EE - Fluid Motion Solution" [ref=e2393]
+                                  - cell "USD" [ref=e2394]
+                                - row "E_0521MC 0521 - EE - Marine and Construction USD" [ref=e2395]:
+                                  - cell [ref=e2396]
+                                  - cell [ref=e2397]
+                                  - cell "E_0521MC" [ref=e2398]
+                                  - cell [ref=e2399]
+                                  - cell "0521 - EE - Marine and Construction" [ref=e2400]
+                                  - cell "USD" [ref=e2401]
+                                - row "E_1060FG 1060 - EP - Fiberglass USD" [ref=e2402]:
+                                  - cell [ref=e2403]
+                                  - cell [ref=e2404]
+                                  - cell "E_1060FG" [ref=e2405]
+                                  - cell [ref=e2406]
+                                  - cell "1060 - EP - Fiberglass" [ref=e2407]
+                                  - cell "USD" [ref=e2408]
+                                - row "E_3077MC 3077 - EE - Marine and Construction QAR" [ref=e2409]:
+                                  - cell [ref=e2410]
+                                  - cell [ref=e2411]
+                                  - cell "E_3077MC" [ref=e2412]
+                                  - cell [ref=e2413]
+                                  - cell "3077 - EE - Marine and Construction" [ref=e2414]
+                                  - cell "QAR" [ref=e2415]
+                                - row "E_3069RT 3069 - EE - Rig Technology SAR" [ref=e2416]:
+                                  - cell [ref=e2417]
+                                  - cell [ref=e2418]
+                                  - cell "E_3069RT" [ref=e2419]
+                                  - cell [ref=e2420]
+                                  - cell "3069 - EE - Rig Technology" [ref=e2421]
+                                  - cell "SAR" [ref=e2422]
+                                - row "E_3080OT 3080 - OT - NOV Corporate USD" [ref=e2423]:
+                                  - cell [ref=e2424]
+                                  - cell [ref=e2425]
+                                  - cell "E_3080OT" [ref=e2426]
+                                  - cell [ref=e2427]
+                                  - cell "3080 - OT - NOV Corporate" [ref=e2428]
+                                  - cell "USD" [ref=e2429]
+                                - row "E_3004RW 3004 - EE - Renewables GBP" [ref=e2430]:
+                                  - cell [ref=e2431]
+                                  - cell [ref=e2432]
+                                  - cell "E_3004RW" [ref=e2433]
+                                  - cell [ref=e2434]
+                                  - cell "3004 - EE - Renewables" [ref=e2435]
+                                  - cell "GBP" [ref=e2436]
+                                - row "E_3072IS 3072 - EE - Intervention and Stimulation Equipment USD" [ref=e2437]:
+                                  - cell [ref=e2438]
+                                  - cell [ref=e2439]
+                                  - cell "E_3072IS" [ref=e2440]
+                                  - cell [ref=e2441]
+                                  - cell "3072 - EE - Intervention and Stimulation Equipment" [ref=e2442]
+                                  - cell "USD" [ref=e2443]
+                                - row "E_3073OT 3073 - OT - NOV Corporate USD" [ref=e2444]:
+                                  - cell [ref=e2445]
+                                  - cell [ref=e2446]
+                                  - cell "E_3073OT" [ref=e2447]
+                                  - cell [ref=e2448]
+                                  - cell "3073 - OT - NOV Corporate" [ref=e2449]
+                                  - cell "USD" [ref=e2450]
+                                - row "E_3073RT 3073 - EE - Rig Technology USD" [ref=e2451]:
+                                  - cell [ref=e2452]
+                                  - cell [ref=e2453]
+                                  - cell "E_3073RT" [ref=e2454]
+                                  - cell [ref=e2455]
+                                  - cell "3073 - EE - Rig Technology" [ref=e2456]
+                                  - cell "USD" [ref=e2457]
+                                - row "E_3074FG 3074 - EP - Fiberglass OMR" [ref=e2458]:
+                                  - cell [ref=e2459]
+                                  - cell [ref=e2460]
+                                  - cell "E_3074FG" [ref=e2461]
+                                  - cell [ref=e2462]
+                                  - cell "3074 - EP - Fiberglass" [ref=e2463]
+                                  - cell "OMR" [ref=e2464]
+                                - row "E_3074OT 3074 - OT - NOV Corporate OMR" [ref=e2465]:
+                                  - cell [ref=e2466]
+                                  - cell [ref=e2467]
+                                  - cell "E_3074OT" [ref=e2468]
+                                  - cell [ref=e2469]
+                                  - cell "3074 - OT - NOV Corporate" [ref=e2470]
+                                  - cell "OMR" [ref=e2471]
+                                - row "E_3069IS 3069 - EE - Intervention and Stimulation Equipment SAR" [ref=e2472]:
+                                  - cell [ref=e2473]
+                                  - cell [ref=e2474]
+                                  - cell "E_3069IS" [ref=e2475]
+                                  - cell [ref=e2476]
+                                  - cell "3069 - EE - Intervention and Stimulation Equipment" [ref=e2477]
+                                  - cell "SAR" [ref=e2478]
+                                - row "E_3069OT 3069 - OT - NOV Corporate SAR" [ref=e2479]:
+                                  - cell [ref=e2480]
+                                  - cell [ref=e2481]
+                                  - cell "E_3069OT" [ref=e2482]
+                                  - cell [ref=e2483]
+                                  - cell "3069 - OT - NOV Corporate" [ref=e2484]
+                                  - cell "SAR" [ref=e2485]
+                                - row "E_3070MC 3070 - EE - Marine and Construction SAR" [ref=e2486]:
+                                  - cell [ref=e2487]
+                                  - cell [ref=e2488]
+                                  - cell "E_3070MC" [ref=e2489]
+                                  - cell [ref=e2490]
+                                  - cell "3070 - EE - Marine and Construction" [ref=e2491]
+                                  - cell "SAR" [ref=e2492]
+                                - row "E_3070OT 3070 - OT - NOV Corporate SAR" [ref=e2493]:
+                                  - cell [ref=e2494]
+                                  - cell [ref=e2495]
+                                  - cell "E_3070OT" [ref=e2496]
+                                  - cell [ref=e2497]
+                                  - cell "3070 - OT - NOV Corporate" [ref=e2498]
+                                  - cell "SAR" [ref=e2499]
+                                - row "E_3070WS 3070 - EP - WellSite Services SAR" [ref=e2500]:
+                                  - cell [ref=e2501]
+                                  - cell [ref=e2502]
+                                  - cell "E_3070WS" [ref=e2503]
+                                  - cell [ref=e2504]
+                                  - cell "3070 - EP - WellSite Services" [ref=e2505]
+                                  - cell "SAR" [ref=e2506]
+                                - row "E_3071DI 3071 - EP - Downhole USD" [ref=e2507]:
+                                  - cell [ref=e2508]
+                                  - cell [ref=e2509]
+                                  - cell "E_3071DI" [ref=e2510]
+                                  - cell [ref=e2511]
+                                  - cell "3071 - EP - Downhole" [ref=e2512]
+                                  - cell "USD" [ref=e2513]
+                                - row "E_3071FG 3071 - EP - Fiberglass USD" [ref=e2514]:
+                                  - cell [ref=e2515]
+                                  - cell [ref=e2516]
+                                  - cell "E_3071FG" [ref=e2517]
+                                  - cell [ref=e2518]
+                                  - cell "3071 - EP - Fiberglass" [ref=e2519]
+                                  - cell "USD" [ref=e2520]
+                            - status [ref=e2521]
+                            - generic [ref=e2526]: Select Row
+                          - generic [ref=e2529]:
+                            - status [ref=e2530]: Page 1 content loaded
+                            - generic [ref=e2531]: viewPager_50b08f12-f44f-4241-9e68-328f3b2a1622Pagination
+                            - region "viewPager_50b08f12-f44f-4241-9e68-328f3b2a1622Pagination" [ref=e2532]:
+                              - generic [ref=e2533]:
+                                - generic [ref=e2534]:
+                                  - generic [ref=e2535]: Page
+                                  - generic "Go To Page" [ref=e2536]:
+                                    - textbox "Page" [ref=e2538]:
+                                      - /placeholder: ""
+                                      - text: "1"
+                                  - generic [ref=e2539]: of 122
+                                - generic [ref=e2540]:
+                                  - text: (
+                                  - generic [ref=e2541]: 1-22 of 2682 items
+                                  - text: )
+                                - generic [ref=e2542]:
+                                  - button "First Page" [disabled] [ref=e2543]:
+                                    - text: 
+                                    - generic [ref=e2544]: First Page
+                                  - button "Previous Page" [disabled] [ref=e2545]:
+                                    - text: 
+                                    - generic [ref=e2546]: Previous Page
+                                  - button "Next Page" [ref=e2547] [cursor=pointer]:
+                                    - text: 
+                                    - generic [ref=e2548]: Next Page
+                                  - button "Last Page" [ref=e2549] [cursor=pointer]:
+                                    - text: 
+                                    - generic [ref=e2550]: Last Page
+                      - generic "Hide Properties" [ref=e2552]:
+                        - button "Hide Properties" [ref=e2553] [cursor=pointer]:
+                          - generic [ref=e2556]: 
+                      - generic [ref=e2559]:
+                        - generic [ref=e2562]:
+                          - generic "E_0638EEA" [ref=e2563]
+                          - link "Input_EPM_Entity_Base" [ref=e2564] [cursor=pointer]:
+                            - /url: "#"
+                        - generic [ref=e2565]:
+                          - text: 
+                          - tablist [ref=e2568]:
+                            - tab "Properties 10" [selected] [ref=e2569]:
+                              - generic [ref=e2571]:
+                                - generic [ref=e2572]: Properties
+                                - generic [ref=e2573]: "10"
+                            - tab "Links" [ref=e2574] [cursor=pointer]:
+                              - generic [ref=e2575]: Links
+                            - tab "History" [ref=e2576] [cursor=pointer]:
+                              - generic [ref=e2577]: History
+                          - text: 
+                        - generic [ref=e2578]:
+                          - tabpanel [ref=e2579]:
+                            - generic [ref=e2580]:
+                              - generic [ref=e2581]:
+                                - generic [ref=e2582]:
+                                  - text:  
+                                  - generic "Search" [ref=e2583]:
+                                    - button "Search" [ref=e2584] [cursor=pointer]:
+                                      - generic [ref=e2585]:
+                                        - generic [ref=e2587]: 
+                                        - generic [ref=e2588]: Search
+                                - generic "Select Property Group" [ref=e2589]:
+                                  - combobox "Select Property Group" [ref=e2592]: All Properties
+                                  - generic [ref=e2594] [cursor=pointer]: 
+                              - generic [ref=e2596]:
+                                - generic [ref=e2597]:
+                                  - generic [ref=e2599]: Ledger Number
+                                  - generic "Show Property detail" [ref=e2600] [cursor=pointer]: 
+                                  - generic "0638" [ref=e2602]:
+                                    - textbox "Ledger Number" [ref=e2605]
+                                  - generic "Property 'Ledger Number' actions" [ref=e2607]:
+                                    - button "Property 'Ledger Number' actions" [ref=e2608] [cursor=pointer]:
+                                      - generic [ref=e2609]:
+                                        - generic [ref=e2610]: .
+                                        - generic [ref=e2611]: 
+                                - generic [ref=e2612]:
+                                  - generic [ref=e2614]: Business Unit
+                                  - generic "Show Property detail" [ref=e2615] [cursor=pointer]: 
+                                  - generic "EE - Energy Equipment Admin" [ref=e2617]:
+                                    - textbox "Business Unit" [ref=e2620]
+                                  - generic "Property 'Business Unit' actions" [ref=e2622]:
+                                    - button "Property 'Business Unit' actions" [ref=e2623] [cursor=pointer]:
+                                      - generic [ref=e2624]:
+                                        - generic [ref=e2625]: .
+                                        - generic [ref=e2626]: 
+                                - generic [ref=e2627]:
+                                  - generic [ref=e2629]: New EPM Entity Name
+                                  - generic "Show Property detail" [ref=e2630] [cursor=pointer]: 
+                                  - generic "E_0638EEA" [ref=e2632]:
+                                    - textbox "New EPM Entity Name" [ref=e2635]
+                                  - generic "Property 'New EPM Entity Name' actions" [ref=e2637]:
+                                    - button "Property 'New EPM Entity Name' actions" [ref=e2638] [cursor=pointer]:
+                                      - generic [ref=e2639]:
+                                        - generic [ref=e2640]: .
+                                        - generic [ref=e2641]: 
+                                - generic [ref=e2642]:
+                                  - generic [ref=e2644]: "Alias: Default"
+                                  - generic "Show Property detail" [ref=e2645] [cursor=pointer]: 
+                                  - generic "0638 - EE - Energy Equipment Admin" [ref=e2647]:
+                                    - 'textbox "Alias: Default" [ref=e2650]'
+                                  - 'generic "Property ''Alias: Default'' actions" [ref=e2652]':
+                                    - 'button "Property ''Alias: Default'' actions" [ref=e2653] [cursor=pointer]':
+                                      - generic [ref=e2654]:
+                                        - generic [ref=e2655]: .
+                                        - generic [ref=e2656]: 
+                                - generic [ref=e2657]:
+                                  - generic [ref=e2659]: Currency
+                                  - generic "Show Property detail" [ref=e2660] [cursor=pointer]: 
+                                  - generic "USD" [ref=e2662]:
+                                    - textbox "Currency" [ref=e2665]
+                                  - generic "Property 'Currency' actions" [ref=e2667]:
+                                    - button "Property 'Currency' actions" [ref=e2668] [cursor=pointer]:
+                                      - generic [ref=e2669]:
+                                        - generic [ref=e2670]: .
+                                        - generic [ref=e2671]: 
+                                - generic [ref=e2672]:
+                                  - generic [ref=e2674]: Tax Jurisdiction
+                                  - generic "Show Property detail" [ref=e2675] [cursor=pointer]: 
+                                  - textbox "Tax Jurisdiction" [ref=e2680]
+                                  - generic "Property 'Tax Jurisdiction' actions" [ref=e2682]:
+                                    - button "Property 'Tax Jurisdiction' actions" [ref=e2683] [cursor=pointer]:
+                                      - generic [ref=e2684]:
+                                        - generic [ref=e2685]: .
+                                        - generic [ref=e2686]: 
+                                - generic [ref=e2687]:
+                                  - generic [ref=e2689]: Tax Parent Entity
+                                  - generic "Show Property detail" [ref=e2690] [cursor=pointer]: 
+                                  - textbox "Tax Parent Entity" [ref=e2695]
+                                  - generic "Property 'Tax Parent Entity' actions" [ref=e2697]:
+                                    - button "Property 'Tax Parent Entity' actions" [ref=e2698] [cursor=pointer]:
+                                      - generic [ref=e2699]:
+                                        - generic [ref=e2700]: .
+                                        - generic [ref=e2701]: 
+                                - generic [ref=e2702]:
+                                  - generic [ref=e2704]: Last Modified By
+                                  - generic "Show Property detail" [ref=e2705] [cursor=pointer]: 
+                                  - generic "Russell.Shellhamer@nov.com" [ref=e2707]:
+                                    - textbox "Last Modified By" [ref=e2710]
+                                  - generic "Property 'Last Modified By' actions" [ref=e2712]:
+                                    - button "Property 'Last Modified By' actions" [ref=e2713] [cursor=pointer]:
+                                      - generic [ref=e2714]:
+                                        - generic [ref=e2715]: .
+                                        - generic [ref=e2716]: 
+                                - generic [ref=e2717]:
+                                  - generic [ref=e2719]: EPM Entity Parent
+                                  - generic "Show Property detail" [ref=e2720] [cursor=pointer]: 
+                                  - generic "E_EEA" [ref=e2722]:
+                                    - textbox "EPM Entity Parent" [ref=e2725]
+                                  - generic "Property 'EPM Entity Parent' actions" [ref=e2727]:
+                                    - button "Property 'EPM Entity Parent' actions" [ref=e2728] [cursor=pointer]:
+                                      - generic [ref=e2729]:
+                                        - generic [ref=e2730]: .
+                                        - generic [ref=e2731]: 
+                                - generic [ref=e2732]:
+                                  - generic [ref=e2734]: Last Modified Date
+                                  - generic "Show Property detail" [ref=e2735] [cursor=pointer]: 
+                                  - generic "6/27/2026, 5:54 PM" [ref=e2737]:
+                                    - textbox "Last Modified Date" [ref=e2740]
+                                  - generic "Property 'Last Modified Date' actions" [ref=e2742]:
+                                    - button "Property 'Last Modified Date' actions" [ref=e2743] [cursor=pointer]:
+                                      - generic [ref=e2744]:
+                                        - generic [ref=e2745]: .
+                                        - generic [ref=e2746]: 
+                              - generic: 
+                              - generic: 
+                          - text:    
+                - text: 
+              - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+          - text:    * * * *     *  *  *
+  - log [ref=e2747]:
+    - generic [ref=e2748]: Pop-up opened. Press F6 to navigate between the pop-up and associated control.

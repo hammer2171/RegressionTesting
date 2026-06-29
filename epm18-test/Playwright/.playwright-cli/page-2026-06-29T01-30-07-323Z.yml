@@ -1,0 +1,31 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img [ref=e6]
+    - generic [ref=e7]: Cloud Infrastructure
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - img "Company Logo for a706571" [ref=e14]
+      - generic [ref=e16]:
+        - heading "a706571" [level=1] [ref=e18]
+        - heading "Oracle Cloud Account Sign In" [level=2] [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - text: Identity domain
+            - button "What is an identity domain?" [ref=e23] [cursor=pointer]:
+              - img "What is an identity domain?" [ref=e24]
+          - generic [ref=e25]: Default
+    - main [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e34]:
+          - separator [ref=e36]
+          - heading "Or sign in with" [level=2] [ref=e38]
+          - separator [ref=e40]
+        - link "Need help signing in?" [ref=e43] [cursor=pointer]:
+          - /url: https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signinginIdentityDomain.htm
+  - contentinfo [ref=e44]:
+    - generic [ref=e45]:
+      - link "Terms of Use" [ref=e46] [cursor=pointer]:
+        - /url: https://www.oracle.com/legal/terms.html
+      - link "Privacy" [ref=e47] [cursor=pointer]:
+        - /url: https://www.oracle.com/us/legal/privacy/overview/index.html
+    - paragraph [ref=e48]: Copyright © 2016, 2026, Oracle and/or its affiliates. All rights reserved.

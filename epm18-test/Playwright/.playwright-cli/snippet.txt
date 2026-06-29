@@ -1,0 +1,29 @@
+playwright-cli -s=epm-edge open --browser=msedge --headed
+playwright-cli -s=epm-edge state-load playwright/.auth/user.epm18_test.json
+playwright-cli -s=epm-edge goto https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/
+playwright-cli --raw -s=epm-edge run-code "async page => { await page.waitForLoadState('networkidle'); await page.getByRole('link', { name: 'Views' }).waitFor({ state: 'visible' }); return await page.locator('body').innerText(); }" | Out-File .\run-code-result.txtplaywright-cli -s=epm-edge run-code "async page => { await page.waitForLoadState('networkidle'); await page.waitForTimeout(5000); }"
+playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('link', { name: 'Views' }).click(); }"; 
+playwright-cli -s=epm-edge run-code "async page => {await expect(page.getByRole('application', { name: 'Views List' })).toBeVisible();}"
+playwright-cli -s=epm-edge snapshot
+
+
+ playwright-cli -s=epm-edge state-load playwright/.auth/user.epm18_test.json
+ playwright-cli -s=epm-edge goto https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/
+ playwright-cli -s=epm-edge run-code "async page => { await page.waitForLoadState('networkidle'); await page.getByRole('link', { name: 'Views' }).waitFor({ state: 'visible' }); }"; 
+ playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('link', { name: 'Views' }).click(); }"; 
+ playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('application', { name: 'Views List' }).waitFor({ state: 'visible' }); }"; 
+ playwright-cli -s=epm-edge snapshot --filename=.playwright-cli/views-list-explicit.yml; 
+ playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('link', { name: 'A_Entry_Entity' }).click(); }"; 
+ playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('application', { name: 'Viewpoint Hierarchy' }).waitFor({ state: 'visible' }); }"; 
+ playwright-cli -s=epm-edge snapshot --filename=.playwright-cli/viewpoint-hierarchy-explicit.yml
+ playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('tab', { name: 'Input_EPM_Entity_Base' }).click(); }"; 
+ playwright-cli -s=epm-edge run-code "async page => { await page.getByRole('application', { name: 'Viewpoint Grid' }).waitFor({ state: 'visible' }); }"; 
+ playwright-cli -s=epm-edge snapshot --filename=.playwright-cli/input_epm_entity-base-explicit.yml
+ playwright-cli click -s=epm-edge "getByRole('button', { name: 'New Request' })"
+ playwright-cli -s=epm-edge click getByRole('button', { name: 'Add Node' })"
+ playwright-cli -s=epm-edge click getByRole('menuitem', { name: 'Add New' })"
+ playwright-cli -s=epm-edge click getByRole('textbox', { name: 'Ledger Number' })"
+ playwright-cli -s=epm-edge click getByRole('textbox', { name: 'Search for a node' })"
+ playwright-cli -s=epm-edge click getByRole('textbox', { name: 'Search for a node' })"
+  playwright-cli-s=epm-edge fill('0536') getByRole('textbox', { name: 'Search for a node' });"
+ playwright-cli -s=epm-edge getByRole('row', { name: '0536 (NOV Products Middle' }))"

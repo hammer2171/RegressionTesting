@@ -10,7 +10,7 @@ dotenv.config({ path: resolveEnvFilePath() });
 const EPM_BASE_URL =
   process.env.EPM_BASE_URL ??
   POD_SETTINGS?.podUrl ??
-  'https://epm18-test-a706571.epm.us2.oraclecloud.com/epmcloud';
+  'https://epm18-test-a706571.epm.us2.oraclecloud.com/epm/';
 
 const STORAGE_STATE_PATH = resolveStorageStatePath();
 const PW_SLOWMO = Number(process.env.PW_SLOWMO ?? 0);

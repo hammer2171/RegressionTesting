@@ -2,6 +2,10 @@ import { expect, type Page } from '@playwright/test';
 
 export class Epm18testMainHomePage {
   constructor(private readonly page: Page) {}
+
+    async open(): Promise<void> {
+        await this.page.goto('/epm');
+    }
   
     async epm18testtilesopen(tilename: string): Promise<void> {
     const tile = this.page.getByRole('link', { name: tilename, exact: true });

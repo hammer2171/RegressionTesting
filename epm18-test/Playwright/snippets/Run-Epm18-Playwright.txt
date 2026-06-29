@@ -232,6 +232,20 @@ $env:PW_SLOWMO='0'
 npx playwright test --headed tests/oracle-epm-0057_delete_map_1entry.cleaned.spec.ts
 
 
+Playback test playwright-cli\
+
+playwright-cli -s=Regressiontest1
+$env:ENV_FILE=".env.epm18_test"
+$env:PW_SLOWMO='0'
+npx playwright test tests/Request_New_base_member_entity_RegressionTest1.spec.ts --debug=cli
+# run the test and see if it works, if not suggest commands to make it work in Regressiontest1
+
+# Attach to the test
+playwright-cli attach Regressiontest1
+playwright-cli -s=Regressiontest1 close
+
+
+
 $env:ENV_FILE=".env.epm18_test"
 $env:PW_SLOWMO='0'
 npx playwright test --headed tests/oracle-epm-0057_delete_all_maps.spec.ts

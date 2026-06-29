@@ -1,0 +1,821 @@
+- generic [ref=e3]:
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - img "Bing Wallpaper" [ref=e10]
+      - link "BannerHeadlineAndLead" [ref=e11] [cursor=pointer]:
+        - /url: https://go.microsoft.com/fwlink/?linkid=2137506&pc=W090&ocid=MY02RB
+        - paragraph [ref=e12]: Get beautiful Bing Wallpaper on your desktop
+        - text: Explore the world with a new background each day
+    - generic [ref=e13]:
+      - button "DismissBanner" [ref=e14] [cursor=pointer]: No, thanks
+      - button "ActionButton1" [ref=e15] [cursor=pointer]: Go now
+  - banner [ref=e18]:
+    - generic [ref=e19]:
+      - generic "Skip to content" [ref=e20] [cursor=pointer]:
+        - button "Skip to content" [ref=e21]:
+          - generic:
+            - generic: Skip to content
+      - generic "Skip to footer" [ref=e22] [cursor=pointer]:
+        - button "Skip to footer" [ref=e23]:
+          - generic:
+            - generic: Skip to footer
+      - link "MSN" [ref=e26] [cursor=pointer]:
+        - /url: https://www.msn.com/
+      - search [ref=e30]:
+        - generic [ref=e31]:
+          - generic "Web search" [ref=e32] [cursor=pointer]:
+            - button "Web search" [ref=e33]:
+              - generic:
+                - generic:
+                  - img
+          - searchbox "Enter your search term" [ref=e34]
+          - generic "Open Copilot" [ref=e38] [cursor=pointer]:
+            - button "Open Copilot" [ref=e39]:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Open Copilot"
+      - generic [ref=e40]:
+        - 'link "Tomball: Sunny, 89 °F" [ref=e43] [cursor=pointer]':
+          - /url: https://www.msn.com/en-us/weather/forecast/in-Tomball,TX
+          - generic "Tomball, TX Click here to see more information" [ref=e44]: Tomball
+          - img "Sunny" [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]: ‎89‎
+            - generic [ref=e50]: ‎°F‎
+        - generic "Open settings" [ref=e54] [cursor=pointer]:
+          - button "Open settings" [ref=e55]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Page settings
+                  - generic:
+                    - img
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e62]:
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "Outlook.com" [ref=e69] [cursor=pointer]:
+              - /url: https://outlook.com
+              - generic [ref=e73]: Outlook.com
+          - listitem [ref=e74]:
+            - link "Booking.com" [ref=e77] [cursor=pointer]:
+              - /url: https://www.booking.com/index.html?aid=1624937&label=enus-msn-mestripe
+              - generic [ref=e80]:
+                - generic [ref=e81]: Booking.com
+                - generic [ref=e83]: ad
+          - listitem [ref=e84]:
+            - link "Walmart" [ref=e87] [cursor=pointer]:
+              - /url: https://sovrn.co/lg9kzxy
+              - generic [ref=e90]:
+                - generic [ref=e91]: Walmart
+                - generic [ref=e93]: ad
+          - listitem [ref=e94]:
+            - link "eBay" [ref=e97] [cursor=pointer]:
+              - /url: https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338586067&toolid=10001&mkevt=1&customid=enus-prime-hp-mestripe
+              - generic [ref=e100]:
+                - generic [ref=e101]: eBay
+                - generic [ref=e103]: ad
+          - listitem [ref=e104]:
+            - link "Facebook" [ref=e107] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - generic [ref=e111]: Facebook
+          - listitem [ref=e112]:
+            - link "Rewards" [ref=e115] [cursor=pointer]:
+              - /url: https://www.bing.com/rewards/dashboard
+              - generic [ref=e119]: Rewards
+          - listitem [ref=e120]:
+            - link "Microsoft 365" [ref=e123] [cursor=pointer]:
+              - /url: https://www.office.com/?omkt=en-US
+              - generic [ref=e127]: Microsoft 365
+          - listitem [ref=e128]:
+            - link "Disney+" [ref=e131] [cursor=pointer]:
+              - /url: https://disneyplus.bn5x.net/c/2022797/707629/9358?subId1=ENUS&amp;subId2=prime-hp-mestripe&amp;sharedid=enus-prime-hp-mestripe
+              - generic [ref=e134]:
+                - generic [ref=e135]: Disney+
+                - generic [ref=e137]: ad
+          - listitem [ref=e138]:
+            - link "OneDrive" [ref=e141] [cursor=pointer]:
+              - /url: https://onedrive.live.com/?wt.mc_id=oo_msn_msnhomepage_header
+              - generic [ref=e145]: OneDrive
+          - listitem [ref=e146]:
+            - link "OneNote" [ref=e149] [cursor=pointer]:
+              - /url: https://www.onenote.com/notebooks?WT.mc_id=MSN_OneNote_TopMenu&auth=1&wdorigin=msn
+              - generic [ref=e153]: OneNote
+          - listitem [ref=e154]:
+            - link "X" [ref=e157] [cursor=pointer]:
+              - /url: https://x.com
+              - generic [ref=e161]: X
+        - button [ref=e162]:
+          - img [ref=e165]
+      - generic [ref=e167]:
+        - banner [ref=e168]
+        - generic [ref=e173]:
+          - navigation [ref=e175]:
+            - generic [ref=e176]:
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - link "Discover" [ref=e179] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us
+              - list [ref=e180]:
+                - listitem [ref=e181]:
+                  - link "News" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/channel/topic/Top%20Stories/tp-Y_46b78bbb-31c4-4fc5-8a4a-858072348d06
+                - listitem [ref=e183]:
+                  - link "World Cup" [ref=e184] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/sports/moments/league/ka-mit?serviceName=contentRetrieverService&query=FIFA%20World%20Cup%202026
+                - listitem [ref=e185]:
+                  - link "Sports" [ref=e186] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/sports
+                - listitem [ref=e187]:
+                  - link "Play" [ref=e188] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/play?cgfrom=cg_home_pivot
+                - listitem [ref=e189]:
+                  - link "Money" [ref=e190] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/money
+                - listitem [ref=e191]:
+                  - link "Weather" [ref=e192] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/weather
+                - listitem [ref=e193]:
+                  - link "Watch" [ref=e194] [cursor=pointer]:
+                    - /url: https://www.msn.com/en-us/video
+                - listitem [ref=e195]:
+                  - link "Shopping" [ref=e196] [cursor=pointer]:
+                    - /url: https://www.bing.com/shop?entrypoint=msn&adunitId=378983&propertyId=316966&FORM=NVBSHP
+          - generic "Personalize your feed\"" [ref=e198] [cursor=pointer]:
+            - button "Personalize your feed\"" [ref=e199]:
+              - generic:
+                - generic:
+                  - img
+              - generic:
+                - generic: Personalize
+      - main [ref=e202]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e208]:
+              - tablist [ref=e210]:
+                - tab [selected] [ref=e211] [cursor=pointer]
+                - tab [ref=e213] [cursor=pointer]
+                - tab [ref=e215] [cursor=pointer]
+                - tab [ref=e217] [cursor=pointer]
+                - tab [ref=e219] [cursor=pointer]
+                - tab [ref=e221] [cursor=pointer]
+                - tab [ref=e223] [cursor=pointer]
+                - tab [ref=e225] [cursor=pointer]
+                - tab [ref=e227] [cursor=pointer]
+                - tab [ref=e229] [cursor=pointer]
+                - tab [ref=e231] [cursor=pointer]
+                - tab [ref=e233] [cursor=pointer]
+                - tab [ref=e235] [cursor=pointer]
+                - tab [ref=e237] [cursor=pointer]
+                - tab [ref=e239] [cursor=pointer]
+                - tab [ref=e241] [cursor=pointer]
+                - tab [ref=e243] [cursor=pointer]
+                - tab [ref=e245] [cursor=pointer]
+                - tab [ref=e247] [cursor=pointer]
+                - tab [ref=e249] [cursor=pointer]
+                - tab [ref=e251] [cursor=pointer]
+                - tab [ref=e253] [cursor=pointer]
+                - tab [ref=e255] [cursor=pointer]
+                - tab [ref=e257] [cursor=pointer]
+                - tab [ref=e259] [cursor=pointer]
+                - tab [ref=e261] [cursor=pointer]
+                - tab [ref=e263] [cursor=pointer]
+                - tab [ref=e265] [cursor=pointer]
+                - tab [ref=e267] [cursor=pointer]
+                - tab [ref=e269] [cursor=pointer]
+                - tab [ref=e271] [cursor=pointer]
+              - button [ref=e275]
+              - button [ref=e278]
+              - article "7 rumors about Trump falling asleep, examined" [ref=e279] [cursor=pointer]:
+                - generic [ref=e281]:
+                  - img [ref=e282]
+                  - generic [ref=e283]:
+                    - generic [ref=e284]:
+                      - generic [ref=e285]:
+                        - generic [ref=e286]:
+                          - img [ref=e287]
+                          - generic [ref=e288]: Snopes
+                        - generic [ref=e289]: ·
+                        - generic [ref=e290]: 6h
+                      - link "7 rumors about Trump falling asleep, examined, Snopes" [ref=e291]:
+                        - /url: https://www.msn.com/en-us/news/politics/7-rumors-about-trump-falling-asleep-examined/ss-AA26K7vd
+                        - text: 7 rumors about Trump falling asleep, examined
+                    - generic "7 rumors about Trump falling asleep, examined" [ref=e294]:
+                      - generic [ref=e296]:
+                        - generic [ref=e297]:
+                          - button "282 Like" [ref=e298]:
+                            - generic [ref=e299]:
+                              - img [ref=e300]
+                              - generic [ref=e302]: "282"
+                          - button "Dislike" [ref=e303]:
+                            - img [ref=e305]
+                        - link "View comments 69 Comment" [ref=e308]:
+                          - /url: https://www.msn.com/en-us/news/politics/7-rumors-about-trump-falling-asleep-examined/ss-AA26K7vd#comments
+                          - button "View comments 69 Comment" [ref=e309]:
+                            - img [ref=e310]
+                          - generic [ref=e312]: "69"
+                  - generic [ref=e313]:
+                    - button "Hide this story" [ref=e314]:
+                      - img [ref=e315]
+                      - text: Hide this story
+                    - button "See more" [ref=e316]:
+                      - img [ref=e317]
+            - article "US homeland security secretary tells migrants to seek permanent status or leave" [ref=e318] [cursor=pointer]:
+              - generic [ref=e320]:
+                - img [ref=e321]
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - generic [ref=e324]:
+                      - generic [ref=e325]:
+                        - img [ref=e326]
+                        - generic [ref=e327]: The Guardian
+                      - generic [ref=e328]: ·
+                      - generic [ref=e329]: 5h
+                    - link "US homeland security secretary tells migrants to seek permanent status or leave, The Guardian" [ref=e330]:
+                      - /url: https://www.msn.com/en-us/news/us/us-homeland-security-secretary-tells-migrants-to-seek-permanent-status-or-leave/ar-AA26Kk9T
+                      - text: US homeland security secretary tells migrants to seek permanent status or leave
+                  - generic "US homeland security secretary tells migrants to seek permanent status or leave" [ref=e333]:
+                    - generic [ref=e335]:
+                      - generic [ref=e336]:
+                        - button "496 Like" [ref=e337]:
+                          - generic [ref=e338]:
+                            - img [ref=e339]
+                            - generic [ref=e341]: "496"
+                        - button "Dislike" [ref=e342]:
+                          - img [ref=e344]
+                      - link "Comments turned off for this story" [ref=e347]:
+                        - /url: https://www.msn.com/en-us/news/us/us-homeland-security-secretary-tells-migrants-to-seek-permanent-status-or-leave/ar-AA26Kk9T
+                        - button "Comments turned off for this story" [ref=e348]:
+                          - img [ref=e349]
+                - generic [ref=e351]:
+                  - button "Hide this story" [ref=e352]:
+                    - img [ref=e353]
+                    - text: Hide this story
+                  - button "See more" [ref=e354]:
+                    - img [ref=e355]
+            - article [ref=e356] [cursor=pointer]:
+              - generic [ref=e360]:
+                - generic: Sponsored
+            - article [ref=e361] [cursor=pointer]:
+              - generic [ref=e366]:
+                - generic [ref=e368]:
+                  - link "Top stories" [ref=e370]:
+                    - /url: https://www.msn.com/en-us/channel/topic/Top%20Stories/tp-Y_46b78bbb-31c4-4fc5-8a4a-858072348d06?cvid=6a41bd42088f4092815e2cb2408ff9c0&ocid=hpmsn
+                    - heading "Top stories" [level=2] [ref=e371]
+                  - button "More options" [ref=e373]
+                - list [ref=e376]:
+                  - listitem "US and Iran agree to stop fight over the Strait of Hormuz" [ref=e377]:
+                    - generic [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - generic [ref=e381]:
+                          - generic: The Wall Street Journal ·53m
+                      - generic [ref=e382]: US and Iran agree to stop fight over the Strait of Hormuz
+                  - 'listitem "''What a loser'': Biden blasts Trump''s Reflecting Pool, arch construction" [ref=e383]':
+                    - generic [ref=e384]:
+                      - generic [ref=e385]:
+                        - img [ref=e386]
+                        - generic [ref=e387]:
+                          - generic: USA TODAY ·3h
+                      - generic [ref=e388]: "'What a loser': Biden blasts Trump's Reflecting Pool, arch construction"
+                  - listitem "Venezuelans search for a future as well as survivors after twin quakes pile disaster on years of crisis" [ref=e389]:
+                    - generic [ref=e390]:
+                      - generic [ref=e391]:
+                        - img [ref=e392]
+                        - generic [ref=e393]:
+                          - generic: CNN ·8h
+                      - generic [ref=e394]: Venezuelans search for a future as well as survivors after twin quakes pile disaster on years of crisis
+                - generic [ref=e396]:
+                  - generic [ref=e397]:
+                    - generic "Previous" [ref=e398]:
+                      - button "Previous" [ref=e399]
+                    - tablist [ref=e401]:
+                      - tab "tab-0" [selected] [ref=e402]
+                      - tab "tab-1" [ref=e404]
+                      - tab "tab-2" [ref=e406]
+                    - generic "Next" [ref=e408]:
+                      - button "Next" [ref=e409]
+                  - link "See more" [ref=e411]:
+                    - /url: https://www.msn.com/en-us/channel/topic/Top%20Stories/tp-Y_46b78bbb-31c4-4fc5-8a4a-858072348d06?cvid=6a41bd42088f4092815e2cb2408ff9c0&ocid=hpmsn
+            - article "Hp Driver Updater - Update your Hp drivers - Automatic update" [ref=e412] [cursor=pointer]:
+              - generic [ref=e414]:
+                - img [ref=e415]
+                - generic [ref=e416]:
+                  - generic [ref=e417]:
+                    - generic [ref=e420]: PC Helpsoft
+                    - link "Hp Driver Updater - Update your Hp drivers - Automatic update, PC Helpsoft" [ref=e421]:
+                      - /url: https://www.bing.com/api/v1/mediation/tracking?adUnit=1732768568&auId=092b64eb-bab5-4119-ad8c-7ef19eb48307&bdc=oa&bidId=1&bidderId=4&cmExpId=RSV&impId=8&impTy=1&ldc=rhf2nczr&mkt=en-us&oAdUnit=1732768568&pId=1&publisherId=17160724&rId=71a3bb92-383f-4a95-bf34-06c8f263abff&region=na&rlink=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De88u6hkxP-b78n2VpdD1Z4XTVUCUxHMPTouZaVOFkz0t4kWgzxG_KZ0zLqIRtxyhzgwzjBbn3xxsHDAt4UaGce4x_bt89bl7G-I8ujRN7c5OEWW8-0KeyOr6yojQFTnlUi91C8-OaVf9OETHWpXXiaDzNmRVpA-LJd85A0A_Pf5zMZFkzg2l9u-tbL_mFc9nFZtPLViedz1ztPT3UzjmuVbRBVcqQ%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGNoZWxwc29mdC5jb20lMmZlbiUyZmxwJTJmZHJpdmVyLXVwZGF0ZXIlMmZMUDE5JTJmJTNma2V5d29yZCUzZEhwJTI2YnJhbmQlM2RIUCUyNmRldmljZSUzZCUyNm1rZXkxJTNkUEhfRVNDX1VTX1BQX0JJX1NFX0RVJTI2dWlkJTNkMTAyMDQ2NSUyNnNyYyUzZEJJTkclMjZjbXAlM2QzOTIzMTIwMzMlMjZrZXkxJTNkMTI0MTM0ODgzOTg0MDExMSUyNmtleWIlM2RlXzEyMyUyNTIwaHAlMjUyMGNvbSUyNmFkaWQlM2Q3NzU4NDQxNzkyNjI2NCUyNm1zY2xraWQlM2Q3YjRmMTEzOTY3MzYxZDkxZTBkNDdiNzhkYTc1ZTdhYiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFBIX0VTQ19VU19QUF9CSV9TRV9EVSUyNnV0bV90ZXJtJTNkMTIzJTI1MjBocCUyNTIwY29tJTI2dXRtX2NvbnRlbnQlM2RfX0RSSVZFUl9GQUJfSFA%26rlid%3D7b4f113967361d91e0d47b78da75e7ab&rtype=targetURL&tagId=hp2-river-1&trafficGroup=zfa_angvir&trafficSubGroup=erfreir&uberGroup=hore_1c&uberSubGroup=erfreir
+                      - text: Hp Driver Updater - Update your Hp drivers - Automatic update
+                  - link "Sponsored" [ref=e423]:
+                    - /url: https://www.bing.com/api/v1/mediation/tracking?adUnit=1732768568&auId=092b64eb-bab5-4119-ad8c-7ef19eb48307&bdc=oa&bidId=1&bidderId=4&cmExpId=RSV&impId=8&impTy=1&ldc=rhf2nczr&mkt=en-us&oAdUnit=1732768568&pId=1&publisherId=17160724&rId=71a3bb92-383f-4a95-bf34-06c8f263abff&region=na&rlink=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De88u6hkxP-b78n2VpdD1Z4XTVUCUxHMPTouZaVOFkz0t4kWgzxG_KZ0zLqIRtxyhzgwzjBbn3xxsHDAt4UaGce4x_bt89bl7G-I8ujRN7c5OEWW8-0KeyOr6yojQFTnlUi91C8-OaVf9OETHWpXXiaDzNmRVpA-LJd85A0A_Pf5zMZFkzg2l9u-tbL_mFc9nFZtPLViedz1ztPT3UzjmuVbRBVcqQ%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cucGNoZWxwc29mdC5jb20lMmZlbiUyZmxwJTJmZHJpdmVyLXVwZGF0ZXIlMmZMUDE5JTJmJTNma2V5d29yZCUzZEhwJTI2YnJhbmQlM2RIUCUyNmRldmljZSUzZCUyNm1rZXkxJTNkUEhfRVNDX1VTX1BQX0JJX1NFX0RVJTI2dWlkJTNkMTAyMDQ2NSUyNnNyYyUzZEJJTkclMjZjbXAlM2QzOTIzMTIwMzMlMjZrZXkxJTNkMTI0MTM0ODgzOTg0MDExMSUyNmtleWIlM2RlXzEyMyUyNTIwaHAlMjUyMGNvbSUyNmFkaWQlM2Q3NzU4NDQxNzkyNjI2NCUyNm1zY2xraWQlM2Q3YjRmMTEzOTY3MzYxZDkxZTBkNDdiNzhkYTc1ZTdhYiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZFBIX0VTQ19VU19QUF9CSV9TRV9EVSUyNnV0bV90ZXJtJTNkMTIzJTI1MjBocCUyNTIwY29tJTI2dXRtX2NvbnRlbnQlM2RfX0RSSVZFUl9GQUJfSFA%26rlid%3D7b4f113967361d91e0d47b78da75e7ab&rtype=targetURL&tagId=hp2-river-1&trafficGroup=zfa_angvir&trafficSubGroup=erfreir&uberGroup=hore_1c&uberSubGroup=erfreir
+                - button "See more" [ref=e425]:
+                  - img [ref=e426]
+            - article "Who's coming to Houston Stadium for the July 4 matchup? We now know one of the teams" [ref=e427] [cursor=pointer]:
+              - generic [ref=e429]:
+                - img [ref=e430]
+                - generic [ref=e431]:
+                  - generic [ref=e432]:
+                    - generic [ref=e433]:
+                      - generic [ref=e434]:
+                        - img [ref=e435]
+                        - generic [ref=e436]: KHOU-TV Houston
+                      - generic [ref=e437]: ·
+                      - generic [ref=e438]: 1h
+                    - link "Who's coming to Houston Stadium for the July 4 matchup? We now know one of the teams, KHOU-TV Houston" [ref=e439]:
+                      - /url: https://www.msn.com/en-us/sports/soccer/who-s-coming-to-houston-stadium-for-the-july-4-matchup-we-now-know-one-of-the-teams/ar-AA26KWPH
+                      - text: Who's coming to Houston Stadium for the July 4 matchup? We now know one of the teams
+                  - generic [ref=e440]:
+                    - generic "Who's coming to Houston Stadium for the July 4 matchup? We now know one of the teams" [ref=e442]:
+                      - generic [ref=e444]:
+                        - generic [ref=e445]:
+                          - button "Like" [ref=e446]:
+                            - img [ref=e448]
+                          - button "Dislike" [ref=e450]:
+                            - img [ref=e452]
+                        - link "Start the conversation" [ref=e455]:
+                          - /url: https://www.msn.com/en-us/sports/soccer/who-s-coming-to-houston-stadium-for-the-july-4-matchup-we-now-know-one-of-the-teams/ar-AA26KWPH#comments
+                          - button "Start the conversation" [ref=e456]:
+                            - img [ref=e457]
+                    - button "This is local content" [ref=e459]:
+                      - img [ref=e460]
+                      - generic [ref=e461]: Local
+                - generic [ref=e462]:
+                  - button "Hide this story" [ref=e463]:
+                    - img [ref=e464]
+                    - text: Hide this story
+                  - button "See more" [ref=e465]:
+                    - img [ref=e466]
+            - article "Watch what happens when a chimpanzee snaps – even lions back off" [ref=e467] [cursor=pointer]:
+              - generic [ref=e469]:
+                - generic [ref=e473]:
+                  - generic [ref=e474]:
+                    - generic [ref=e475]:
+                      - generic [ref=e476]:
+                        - img [ref=e477]
+                        - generic [ref=e478]: Real Science
+                      - generic [ref=e479]: ·
+                      - generic [ref=e480]: 2w
+                    - link "Watch what happens when a chimpanzee snaps – even lions back off, Real Science" [ref=e481]:
+                      - /url: https://www.msn.com/en-us/video/animals/watch-what-happens-when-a-chimpanzee-snaps-even-lions-back-off/vi-AA22GQVg
+                      - text: Watch what happens when a chimpanzee snaps – even lions back off
+                  - generic "Watch what happens when a chimpanzee snaps – even lions back off" [ref=e484]:
+                    - generic [ref=e486]:
+                      - generic [ref=e487]:
+                        - button "2k Like" [ref=e488]:
+                          - generic [ref=e489]:
+                            - img [ref=e490]
+                            - generic [ref=e492]: 2k
+                        - button "Dislike" [ref=e493]:
+                          - img [ref=e495]
+                      - link "View comments 89 Comment" [ref=e498]:
+                        - /url: https://www.msn.com/en-us/video/animals/watch-what-happens-when-a-chimpanzee-snaps-even-lions-back-off/vi-AA22GQVg#comments
+                        - button "View comments 89 Comment" [ref=e499]:
+                          - img [ref=e500]
+                        - generic [ref=e502]: "89"
+                - generic [ref=e503]:
+                  - button "Hide this story" [ref=e504]:
+                    - img [ref=e505]
+                    - text: Hide this story
+                  - button "See more" [ref=e506]:
+                    - img [ref=e507]
+            - article "Easy Project Management - Jira™ Official Site - AI Automates Mundane Tasks" [ref=e508] [cursor=pointer]:
+              - generic [ref=e510]:
+                - img [ref=e511]
+                - generic [ref=e512]:
+                  - generic [ref=e513]:
+                    - generic [ref=e516]: Atlassian
+                    - link "Easy Project Management - Jira™ Official Site - AI Automates Mundane Tasks, Atlassian" [ref=e517]:
+                      - /url: https://www.bing.com/api/v1/mediation/tracking?adUnit=1732768568&auId=7ed6dd83-19d0-4fc8-9c3a-4ea0e425dd6e&bdc=oa&bidId=2&bidderId=4&cmExpId=RSV&impId=9&impTy=1&ldc=rhf2nczr&mkt=en-us&oAdUnit=1732768568&pId=1&publisherId=17160724&rId=71a3bb92-383f-4a95-bf34-06c8f263abff&region=na&rlink=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8NYEBgGozWwrYtClgRtMm8jVUCUy3E__j3QCI6i4mlJm8QniXwiLfS5u0soMQb-8V056T3nSOqrJt55Z_A3XYvVT-MH3euEdq7CRYPW8-jA0z7R4TGtM6LhFioWSmEVXApqI05g5KWezdxGvMoLsaMLIziHsdLLKSPXtqW4T3EjFMlegNkgsGKUEfylpXFnjj34FQw1Fq-2eFCDjcxkhMt2Bfyws%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYXRsYXNzaWFuLmNvbSUyZnNvZnR3YXJlJTJmamlyYSUzZmNhbXBhaWduJTNkNDcwMDkyMjk1JTI2YWRncm91cCUzZDEzMDQwMjEyMjU0NTAyMzIlMjZ0YXJnZXRpZCUzZGt3ZC04MTUwMTY4OTEzNjUzOCUzYWxvYy0xOTAlMjZtYXRjaHR5cGUlM2RlJTI2YmlkbWF0Y2h0eXBlJTNkYmUlMjZuZXR3b3JrJTNkYSUyNmRldmljZSUzZGMlMjZjcmVhdGl2ZSUzZDgxNTAxNDI1MzY1ODY1JTI2a2V5d29yZCUzZHNjcnVtJTI1MjBzb2Z0d2FyZSUyNnF1ZXJ5c3RyaW5nJTNkc2NydW0lMjUyMHNvZnR3YXJlJTI2ZHNfZWlkJTNkNzAwMDAwMDAxNzM4Nzk1JTI2ZHNfZTElM2RNSUNST1NPRlQlMjZtc19hY2NfaWQlM2RGMTExNEY1QiUyNm1zY2xraWQlM2RkMGNjNGE1MTZhYzAxNjkzNGQzNzIwMTBkNzgzNDUzMw%26rlid%3Dd0cc4a516ac016934d372010d7834533&rtype=targetURL&tagId=hp2-river-2&trafficGroup=zfa_angvir&trafficSubGroup=erfreir&uberGroup=hore_1c&uberSubGroup=erfreir
+                      - text: Easy Project Management - Jira™ Official Site - AI Automates Mundane Tasks
+                  - link "Sponsored" [ref=e519]:
+                    - /url: https://www.bing.com/api/v1/mediation/tracking?adUnit=1732768568&auId=7ed6dd83-19d0-4fc8-9c3a-4ea0e425dd6e&bdc=oa&bidId=2&bidderId=4&cmExpId=RSV&impId=9&impTy=1&ldc=rhf2nczr&mkt=en-us&oAdUnit=1732768568&pId=1&publisherId=17160724&rId=71a3bb92-383f-4a95-bf34-06c8f263abff&region=na&rlink=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8NYEBgGozWwrYtClgRtMm8jVUCUy3E__j3QCI6i4mlJm8QniXwiLfS5u0soMQb-8V056T3nSOqrJt55Z_A3XYvVT-MH3euEdq7CRYPW8-jA0z7R4TGtM6LhFioWSmEVXApqI05g5KWezdxGvMoLsaMLIziHsdLLKSPXtqW4T3EjFMlegNkgsGKUEfylpXFnjj34FQw1Fq-2eFCDjcxkhMt2Bfyws%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cuYXRsYXNzaWFuLmNvbSUyZnNvZnR3YXJlJTJmamlyYSUzZmNhbXBhaWduJTNkNDcwMDkyMjk1JTI2YWRncm91cCUzZDEzMDQwMjEyMjU0NTAyMzIlMjZ0YXJnZXRpZCUzZGt3ZC04MTUwMTY4OTEzNjUzOCUzYWxvYy0xOTAlMjZtYXRjaHR5cGUlM2RlJTI2YmlkbWF0Y2h0eXBlJTNkYmUlMjZuZXR3b3JrJTNkYSUyNmRldmljZSUzZGMlMjZjcmVhdGl2ZSUzZDgxNTAxNDI1MzY1ODY1JTI2a2V5d29yZCUzZHNjcnVtJTI1MjBzb2Z0d2FyZSUyNnF1ZXJ5c3RyaW5nJTNkc2NydW0lMjUyMHNvZnR3YXJlJTI2ZHNfZWlkJTNkNzAwMDAwMDAxNzM4Nzk1JTI2ZHNfZTElM2RNSUNST1NPRlQlMjZtc19hY2NfaWQlM2RGMTExNEY1QiUyNm1zY2xraWQlM2RkMGNjNGE1MTZhYzAxNjkzNGQzNzIwMTBkNzgzNDUzMw%26rlid%3Dd0cc4a516ac016934d372010d7834533&rtype=targetURL&tagId=hp2-river-2&trafficGroup=zfa_angvir&trafficSubGroup=erfreir&uberGroup=hore_1c&uberSubGroup=erfreir
+                - button "See more" [ref=e521]:
+                  - img [ref=e522]
+            - article [ref=e523] [cursor=pointer]:
+              - generic [ref=e529]:
+                - generic [ref=e531]:
+                  - img "World Cup coverage" [ref=e533]
+                  - link "World Cup coverage" [ref=e534]:
+                    - /url: https://www.msn.com/en-us/sports/soccer/fifa_world_cup?uxmode=ruby&ocid=hpmsn&cvid=6a41bd42088f4092815e2cb2408ff9c0
+                    - heading "World Cup coverage" [level=2] [ref=e535]
+                  - button "More interests" [ref=e536]
+                  - generic [ref=e537]:
+                    - generic "Trending now" [ref=e538]:
+                      - button "Trending now" [ref=e539]
+                    - button "More options" [ref=e540]
+                - generic [ref=e544]:
+                  - link "RSA Round of 32 0 - 1 Final · Jun 28 CAN" [ref=e546]:
+                    - /url: https://www.msn.com/en-us/sports/soccer/fifa_world_cup/game-center/sp-id-53452545?uxmode=ruby&ocid=hpmsn&cvid=6a41bd42088f4092815e2cb2408ff9c0
+                    - generic [ref=e547]:
+                      - generic [ref=e548]:
+                        - generic [ref=e549]:
+                          - button "Click to follow South Africa":
+                            - generic:
+                              - img
+                        - generic "South Africa" [ref=e550]: RSA
+                      - generic [ref=e552]:
+                        - generic [ref=e553]: Round of 32
+                        - generic [ref=e554]:
+                          - generic [ref=e556]: "0"
+                          - generic [ref=e557]: "-"
+                          - generic [ref=e558]:
+                            - generic [ref=e559]: "1"
+                            - img [ref=e561]
+                        - generic "Jun 28 - Final" [ref=e563]: Final · Jun 28
+                      - generic [ref=e564]:
+                        - generic [ref=e565]:
+                          - button "Click to follow Canada":
+                            - generic:
+                              - img
+                        - generic "Canada" [ref=e566]: CAN
+                  - link "DZA Group J 3 - 3 Final · Jun 27 AUT" [ref=e568]:
+                    - /url: https://www.msn.com/en-us/sports/soccer/fifa_world_cup/game-center/sp-id-66457028?uxmode=ruby&ocid=hpmsn&cvid=6a41bd42088f4092815e2cb2408ff9c0
+                    - generic [ref=e569]:
+                      - generic [ref=e570]:
+                        - generic [ref=e571]:
+                          - button "Click to follow Algeria":
+                            - generic:
+                              - img
+                        - generic "Algeria" [ref=e572]: DZA
+                      - generic [ref=e574]:
+                        - generic [ref=e575]: Group J
+                        - generic [ref=e576]:
+                          - generic [ref=e578]: "3"
+                          - generic [ref=e579]: "-"
+                          - generic [ref=e581]: "3"
+                        - generic "Jun 27 - Final" [ref=e582]: Final · Jun 27
+                      - generic [ref=e583]:
+                        - generic [ref=e584]:
+                          - button "Click to follow Austria":
+                            - generic:
+                              - img
+                        - generic "Austria" [ref=e585]: AUT
+                  - link "JOR Group J 1 - 3 Final · Jun 27 ARG" [ref=e587]:
+                    - /url: https://www.msn.com/en-us/sports/soccer/fifa_world_cup/game-center/sp-id-66457026?uxmode=ruby&ocid=hpmsn&cvid=6a41bd42088f4092815e2cb2408ff9c0
+                    - generic [ref=e588]:
+                      - generic [ref=e589]:
+                        - generic [ref=e590]:
+                          - button "Click to follow Jordan":
+                            - generic:
+                              - img
+                        - generic "Jordan" [ref=e591]: JOR
+                      - generic [ref=e593]:
+                        - generic [ref=e594]: Group J
+                        - generic [ref=e595]:
+                          - generic [ref=e597]: "1"
+                          - generic [ref=e598]: "-"
+                          - generic [ref=e599]:
+                            - generic [ref=e600]: "3"
+                            - img [ref=e602]
+                        - generic "Jun 27 - Final" [ref=e604]: Final · Jun 27
+                      - generic [ref=e605]:
+                        - generic [ref=e606]:
+                          - button "Click to follow Argentina":
+                            - generic:
+                              - img
+                        - generic "Argentina" [ref=e607]: ARG
+                - generic [ref=e609]:
+                  - generic [ref=e610]:
+                    - generic "Previous" [ref=e611]:
+                      - button "Previous" [ref=e612]
+                    - tablist [ref=e614]:
+                      - tab "tab-0" [selected] [ref=e615]
+                      - tab "tab-1" [ref=e617]
+                      - tab "tab-2" [ref=e619]
+                      - tab "tab-3" [ref=e621]
+                      - tab "tab-4" [ref=e623]
+                      - tab "tab-5"
+                      - tab "tab-6"
+                      - tab "tab-7"
+                      - tab "tab-8"
+                      - tab "tab-9"
+                      - tab "tab-10"
+                      - tab "tab-11"
+                    - generic "Next" [ref=e625]:
+                      - button "Next" [ref=e626]
+                  - link "See more" [ref=e628]:
+                    - /url: https://www.msn.com/en-us/sports/soccer/fifa_world_cup?uxmode=ruby&ocid=hpmsn&cvid=6a41bd42088f4092815e2cb2408ff9c0
+          - generic [ref=e629]:
+            - article "Coffee linked to significant new side effect, says massive study" [ref=e630] [cursor=pointer]:
+              - generic [ref=e632]:
+                - img [ref=e633]
+                - generic [ref=e634]:
+                  - generic [ref=e635]:
+                    - generic [ref=e637]:
+                      - img [ref=e638]
+                      - generic [ref=e639]: Newsweek
+                    - link "Coffee linked to significant new side effect, says massive study, Newsweek" [ref=e640]:
+                      - /url: https://www.msn.com/en-us/health/other/coffee-linked-to-significant-new-side-effect-says-massive-study/ar-AA23SdYZ
+                      - text: Coffee linked to significant new side effect, says massive study
+                  - generic "Coffee linked to significant new side effect, says massive study" [ref=e643]:
+                    - generic [ref=e645]:
+                      - generic [ref=e646]:
+                        - button "2k Like" [ref=e647]:
+                          - generic [ref=e648]:
+                            - img [ref=e649]
+                            - generic [ref=e651]: 2k
+                        - button "Dislike" [ref=e652]:
+                          - img [ref=e654]
+                      - link "View comments 305 Comment" [ref=e657]:
+                        - /url: https://www.msn.com/en-us/health/other/coffee-linked-to-significant-new-side-effect-says-massive-study/ar-AA23SdYZ#comments
+                        - button "View comments 305 Comment" [ref=e658]:
+                          - img [ref=e659]
+                        - generic [ref=e661]: "305"
+                - generic [ref=e662]:
+                  - button "Hide this story" [ref=e663]:
+                    - img [ref=e664]
+                    - text: Hide this story
+                  - button "See more" [ref=e665]:
+                    - img [ref=e666]
+            - article [ref=e667] [cursor=pointer]
+            - article "My late husband had a higher Social Security benefit. We both claimed at 62. Can I get more on his record?" [ref=e674] [cursor=pointer]:
+              - generic [ref=e676]:
+                - img [ref=e677]
+                - generic [ref=e678]:
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - generic [ref=e681]:
+                        - img [ref=e682]
+                        - generic [ref=e683]: MarketWatch
+                      - generic [ref=e684]: ·
+                      - generic [ref=e685]: 3w
+                    - link "My late husband had a higher Social Security benefit. We both claimed at 62. Can I get more on his record?, MarketWatch" [ref=e686]:
+                      - /url: https://www.msn.com/en-us/money/retirement/my-late-husband-had-a-higher-social-security-benefit-we-both-claimed-at-62-can-i-get-more-on-his-record/ar-AA24G3jD
+                      - text: My late husband had a higher Social Security benefit. We both claimed at 62. Can I get more on his record?
+                  - generic "My late husband had a higher Social Security benefit. We both claimed at 62. Can I get more on his record?" [ref=e689]:
+                    - generic [ref=e691]:
+                      - generic [ref=e692]:
+                        - button "94 Like" [ref=e693]:
+                          - generic [ref=e694]:
+                            - img [ref=e695]
+                            - generic [ref=e697]: "94"
+                        - button "Dislike" [ref=e698]:
+                          - img [ref=e700]
+                      - link "View comments 4 Comment" [ref=e703]:
+                        - /url: https://www.msn.com/en-us/money/retirement/my-late-husband-had-a-higher-social-security-benefit-we-both-claimed-at-62-can-i-get-more-on-his-record/ar-AA24G3jD#comments
+                        - button "View comments 4 Comment" [ref=e704]:
+                          - img [ref=e705]
+                        - generic [ref=e707]: "4"
+                - generic [ref=e708]:
+                  - button "Hide this story" [ref=e709]:
+                    - img [ref=e710]
+                    - text: Hide this story
+                  - button "See more" [ref=e711]:
+                    - img [ref=e712]
+            - article [ref=e713] [cursor=pointer]:
+              - generic [ref=e719]:
+                - generic [ref=e721]:
+                  - img "Watchlist suggestions" [ref=e723]
+                  - link "Watchlist suggestions" [ref=e724]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?ocid=hpmsn
+                    - heading "Watchlist suggestions" [level=2] [ref=e725]
+                  - button "More options" [ref=e727]
+                - generic [ref=e732]:
+                  - link "Nasdaq 100 NDX ‎-1.09%‎ 29,118.24" [ref=e734]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?id=a3yy77&ocid=hpmsn
+                    - generic [ref=e735]:
+                      - generic [ref=e737]: Nasdaq 100
+                      - generic [ref=e739]: NDX
+                    - generic [ref=e744]:
+                      - generic [ref=e745]: ‎-1.09%‎
+                      - generic [ref=e746]: 29,118.24
+                    - button "Add to watchlist" [ref=e749]:
+                      - img [ref=e750]
+                  - link "VIX VIX ‎-2.54%‎ 18.41" [ref=e754]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?id=a33pk2&ocid=hpmsn
+                    - generic [ref=e755]:
+                      - generic [ref=e757]: VIX
+                      - generic [ref=e759]: VIX
+                    - generic [ref=e764]:
+                      - generic [ref=e765]: ‎-2.54%‎
+                      - generic [ref=e766]: "18.41"
+                    - button "Add to watchlist" [ref=e769]:
+                      - img [ref=e770]
+                  - link "NVIDIA CORPORATION NVDA ‎-1.64%‎ 192.53" [ref=e774]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?id=a1yv52&ocid=hpmsn
+                    - generic [ref=e775]:
+                      - generic [ref=e777]: NVIDIA CORPORATION
+                      - generic [ref=e779]: NVDA
+                    - generic [ref=e784]:
+                      - generic [ref=e785]: ‎-1.64%‎
+                      - generic [ref=e786]: "192.53"
+                    - button "Add to watchlist" [ref=e789]:
+                      - img [ref=e790]
+                  - link "MICROSOFT CORPORATION MSFT ‎+5.71%‎ 372.97" [ref=e794]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?id=a1xzim&ocid=hpmsn
+                    - generic [ref=e795]:
+                      - generic [ref=e797]: MICROSOFT CORPORATION
+                      - generic [ref=e799]: MSFT
+                    - generic [ref=e804]:
+                      - generic [ref=e805]: ‎+5.71%‎
+                      - generic [ref=e806]: "372.97"
+                    - button "Add to watchlist" [ref=e809]:
+                      - img [ref=e810]
+                  - link "TESLA, INC. TSLA ‎+1.22%‎ 379.71" [ref=e814]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?id=a24kar&ocid=hpmsn
+                    - generic [ref=e815]:
+                      - generic [ref=e817]: TESLA, INC.
+                      - generic [ref=e819]: TSLA
+                    - generic [ref=e824]:
+                      - generic [ref=e825]: ‎+1.22%‎
+                      - generic [ref=e826]: "379.71"
+                    - button "Add to watchlist" [ref=e829]:
+                      - img [ref=e830]
+                - generic [ref=e834]:
+                  - generic [ref=e835]:
+                    - generic "Previous" [ref=e836]:
+                      - button "Previous" [ref=e837]
+                    - tablist [ref=e839]:
+                      - tab "tab-0" [selected] [ref=e840]
+                      - tab "tab-1" [ref=e842]
+                      - tab "tab-2" [ref=e844]
+                      - tab "tab-3" [ref=e846]
+                    - generic "Next" [ref=e848]:
+                      - button "Next" [ref=e849]
+                  - link "See watchlist suggestions" [ref=e851]:
+                    - /url: https://www.msn.com/en-us/money/watchlist?ocid=hpmsn
+            - article "Parents charged with murder over obesity death of 18-stone son, aged 7" [ref=e852] [cursor=pointer]:
+              - generic [ref=e854]:
+                - img [ref=e855]
+                - generic [ref=e856]:
+                  - generic [ref=e857]:
+                    - generic [ref=e858]:
+                      - generic [ref=e859]:
+                        - img [ref=e860]
+                        - generic [ref=e861]: The Telegraph
+                      - generic [ref=e862]: ·
+                      - generic [ref=e863]: 5h
+                    - link "Parents charged with murder over obesity death of 18-stone son, aged 7, The Telegraph" [ref=e864]:
+                      - /url: https://www.msn.com/en-us/news/crime/parents-charged-with-murder-over-obesity-death-of-18-stone-son-aged-7/ar-AA26JPLA
+                      - text: Parents charged with murder over obesity death of 18-stone son, aged 7
+                  - generic "Parents charged with murder over obesity death of 18-stone son, aged 7" [ref=e867]:
+                    - generic [ref=e869]:
+                      - generic [ref=e870]:
+                        - button "32 Like" [ref=e871]:
+                          - generic [ref=e872]:
+                            - img [ref=e873]
+                            - generic [ref=e875]: "32"
+                        - button "Dislike" [ref=e876]:
+                          - img [ref=e878]
+                      - link "View comments 9 Comment" [ref=e881]:
+                        - /url: https://www.msn.com/en-us/news/crime/parents-charged-with-murder-over-obesity-death-of-18-stone-son-aged-7/ar-AA26JPLA#comments
+                        - button "View comments 9 Comment" [ref=e882]:
+                          - img [ref=e883]
+                        - generic [ref=e885]: "9"
+                - generic [ref=e886]:
+                  - button "Hide this story" [ref=e887]:
+                    - img [ref=e888]
+                    - text: Hide this story
+                  - button "See more" [ref=e889]:
+                    - img [ref=e890]
+            - article "Archaeologists found 115,000-year-old human footprints where they shouldn’t be" [ref=e891] [cursor=pointer]:
+              - generic [ref=e893]:
+                - img [ref=e894]
+                - generic [ref=e895]:
+                  - generic [ref=e896]:
+                    - generic [ref=e898]:
+                      - img [ref=e899]
+                      - generic [ref=e900]: Popular Mechanics
+                    - link "Archaeologists found 115,000-year-old human footprints where they shouldn’t be, Popular Mechanics" [ref=e901]:
+                      - /url: https://www.msn.com/en-us/news/technology/archaeologists-found-115-000-year-old-human-footprints-where-they-shouldn-t-be/ar-AA21L5d6
+                      - text: Archaeologists found 115,000-year-old human footprints where they shouldn’t be
+                  - generic "Archaeologists found 115,000-year-old human footprints where they shouldn’t be" [ref=e904]:
+                    - generic [ref=e906]:
+                      - generic [ref=e907]:
+                        - button "1k Like" [ref=e908]:
+                          - generic [ref=e909]:
+                            - img [ref=e910]
+                            - generic [ref=e912]: 1k
+                        - button "Dislike" [ref=e913]:
+                          - img [ref=e915]
+                      - link "View comments 63 Comment" [ref=e918]:
+                        - /url: https://www.msn.com/en-us/news/technology/archaeologists-found-115-000-year-old-human-footprints-where-they-shouldn-t-be/ar-AA21L5d6#comments
+                        - button "View comments 63 Comment" [ref=e919]:
+                          - img [ref=e920]
+                        - generic [ref=e922]: "63"
+                - generic [ref=e923]:
+                  - button "Hide this story" [ref=e924]:
+                    - img [ref=e925]
+                    - text: Hide this story
+                  - button "See more" [ref=e926]:
+                    - img [ref=e927]
+            - article [ref=e928] [cursor=pointer]:
+              - generic [ref=e934]:
+                - generic [ref=e936]:
+                  - link "Tomball" [ref=e938]:
+                    - /url: https://www.msn.com/en-us/weather/forecast/in-Tomball,TX
+                    - heading "Tomball" [level=2] [ref=e939]
+                  - button "My location" [ref=e940]
+                  - button "More options" [ref=e942]
+                - generic [ref=e946]:
+                  - generic [ref=e947]:
+                    - generic [ref=e949]:
+                      - link "Sunny" [ref=e950]:
+                        - /url: https://www.msn.com/en-us/weather/forecast/in-Tomball,TX
+                        - img "Sunny" [ref=e951]
+                      - link "89°F" [ref=e952]:
+                        - /url: https://www.msn.com/en-us/weather/forecast/in-Tomball,TX
+                        - generic [ref=e953]: ‎89‎
+                        - generic [ref=e955]: ‎°F‎
+                    - generic [ref=e957]:
+                      - link "Moderate air quality" [ref=e959]:
+                        - /url: https://www.msn.com/en-us/weather/forecast/in-Tomball,TX&fcsttab=airquality
+                        - text: Moderate air quality
+                      - link "See full forecast" [ref=e961]:
+                        - /url: https://www.msn.com/en-us/weather/forecast/in-Tomball,TX&fcsttab=airquality
+                        - img "arrow" [ref=e962]
+                  - generic [ref=e967]:
+                    - link "Larger map" [ref=e968]:
+                      - /url: https://www.msn.com/en-us/weather/maps/airquality/in-Tomball,TX
+                      - generic [ref=e969]:
+                        - generic:
+                          - generic:
+                            - img
+                            - img
+                      - img
+                    - link "More AQ info nearby" [ref=e970]:
+                      - /url: https://www.msn.com/en-us/weather/maps/airquality/in-Tomball,TX
+                      - img [ref=e972]
+                      - generic "More AQ info nearby" [ref=e973]
+                      - img [ref=e975]
+                - button "See full forecast" [ref=e978]
+            - article "Again, Trump said nobody left his speech. Again, that wasn’t true" [ref=e979] [cursor=pointer]:
+              - generic [ref=e981]:
+                - img [ref=e982]
+                - generic [ref=e983]:
+                  - generic [ref=e984]:
+                    - generic [ref=e985]:
+                      - generic [ref=e986]:
+                        - img [ref=e987]
+                        - generic [ref=e988]: CNN
+                      - generic [ref=e989]: ·
+                      - generic [ref=e990]: 14h
+                    - link "Again, Trump said nobody left his speech. Again, that wasn’t true, CNN" [ref=e991]:
+                      - /url: https://www.msn.com/en-us/news/politics/again-trump-said-nobody-left-his-speech-again-that-wasn-t-true/ar-AA26IX0e
+                      - text: Again, Trump said nobody left his speech. Again, that wasn’t true
+                  - generic "Again, Trump said nobody left his speech. Again, that wasn’t true" [ref=e994]:
+                    - generic [ref=e996]:
+                      - generic [ref=e997]:
+                        - button "887 Like" [ref=e998]:
+                          - generic [ref=e999]:
+                            - img [ref=e1000]
+                            - generic [ref=e1002]: "887"
+                        - button "Dislike" [ref=e1003]:
+                          - img [ref=e1005]
+                      - link "View comments 218 Comment" [ref=e1008]:
+                        - /url: https://www.msn.com/en-us/news/politics/again-trump-said-nobody-left-his-speech-again-that-wasn-t-true/ar-AA26IX0e#comments
+                        - button "View comments 218 Comment" [ref=e1009]:
+                          - img [ref=e1010]
+                        - generic [ref=e1012]: "218"
+                - generic [ref=e1013]:
+                  - button "Hide this story" [ref=e1014]:
+                    - img [ref=e1015]
+                    - text: Hide this story
+                  - button "See more" [ref=e1016]:
+                    - img [ref=e1017]
+            - article [ref=e1018] [cursor=pointer]
+            - 'article "10-year-old boy shoots baby girl in the head after finding gun under her father''s mattress: Cops" [ref=e1025] [cursor=pointer]':
+              - generic [ref=e1027]:
+                - img [ref=e1028]
+                - generic [ref=e1029]:
+                  - generic [ref=e1030]:
+                    - generic [ref=e1031]:
+                      - generic [ref=e1032]:
+                        - img [ref=e1033]
+                        - generic [ref=e1034]: Law & Crime
+                      - generic [ref=e1035]: ·
+                      - generic [ref=e1036]: 3h
+                    - 'link "10-year-old boy shoots baby girl in the head after finding gun under her father''s mattress: Cops, Law & Crime" [ref=e1037]':
+                      - /url: https://www.msn.com/en-us/news/crime/10-year-old-boy-shoots-baby-girl-in-the-head-after-finding-gun-under-her-father-s-mattress-cops/ar-AA26KzRr
+                      - text: "10-year-old boy shoots baby girl in the head after finding gun under her father's mattress: Cops"
+                  - 'generic "10-year-old boy shoots baby girl in the head after finding gun under her father''s mattress: Cops" [ref=e1040]':
+                    - generic [ref=e1042]:
+                      - generic [ref=e1043]:
+                        - button "43 Like" [ref=e1044]:
+                          - generic [ref=e1045]:
+                            - img [ref=e1046]
+                            - generic [ref=e1048]: "43"
+                        - button "Dislike" [ref=e1049]:
+                          - img [ref=e1051]
+                      - link "View comments 34 Comment" [ref=e1054]:
+                        - /url: https://www.msn.com/en-us/news/crime/10-year-old-boy-shoots-baby-girl-in-the-head-after-finding-gun-under-her-father-s-mattress-cops/ar-AA26KzRr#comments
+                        - button "View comments 34 Comment" [ref=e1055]:
+                          - img [ref=e1056]
+                        - generic [ref=e1058]: "34"
+                - generic [ref=e1059]:
+                  - button "Hide this story" [ref=e1060]:
+                    - img [ref=e1061]
+                    - text: Hide this story
+                  - button "See more" [ref=e1062]:
+                    - img [ref=e1063]
+          - article [ref=e1065]
+    - contentinfo [ref=e1069]:
+      - generic "Feedback" [ref=e1071] [cursor=pointer]:
+        - button "Feedback" [ref=e1072]:
+          - generic:
+            - generic:
+              - img
+          - generic:
+            - generic: Feedback

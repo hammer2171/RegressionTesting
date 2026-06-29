@@ -1,7 +1,27 @@
 import { expect } from '@playwright/test';
 import { BasePage } from './BasePage';
 
-export class RequestPage extends BasePage {
+export class ViewsPage extends BasePage {
+
+async open(): Promise<void> {
+
+    await this.page.getByRole('link', { name: 'Views' }).click();
+
+    await expect(
+        this.page.getByRole('application', {
+            name: 'Views List'
+        })
+    ).toBeVisible();
+
+}
+
+async openViewHierarchy(viewName: string, viewpointName: string): Promise<void> {
+
+    await this.open();
+
+    await this.openView(viewName);
+  
+}
 
    async openView(viewName: string): Promise<void> {
 
@@ -15,10 +35,7 @@ export class RequestPage extends BasePage {
     await view.click();
 
     await expect(
-        this.page.getByRole('application', {
-            name: 'Viewpoint Hierarchy'
-        })
-    ).toBeVisible();
+        this.page.getByText(viewName)).toBeVisible();
 
 }
 
@@ -28,8 +45,6 @@ async openViewpoint(viewpointName: string): Promise<void> {
         name: viewpointName,
         exact: true
     });
-
-    await expect(viewpoint).toBeVisible();
 
     await viewpoint.click();
 

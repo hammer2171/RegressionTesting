@@ -1,0 +1,52 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img [ref=e6]
+    - generic [ref=e7]: Cloud Infrastructure
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - img "Company Logo for a706571" [ref=e14]
+      - generic [ref=e16]:
+        - heading "a706571" [level=1] [ref=e18]
+        - heading "Oracle Cloud Account Sign In" [level=2] [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - text: Identity domain
+            - button "What is an identity domain?" [ref=e23] [cursor=pointer]:
+              - img "What is an identity domain?" [ref=e24]
+          - generic [ref=e25]: Default
+    - generic [ref=e26]:
+      - generic [ref=e81]:
+        - generic [ref=e82]: 
+        - alert [ref=e84]: Invalid username or password.
+      - main [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e33]:
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e39]: User Name
+                - textbox "User Name" [ref=e40]:
+                  - /placeholder: User name or email
+              - generic [ref=e41]:
+                - generic [ref=e44]: Password
+                - textbox "Password" [ref=e47]: Jeremiah3138
+              - button "Forgot Password?" [ref=e49] [cursor=pointer]
+              - button "Sign In" [ref=e52]:
+                - generic [ref=e55]: Sign In
+            - generic [ref=e56]:
+              - separator [ref=e58]
+              - heading "Or sign in with" [level=2] [ref=e60]
+              - separator [ref=e62]
+            - generic "NOV-SSO-Login" [ref=e66]:
+              - button "NOV-SSO-Login" [ref=e67]:
+                - generic [ref=e68]:
+                  - img "NOV-SSO-Login" [ref=e70]
+                  - generic [ref=e71]: NOV-SSO-Login
+          - link "Need help signing in?" [ref=e73] [cursor=pointer]:
+            - /url: https://docs.oracle.com/en-us/iaas/Content/GSG/Tasks/signinginIdentityDomain.htm
+  - contentinfo [ref=e74]:
+    - generic [ref=e75]:
+      - link "Terms of Use" [ref=e76] [cursor=pointer]:
+        - /url: https://www.oracle.com/legal/terms.html
+      - link "Privacy" [ref=e77] [cursor=pointer]:
+        - /url: https://www.oracle.com/us/legal/privacy/overview/index.html
+    - paragraph [ref=e78]: Copyright © 2016, 2026, Oracle and/or its affiliates. All rights reserved.

@@ -1,0 +1,1000 @@
+- generic [ref=e8]:
+  - text:                        
+  - generic [ref=e10]:
+    - banner "Global Header" [ref=e11]:
+      - generic:  
+      - generic [ref=e12]:
+        - generic "Navigate" [ref=e13]:
+          - button "Navigate" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - generic [ref=e17]: 
+              - generic [ref=e18]: Navigate
+        - text: 
+        - img "Custom Logo" [ref=e19] [cursor=pointer]
+        - generic [ref=e20]: Fusion Cloud Enterprise Data Management
+        - generic "Home" [ref=e21]:
+          - button "Home" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]:
+              - generic [ref=e25]: 
+              - generic [ref=e26]: Home
+        - generic "Favorites" [ref=e27]:
+          - button "Favorites" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]:
+              - generic [ref=e31]: 
+              - generic [ref=e32]: Favorites
+        - 'generic "Russell Shellhamer : Settings and Actions" [ref=e33]':
+          - button "Russell Shellhamer" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - generic [ref=e36]: Russell Shellhamer
+              - generic [ref=e37]: 
+    - generic:  
+    - generic [ref=e103]:
+      - text:         
+      - generic "Toggle Filmstrip" [ref=e137] [cursor=pointer]
+      - generic [ref=e139]:
+        - generic [ref=e860]:
+          - generic [ref=e861]:
+            - tablist "oj.Translations.getTranslatedString('view.enrichmentpane.txt_enrichment_toolbar')" [ref=e863]:
+              - tab "Requests" [ref=e864] [cursor=pointer]:
+                - img "Requests" [ref=e865]: 
+              - tab "Match and Deduplicate" [ref=e867] [cursor=pointer]:
+                - img "Match and Deduplicate" [ref=e868]: 
+              - tab "Query Viewpoint" [ref=e870] [cursor=pointer]:
+                - img "Query Viewpoint" [ref=e871]: 
+              - tab "Compare" [ref=e873] [cursor=pointer]:
+                - img "Compare" [ref=e874]: 
+              - tab "Validate Viewpoint" [ref=e876] [cursor=pointer]:
+                - img "Validate Viewpoint" [ref=e877]: 
+              - tab "Node Clipboard" [ref=e879] [cursor=pointer]:
+                - img "Node Clipboard" [ref=e880]: 
+            - text:                                 ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●    ●   ●  ●                
+          - generic:      
+          - generic: 
+          - generic "Expand/Collapse" [ref=e883]:
+            - button "Expand/Collapse" [ref=e884] [cursor=pointer]:
+              - generic [ref=e887]: 
+          - generic [ref=e888]:
+            - generic:
+              - text: 
+              - generic [ref=e889]: The view has been modified. Refresh the request to view the changes.
+              - generic "Refresh" [ref=e890]:
+                - button "Refresh" [ref=e891] [cursor=pointer]:
+                  - generic [ref=e894]: 
+            - generic [ref=e895]:
+              - generic "A_Entry_Entity" [ref=e896]
+              - button "New Request" [ref=e898] [cursor=pointer]:
+                - generic [ref=e901]: New Request
+              - button "Close" [ref=e903] [cursor=pointer]:
+                - generic [ref=e906]: Close
+            - generic [ref=e907]:
+              - generic [ref=e908]:
+                - generic [ref=e909]:
+                  - generic [ref=e910]:
+                    - text: 
+                    - tablist [ref=e913]:
+                      - tab "NOV_Legal_Entity Viewpoint NOV_Legal_Entity Actions" [selected] [ref=e914] [cursor=pointer]:
+                        - generic [ref=e916]:
+                          - generic [ref=e917]:
+                            - generic [ref=e918]: NOV_Legal_Entity
+                            - text: ● 
+                          - generic "Viewpoint NOV_Legal_Entity Actions" [ref=e919]:
+                            - button "Viewpoint NOV_Legal_Entity Actions" [ref=e920]:
+                              - generic [ref=e923]: 
+                      - tab "Omega_Entity" [ref=e924] [cursor=pointer]:
+                        - generic [ref=e927]:
+                          - generic [ref=e928]: Omega_Entity
+                          - text: ● 
+                      - tab "Input_EPM_Entity_Base" [ref=e929] [cursor=pointer]:
+                        - generic [ref=e932]:
+                          - generic [ref=e933]: Input_EPM_Entity_Base
+                          - text: ● 
+                      - tab "ACT_Entity" [ref=e934] [cursor=pointer]:
+                        - generic [ref=e937]:
+                          - generic [ref=e938]: ACT_Entity
+                          - text: ● 
+                      - tab "ACT_Entity_ALT_Legal" [ref=e939] [cursor=pointer]:
+                        - generic [ref=e942]:
+                          - generic [ref=e943]: ACT_Entity_ALT_Legal
+                          - text: ● 
+                      - tab "FC_Test_Entity" [ref=e944] [cursor=pointer]:
+                        - generic [ref=e947]:
+                          - generic [ref=e948]: FC_Test_Entity
+                          - text: ● 
+                      - tab "FINPLAN_Test_Entity" [ref=e949] [cursor=pointer]:
+                        - generic [ref=e952]:
+                          - generic [ref=e953]: FINPLAN_Test_Entity
+                          - text: ● 
+                      - tab "FC_Prod_Entity" [ref=e954] [cursor=pointer]:
+                        - generic [ref=e957]:
+                          - generic [ref=e958]: FC_Prod_Entity
+                          - text: ● 
+                      - tab "FINPLAN_Prod_Entity" [ref=e959] [cursor=pointer]:
+                        - generic [ref=e962]:
+                          - generic [ref=e963]: FINPLAN_Prod_Entity
+                          - text: ● 
+                      - tab "CORP_ALC_Entity" [ref=e964] [cursor=pointer]:
+                        - generic [ref=e967]:
+                          - generic [ref=e968]: CORP_ALC_Entity
+                          - text: ● 
+                      - tab "TAX_ALC_Entity" [ref=e969] [cursor=pointer]:
+                        - generic [ref=e972]:
+                          - generic [ref=e973]: TAX_ALC_Entity
+                          - text: ● 
+                      - tab "TRCS_Entity" [ref=e974] [cursor=pointer]:
+                        - generic [ref=e977]:
+                          - generic [ref=e978]: TRCS_Entity
+                          - text: ● 
+                      - tab "TRC_Entity" [ref=e979] [cursor=pointer]:
+                        - generic [ref=e982]:
+                          - generic [ref=e983]: TRC_Entity
+                          - text: ● 
+                      - tab "GSP_Entity" [ref=e984] [cursor=pointer]:
+                        - generic [ref=e987]:
+                          - generic [ref=e988]: GSP_Entity
+                          - text: ● 
+                      - tab "WFP_Entity" [ref=e989] [cursor=pointer]:
+                        - generic [ref=e992]:
+                          - generic [ref=e993]: WFP_Entity
+                          - text: ● 
+                      - tab "CPX_Entity" [ref=e994] [cursor=pointer]:
+                        - generic [ref=e997]:
+                          - generic [ref=e998]: CPX_Entity
+                          - text: ● 
+                      - tab "IC_LE_Values" [ref=e999] [cursor=pointer]:
+                        - generic [ref=e1002]:
+                          - generic [ref=e1003]: IC_LE_Values
+                          - text: ● 
+                      - tab "Legal Entity - Statutory Account RVS" [ref=e1004] [cursor=pointer]:
+                        - generic [ref=e1007]:
+                          - generic [ref=e1008]: Legal Entity - Statutory Account RVS
+                          - text: ● 
+                      - tab "NOV_Legal_Entity_Ownership" [ref=e1009] [cursor=pointer]:
+                        - generic [ref=e1012]:
+                          - generic [ref=e1013]: NOV_Legal_Entity_Ownership
+                          - text: ● 
+                      - tab "Input_List" [ref=e1014] [cursor=pointer]:
+                        - generic [ref=e1017]:
+                          - generic [ref=e1018]: Input_List
+                          - text: ● 
+                    - button [ref=e1020] [cursor=pointer]:
+                      - generic [ref=e1021]: 
+                  - generic [ref=e1022]:
+                    - generic [ref=e1023]:
+                      - combobox "Select Viewpoint" [ref=e1026]
+                      - generic [ref=e1028] [cursor=pointer]: 
+                    - generic "Side by Side Layout" [ref=e1029]:
+                      - button "Side by Side Layout" [ref=e1030] [cursor=pointer]:
+                        - generic [ref=e1033]: 
+                - text:       
+                - generic [ref=e1037]:
+                  - generic [ref=e1039]:
+                    - generic [ref=e1040]:
+                      - generic [ref=e1041]:
+                        - generic "Search NOV_Legal_Entity" [ref=e1042]:
+                          - button "Search NOV_Legal_Entity" [ref=e1043] [cursor=pointer]:
+                            - generic [ref=e1046]: 
+                        - generic "Back NOV_Legal_Entity" [ref=e1047]:
+                          - button "Back NOV_Legal_Entity" [disabled] [ref=e1048]:
+                            - generic [ref=e1051]: 
+                        - generic "Forward NOV_Legal_Entity" [ref=e1052]:
+                          - button "Forward NOV_Legal_Entity" [disabled] [ref=e1053]:
+                            - generic [ref=e1056]: 
+                        - generic "Download selected node and descendants to file for viewpoint NOV_Legal_Entity" [ref=e1057]:
+                          - button "" [ref=e1058] [cursor=pointer]:
+                            - generic [ref=e1059]:
+                              - generic [ref=e1061]: 
+                              - img [ref=e1063]
+                        - generic "Expand or collapse the selected node and all of its descendants" [ref=e1065]:
+                          - button "" [ref=e1066] [cursor=pointer]:
+                            - generic [ref=e1067]:
+                              - generic [ref=e1069]: 
+                              - img [ref=e1071]
+                        - generic "Tree Display" [ref=e1073]:
+                          - button "" [ref=e1074] [cursor=pointer]:
+                            - generic [ref=e1075]:
+                              - generic [ref=e1077]: 
+                              - img [ref=e1079]
+                        - text: 
+                      - text: 
+                    - generic [ref=e1083]:
+                      - generic "Viewpoint Hierarchy" [ref=e1084]:
+                        - application "Viewpoint Hierarchy" [ref=e1086]:
+                          - rowgroup [ref=e1094]:
+                            - row "  Name Ledger Name Description" [ref=e1095]:
+                              - columnheader "" [ref=e1096]:
+                                - columnheader "" [ref=e1097]
+                              - columnheader "" [ref=e1098]:
+                                - columnheader "" [ref=e1099]
+                              - columnheader "Name" [ref=e1100]:
+                                - generic [ref=e1102]: Name
+                              - columnheader [ref=e1103]
+                              - columnheader "Ledger Name" [ref=e1106]:
+                                - generic [ref=e1108]: Ledger Name
+                              - columnheader "Description" [ref=e1109]:
+                                - generic [ref=e1111]: Description
+                          - rowgroup [ref=e1112]:
+                            - row "Expand/Collapse Has child nodes 3010LE Node menu for node 3010LE 3010LE NOV Inc." [ref=e1113]:
+                              - cell [ref=e1114]
+                              - cell [ref=e1115]
+                              - cell "Expand/Collapse Has child nodes 3010LE" [ref=e1116]:
+                                - generic [ref=e1117]:
+                                  - generic "Expand/Collapse" [ref=e1119]:
+                                    - button "Expand/Collapse" [ref=e1120] [cursor=pointer]:
+                                      - generic [ref=e1123]: 
+                                  - generic [ref=e1124]:
+                                    - img "Has child nodes" [ref=e1125]: 
+                                    - text: 
+                                  - generic [ref=e1126]: 3010LE
+                              - cell "Node menu for node 3010LE" [ref=e1127]:
+                                - generic "Node menu for node 3010LE" [ref=e1128]:
+                                  - button "Node menu for node 3010LE" [ref=e1129] [cursor=pointer]:
+                                    - generic [ref=e1132]: 
+                              - cell "3010LE" [ref=e1133]
+                              - cell "NOV Inc." [ref=e1134]
+                            - row "Expand/Collapse Has child nodes 3rd PartyLE 3rd PartyLE 3rd Party" [ref=e1135]:
+                              - cell [ref=e1136]
+                              - cell [ref=e1137]
+                              - cell "Expand/Collapse Has child nodes 3rd PartyLE" [ref=e1138]:
+                                - generic [ref=e1139]:
+                                  - generic "Expand/Collapse" [ref=e1141]:
+                                    - button "Expand/Collapse" [ref=e1142] [cursor=pointer]:
+                                      - generic [ref=e1145]: 
+                                  - generic [ref=e1146]:
+                                    - img "Has child nodes" [ref=e1147]: 
+                                    - text: 
+                                  - generic [ref=e1148]: 3rd PartyLE
+                              - cell [ref=e1149]
+                              - cell "3rd PartyLE" [ref=e1150]
+                              - cell "3rd Party" [ref=e1151]
+                            - row [ref=e1152]:  
+                            - row [ref=e1153]:  
+                            - row [ref=e1154]:  
+                            - row [ref=e1155]:  
+                            - row [ref=e1156]:  
+                            - row [ref=e1157]:  
+                            - row [ref=e1158]:  
+                            - row [ref=e1159]:  
+                            - row [ref=e1160]:  
+                            - row [ref=e1161]:  
+                            - row [ref=e1162]:  
+                            - row [ref=e1163]:  
+                            - row [ref=e1164]:  
+                            - row [ref=e1165]:  
+                            - row [ref=e1166]:  
+                            - row [ref=e1167]:  
+                            - row [ref=e1168]:  
+                            - row [ref=e1169]:  
+                            - row [ref=e1170]:  
+                            - row [ref=e1171]:  
+                            - row [ref=e1172]:  
+                            - row [ref=e1173]:  
+                            - row [ref=e1174]:  
+                            - row [ref=e1175]:  
+                            - row [ref=e1176]:  
+                            - row [ref=e1177]:  
+                            - row [ref=e1178]:  
+                            - row [ref=e1179]:  
+                            - row [ref=e1180]:  
+                            - row [ref=e1181]:  
+                            - row [ref=e1182]:  
+                            - row [ref=e1183]:  
+                            - row [ref=e1184]:  
+                            - row [ref=e1185]:  
+                            - row [ref=e1186]:  
+                            - row [ref=e1187]:  
+                            - row [ref=e1188]:  
+                            - row [ref=e1189]:  
+                            - row [ref=e1190]:  
+                            - row [ref=e1191]:  
+                            - row [ref=e1192]:  
+                            - row [ref=e1193]:  
+                            - row [ref=e1194]:  
+                            - row [ref=e1195]:  
+                            - row [ref=e1196]:  
+                            - row [ref=e1197]:  
+                            - row [ref=e1198]:  
+                            - row [ref=e1199]:  
+                            - row [ref=e1200]:  
+                            - row [ref=e1201]:  
+                            - row [ref=e1202]:  
+                            - row [ref=e1203]:  
+                            - row [ref=e1204]:  
+                            - row [ref=e1205]:  
+                            - row [ref=e1206]:  
+                            - row [ref=e1207]:  
+                            - row [ref=e1208]:  
+                            - row [ref=e1209]:  
+                            - row [ref=e1210]:  
+                            - row [ref=e1211]:  
+                            - row [ref=e1212]:  
+                            - row [ref=e1213]:  
+                            - row [ref=e1214]:  
+                            - row [ref=e1215]:  
+                            - row [ref=e1216]:  
+                            - row [ref=e1217]:  
+                            - row [ref=e1218]:  
+                            - row [ref=e1219]:  
+                            - row [ref=e1220]:  
+                            - row [ref=e1221]:  
+                            - row [ref=e1222]:  
+                            - row [ref=e1223]:  
+                            - row [ref=e1224]:  
+                            - row [ref=e1225]:  
+                            - row [ref=e1226]:  
+                            - row [ref=e1227]:  
+                            - row [ref=e1228]:  
+                            - row [ref=e1229]:  
+                            - row [ref=e1230]:  
+                            - row [ref=e1231]:  
+                            - row [ref=e1232]:  
+                            - row [ref=e1233]:  
+                            - row [ref=e1234]:  
+                            - row [ref=e1235]:  
+                            - row [ref=e1236]:  
+                            - row [ref=e1237]:  
+                            - row [ref=e1238]:  
+                            - row [ref=e1239]:  
+                            - row [ref=e1240]:  
+                            - row [ref=e1241]:  
+                            - row [ref=e1242]:  
+                            - row [ref=e1243]:  
+                            - row [ref=e1244]:  
+                            - row [ref=e1245]:  
+                            - row [ref=e1246]:  
+                            - row [ref=e1247]:  
+                            - row [ref=e1248]:  
+                            - row [ref=e1249]:  
+                            - row [ref=e1250]:  
+                            - row [ref=e1251]:  
+                            - row [ref=e1252]:  
+                            - row [ref=e1253]:  
+                            - row [ref=e1254]:  
+                            - row [ref=e1255]:  
+                            - row [ref=e1256]:  
+                            - row [ref=e1257]:  
+                            - row [ref=e1258]:  
+                            - row [ref=e1259]:  
+                            - row [ref=e1260]:  
+                            - row [ref=e1261]:  
+                            - row [ref=e1262]:  
+                            - row [ref=e1263]:  
+                            - row [ref=e1264]:  
+                            - row [ref=e1265]:  
+                            - row [ref=e1266]:  
+                            - row [ref=e1267]:  
+                            - row [ref=e1268]:  
+                            - row [ref=e1269]:  
+                            - row [ref=e1270]:  
+                            - row [ref=e1271]:  
+                            - row [ref=e1272]:  
+                            - row [ref=e1273]:  
+                            - row [ref=e1274]:  
+                            - row [ref=e1275]:  
+                            - row [ref=e1276]:  
+                            - row [ref=e1277]:  
+                            - row [ref=e1278]:  
+                            - row [ref=e1279]:  
+                            - row [ref=e1280]:  
+                            - row [ref=e1281]:  
+                            - row [ref=e1282]:  
+                            - row [ref=e1283]:  
+                            - row [ref=e1284]:  
+                            - row [ref=e1285]:  
+                            - row [ref=e1286]:  
+                            - row [ref=e1287]:  
+                            - row [ref=e1288]:  
+                            - row [ref=e1289]:  
+                            - row [ref=e1290]:  
+                            - row [ref=e1291]:  
+                            - row [ref=e1292]:  
+                            - row [ref=e1293]:  
+                            - row [ref=e1294]:  
+                            - row [ref=e1295]:  
+                            - row [ref=e1296]:  
+                            - row [ref=e1297]:  
+                            - row [ref=e1298]:  
+                            - row [ref=e1299]:  
+                        - status [ref=e1300]
+                        - generic [ref=e1305]: Select Row
+                      - text: 
+                    - generic [ref=e1308]:
+                      - text: 
+                      - generic [ref=e1312] [cursor=pointer]: 3010LE
+                      - text: 
+                  - generic "Hide Properties" [ref=e1315]:
+                    - button "Hide Properties" [ref=e1316] [cursor=pointer]:
+                      - generic [ref=e1319]: 
+                  - generic [ref=e1322]:
+                    - generic [ref=e1324]:
+                      - generic [ref=e1325]:
+                        - generic "3010LE" [ref=e1326]
+                        - link "NOV_Legal_Entity" [ref=e1327] [cursor=pointer]:
+                          - /url: "#"
+                      - generic "NOV Inc." [ref=e1329]
+                    - generic [ref=e1330]:
+                      - text: 
+                      - tablist [ref=e1333]:
+                        - tab "Properties 60" [selected] [ref=e1334]:
+                          - generic [ref=e1336]:
+                            - generic [ref=e1337]: Properties
+                            - generic [ref=e1338]: "60"
+                        - tab "Locations 1" [ref=e1339]:
+                          - generic [ref=e1341]:
+                            - generic [ref=e1342]: Locations
+                            - generic [ref=e1343]: "1"
+                        - tab "Links" [ref=e1344] [cursor=pointer]:
+                          - generic [ref=e1345]: Links
+                        - tab "History" [ref=e1346] [cursor=pointer]:
+                          - generic [ref=e1347]: History
+                      - button [ref=e1349] [cursor=pointer]:
+                        - generic [ref=e1350]: 
+                    - generic [ref=e1351]:
+                      - tabpanel [ref=e1352]:
+                        - generic [ref=e1353]:
+                          - generic [ref=e1354]:
+                            - generic [ref=e1355]:
+                              - text:  
+                              - generic "Search" [ref=e1356]:
+                                - button "Search" [ref=e1357] [cursor=pointer]:
+                                  - generic [ref=e1358]:
+                                    - generic [ref=e1360]: 
+                                    - generic [ref=e1361]: Search
+                            - generic "Select Property Group" [ref=e1362]:
+                              - combobox "Select Property Group" [ref=e1365]: All Properties
+                              - generic [ref=e1367] [cursor=pointer]: 
+                          - generic [ref=e1369]:
+                            - generic [ref=e1370]:
+                              - generic [ref=e1372]: Ledger Name
+                              - generic "Show Property detail" [ref=e1373] [cursor=pointer]: 
+                              - generic "3010LE" [ref=e1375]:
+                                - textbox "Ledger Name" [ref=e1378]
+                              - generic "Property 'Ledger Name' actions" [ref=e1380]:
+                                - button "Property 'Ledger Name' actions" [ref=e1381] [cursor=pointer]:
+                                  - generic [ref=e1382]:
+                                    - generic [ref=e1383]: .
+                                    - generic [ref=e1384]: 
+                            - generic [ref=e1385]:
+                              - generic [ref=e1387]: Name
+                              - generic "Show Property detail" [ref=e1388] [cursor=pointer]: 
+                              - generic "3010LE" [ref=e1390]:
+                                - textbox "Name" [ref=e1393]
+                              - generic "Property 'Name' actions" [ref=e1395]:
+                                - button "Property 'Name' actions" [ref=e1396] [cursor=pointer]:
+                                  - generic [ref=e1397]:
+                                    - generic [ref=e1398]: .
+                                    - generic [ref=e1399]: 
+                            - generic [ref=e1400]:
+                              - generic [ref=e1402]: Description
+                              - generic "Show Property detail" [ref=e1403] [cursor=pointer]: 
+                              - generic "NOV Inc." [ref=e1405]:
+                                - textbox "Description" [ref=e1408]
+                              - generic "Property 'Description' actions" [ref=e1410]:
+                                - button "Property 'Description' actions" [ref=e1411] [cursor=pointer]:
+                                  - generic [ref=e1412]:
+                                    - generic [ref=e1413]: .
+                                    - generic [ref=e1414]: 
+                            - generic [ref=e1415]:
+                              - generic [ref=e1417]: Parent
+                              - generic "Show Property detail" [ref=e1418] [cursor=pointer]: 
+                              - textbox "Parent" [ref=e1423]
+                              - generic "Property 'Parent' actions" [ref=e1425]:
+                                - button "Property 'Parent' actions" [ref=e1426] [cursor=pointer]:
+                                  - generic [ref=e1427]:
+                                    - generic [ref=e1428]: .
+                                    - generic [ref=e1429]: 
+                            - generic [ref=e1430]:
+                              - generic [ref=e1432]: EPM Parent
+                              - generic "Show Property detail" [ref=e1433] [cursor=pointer]: 
+                              - textbox "EPM Parent" [ref=e1438]
+                              - generic "Property 'EPM Parent' actions" [ref=e1440]:
+                                - button "Property 'EPM Parent' actions" [ref=e1441] [cursor=pointer]:
+                                  - generic [ref=e1442]:
+                                    - generic [ref=e1443]: .
+                                    - generic [ref=e1444]: 
+                            - generic [ref=e1445]:
+                              - generic [ref=e1447]: Tax Parent Entity
+                              - generic "Show Property detail" [ref=e1448] [cursor=pointer]: 
+                              - textbox "Tax Parent Entity" [ref=e1453]
+                              - generic "Property 'Tax Parent Entity' actions" [ref=e1455]:
+                                - button "Property 'Tax Parent Entity' actions" [ref=e1456] [cursor=pointer]:
+                                  - generic [ref=e1457]:
+                                    - generic [ref=e1458]: .
+                                    - generic [ref=e1459]: 
+                            - generic [ref=e1460]:
+                              - generic [ref=e1462]: Valid For Omega LE?
+                              - generic "Show Property detail" [ref=e1463] [cursor=pointer]: 
+                              - generic "False" [ref=e1465]:
+                                - textbox "Valid For Omega LE?" [ref=e1468]
+                              - generic "Property 'Valid For Omega LE?' actions" [ref=e1470]:
+                                - button "Property 'Valid For Omega LE?' actions" [ref=e1471] [cursor=pointer]:
+                                  - generic [ref=e1472]:
+                                    - generic [ref=e1473]: .
+                                    - generic [ref=e1474]: 
+                            - generic [ref=e1475]:
+                              - generic [ref=e1477]: Valid For Omega IC LE?
+                              - generic "Show Property detail" [ref=e1478] [cursor=pointer]: 
+                              - textbox "Valid For Omega IC LE?" [ref=e1483]
+                              - generic "Property 'Valid For Omega IC LE?' actions" [ref=e1485]:
+                                - button "Property 'Valid For Omega IC LE?' actions" [ref=e1486] [cursor=pointer]:
+                                  - generic [ref=e1487]:
+                                    - generic [ref=e1488]: .
+                                    - generic [ref=e1489]: 
+                            - generic [ref=e1490]:
+                              - generic [ref=e1492]: Incorporation Date
+                              - generic "Show Property detail" [ref=e1493] [cursor=pointer]: 
+                              - textbox "Incorporation Date" [ref=e1498]
+                              - generic "Property 'Incorporation Date' actions" [ref=e1500]:
+                                - button "Property 'Incorporation Date' actions" [ref=e1501] [cursor=pointer]:
+                                  - generic [ref=e1502]:
+                                    - generic [ref=e1503]: .
+                                    - generic [ref=e1504]: 
+                            - generic [ref=e1505]:
+                              - generic [ref=e1507]: Address
+                              - generic "Show Property detail" [ref=e1508] [cursor=pointer]: 
+                              - textbox "Address" [ref=e1513]
+                              - generic "Property 'Address' actions" [ref=e1515]:
+                                - button "Property 'Address' actions" [ref=e1516] [cursor=pointer]:
+                                  - generic [ref=e1517]:
+                                    - generic [ref=e1518]: .
+                                    - generic [ref=e1519]: 
+                            - generic [ref=e1520]:
+                              - generic [ref=e1522]: "% Ownership 1"
+                              - generic "Show Property detail" [ref=e1523] [cursor=pointer]: 
+                              - textbox "% Ownership 1" [ref=e1528]
+                              - generic "Property '% Ownership 1' actions" [ref=e1530]:
+                                - button "Property '% Ownership 1' actions" [ref=e1531] [cursor=pointer]:
+                                  - generic [ref=e1532]:
+                                    - generic [ref=e1533]: .
+                                    - generic [ref=e1534]: 
+                            - generic [ref=e1535]:
+                              - generic [ref=e1537]: "% Ownership 2"
+                              - generic "Show Property detail" [ref=e1538] [cursor=pointer]: 
+                              - textbox "% Ownership 2" [ref=e1543]
+                              - generic "Property '% Ownership 2' actions" [ref=e1545]:
+                                - button "Property '% Ownership 2' actions" [ref=e1546] [cursor=pointer]:
+                                  - generic [ref=e1547]:
+                                    - generic [ref=e1548]: .
+                                    - generic [ref=e1549]: 
+                            - generic [ref=e1550]:
+                              - generic [ref=e1552]: "% Ownership 3"
+                              - generic "Show Property detail" [ref=e1553] [cursor=pointer]: 
+                              - textbox "% Ownership 3" [ref=e1558]
+                              - generic "Property '% Ownership 3' actions" [ref=e1560]:
+                                - button "Property '% Ownership 3' actions" [ref=e1561] [cursor=pointer]:
+                                  - generic [ref=e1562]:
+                                    - generic [ref=e1563]: .
+                                    - generic [ref=e1564]: 
+                            - generic [ref=e1565]:
+                              - generic [ref=e1567]: "% Ownership 4"
+                              - generic "Show Property detail" [ref=e1568] [cursor=pointer]: 
+                              - textbox "% Ownership 4" [ref=e1573]
+                              - generic "Property '% Ownership 4' actions" [ref=e1575]:
+                                - button "Property '% Ownership 4' actions" [ref=e1576] [cursor=pointer]:
+                                  - generic [ref=e1577]:
+                                    - generic [ref=e1578]: .
+                                    - generic [ref=e1579]: 
+                            - generic [ref=e1580]:
+                              - generic [ref=e1582]: "% Ownership 5"
+                              - generic "Show Property detail" [ref=e1583] [cursor=pointer]: 
+                              - textbox "% Ownership 5" [ref=e1588]
+                              - generic "Property '% Ownership 5' actions" [ref=e1590]:
+                                - button "Property '% Ownership 5' actions" [ref=e1591] [cursor=pointer]:
+                                  - generic [ref=e1592]:
+                                    - generic [ref=e1593]: .
+                                    - generic [ref=e1594]: 
+                            - generic [ref=e1595]:
+                              - generic [ref=e1597]: Acquisition Date
+                              - generic "Show Property detail" [ref=e1598] [cursor=pointer]: 
+                              - textbox "Acquisition Date" [ref=e1603]
+                              - generic "Property 'Acquisition Date' actions" [ref=e1605]:
+                                - button "Property 'Acquisition Date' actions" [ref=e1606] [cursor=pointer]:
+                                  - generic [ref=e1607]:
+                                    - generic [ref=e1608]: .
+                                    - generic [ref=e1609]: 
+                            - generic [ref=e1610]:
+                              - generic [ref=e1612]: Business Unit (BU) Secondary
+                              - generic "Show Property detail" [ref=e1613] [cursor=pointer]: 
+                              - textbox "Business Unit (BU) Secondary" [ref=e1618]
+                              - generic "Property 'Business Unit (BU) Secondary' actions" [ref=e1620]:
+                                - button "Property 'Business Unit (BU) Secondary' actions" [ref=e1621] [cursor=pointer]:
+                                  - generic [ref=e1622]:
+                                    - generic [ref=e1623]: .
+                                    - generic [ref=e1624]: 
+                            - generic [ref=e1625]:
+                              - generic [ref=e1627]: Company Type
+                              - generic "Show Property detail" [ref=e1628] [cursor=pointer]: 
+                              - textbox "Company Type" [ref=e1633]
+                              - generic "Property 'Company Type' actions" [ref=e1635]:
+                                - button "Property 'Company Type' actions" [ref=e1636] [cursor=pointer]:
+                                  - generic [ref=e1637]:
+                                    - generic [ref=e1638]: .
+                                    - generic [ref=e1639]: 
+                            - generic [ref=e1640]:
+                              - generic [ref=e1642]: Country of Operation
+                              - generic "Show Property detail" [ref=e1643] [cursor=pointer]: 
+                              - textbox "Country of Operation" [ref=e1648]
+                              - generic "Property 'Country of Operation' actions" [ref=e1650]:
+                                - button "Property 'Country of Operation' actions" [ref=e1651] [cursor=pointer]:
+                                  - generic [ref=e1652]:
+                                    - generic [ref=e1653]: .
+                                    - generic [ref=e1654]: 
+                            - generic [ref=e1655]:
+                              - generic [ref=e1657]: Current Status Effective From
+                              - generic "Show Property detail" [ref=e1658] [cursor=pointer]: 
+                              - generic "6/3/2051" [ref=e1660]:
+                                - textbox "Current Status Effective From" [ref=e1663]
+                              - generic "Property 'Current Status Effective From' actions" [ref=e1665]:
+                                - button "Property 'Current Status Effective From' actions" [ref=e1666] [cursor=pointer]:
+                                  - generic [ref=e1667]:
+                                    - generic [ref=e1668]: .
+                                    - generic [ref=e1669]: 
+                            - generic [ref=e1670]:
+                              - generic [ref=e1672]: Dissolved Date
+                              - generic "Show Property detail" [ref=e1673] [cursor=pointer]: 
+                              - textbox "Dissolved Date" [ref=e1678]
+                              - generic "Property 'Dissolved Date' actions" [ref=e1680]:
+                                - button "Property 'Dissolved Date' actions" [ref=e1681] [cursor=pointer]:
+                                  - generic [ref=e1682]:
+                                    - generic [ref=e1683]: .
+                                    - generic [ref=e1684]: 
+                            - generic [ref=e1685]:
+                              - generic [ref=e1687]: EPM Status
+                              - generic "Show Property detail" [ref=e1688] [cursor=pointer]: 
+                              - textbox "EPM Status" [ref=e1693]
+                              - generic "Property 'EPM Status' actions" [ref=e1695]:
+                                - button "Property 'EPM Status' actions" [ref=e1696] [cursor=pointer]:
+                                  - generic [ref=e1697]:
+                                    - generic [ref=e1698]: .
+                                    - generic [ref=e1699]: 
+                            - generic [ref=e1700]:
+                              - generic [ref=e1702]: ERP
+                              - generic "Show Property detail" [ref=e1703] [cursor=pointer]: 
+                              - textbox "ERP" [ref=e1708]
+                              - generic "Property 'ERP' actions" [ref=e1710]:
+                                - button "Property 'ERP' actions" [ref=e1711] [cursor=pointer]:
+                                  - generic [ref=e1712]:
+                                    - generic [ref=e1713]: .
+                                    - generic [ref=e1714]: 
+                            - generic [ref=e1715]:
+                              - generic [ref=e1717]: Effective Date of Change for % Ownership
+                              - generic "Show Property detail" [ref=e1718] [cursor=pointer]: 
+                              - textbox "Effective Date of Change for % Ownership" [ref=e1723]
+                              - generic "Property 'Effective Date of Change for % Ownership' actions" [ref=e1725]:
+                                - button "Property 'Effective Date of Change for % Ownership' actions" [ref=e1726] [cursor=pointer]:
+                                  - generic [ref=e1727]:
+                                    - generic [ref=e1728]: .
+                                    - generic [ref=e1729]: 
+                            - generic [ref=e1730]:
+                              - generic [ref=e1732]: Employer Identification Number (EIN)
+                              - generic "Show Property detail" [ref=e1733] [cursor=pointer]: 
+                              - textbox "Employer Identification Number (EIN)" [ref=e1738]
+                              - generic "Property 'Employer Identification Number (EIN)' actions" [ref=e1740]:
+                                - button "Property 'Employer Identification Number (EIN)' actions" [ref=e1741] [cursor=pointer]:
+                                  - generic [ref=e1742]:
+                                    - generic [ref=e1743]: .
+                                    - generic [ref=e1744]: 
+                            - generic [ref=e1745]:
+                              - generic [ref=e1747]: Fiscal Year End (WR)
+                              - generic "Show Property detail" [ref=e1748] [cursor=pointer]: 
+                              - textbox "Fiscal Year End (WR)" [ref=e1753]
+                              - generic "Property 'Fiscal Year End (WR)' actions" [ref=e1755]:
+                                - button "Property 'Fiscal Year End (WR)' actions" [ref=e1756] [cursor=pointer]:
+                                  - generic [ref=e1757]:
+                                    - generic [ref=e1758]: .
+                                    - generic [ref=e1759]: 
+                            - generic [ref=e1760]:
+                              - generic [ref=e1762]: "HYP #"
+                              - generic "Show Property detail" [ref=e1763] [cursor=pointer]: 
+                              - 'textbox "HYP #" [ref=e1768]'
+                              - 'generic "Property ''HYP #'' actions" [ref=e1770]':
+                                - 'button "Property ''HYP #'' actions" [ref=e1771] [cursor=pointer]':
+                                  - generic [ref=e1772]:
+                                    - generic [ref=e1773]: .
+                                    - generic [ref=e1774]: 
+                            - generic [ref=e1775]:
+                              - generic [ref=e1777]: Ledger Owner
+                              - generic "Show Property detail" [ref=e1778] [cursor=pointer]: 
+                              - textbox "Ledger Owner" [ref=e1783]
+                              - generic "Property 'Ledger Owner' actions" [ref=e1785]:
+                                - button "Property 'Ledger Owner' actions" [ref=e1786] [cursor=pointer]:
+                                  - generic [ref=e1787]:
+                                    - generic [ref=e1788]: .
+                                    - generic [ref=e1789]: 
+                            - generic [ref=e1790]:
+                              - generic [ref=e1792]: Joint Venture
+                              - generic "Show Property detail" [ref=e1793] [cursor=pointer]: 
+                              - textbox "Joint Venture" [ref=e1798]
+                              - generic "Property 'Joint Venture' actions" [ref=e1800]:
+                                - button "Property 'Joint Venture' actions" [ref=e1801] [cursor=pointer]:
+                                  - generic [ref=e1802]:
+                                    - generic [ref=e1803]: .
+                                    - generic [ref=e1804]: 
+                            - generic [ref=e1805]:
+                              - generic [ref=e1807]: LegalEntity Enabled
+                              - generic "Show Property detail" [ref=e1808] [cursor=pointer]: 
+                              - generic "Y" [ref=e1810]:
+                                - textbox "LegalEntity Enabled" [ref=e1813]
+                              - generic "Property 'LegalEntity Enabled' actions" [ref=e1815]:
+                                - button "Property 'LegalEntity Enabled' actions" [ref=e1816] [cursor=pointer]:
+                                  - generic [ref=e1817]:
+                                    - generic [ref=e1818]: .
+                                    - generic [ref=e1819]: 
+                            - generic [ref=e1820]:
+                              - generic [ref=e1822]: Owner 1
+                              - generic "Show Property detail" [ref=e1823] [cursor=pointer]: 
+                              - textbox "Owner 1" [ref=e1828]
+                              - generic "Property 'Owner 1' actions" [ref=e1830]:
+                                - button "Property 'Owner 1' actions" [ref=e1831] [cursor=pointer]:
+                                  - generic [ref=e1832]:
+                                    - generic [ref=e1833]: .
+                                    - generic [ref=e1834]: 
+                            - generic [ref=e1835]:
+                              - generic [ref=e1837]: Owner 2
+                              - generic "Show Property detail" [ref=e1838] [cursor=pointer]: 
+                              - textbox "Owner 2" [ref=e1843]
+                              - generic "Property 'Owner 2' actions" [ref=e1845]:
+                                - button "Property 'Owner 2' actions" [ref=e1846] [cursor=pointer]:
+                                  - generic [ref=e1847]:
+                                    - generic [ref=e1848]: .
+                                    - generic [ref=e1849]: 
+                            - generic [ref=e1850]:
+                              - generic [ref=e1852]: Owner 3
+                              - generic "Show Property detail" [ref=e1853] [cursor=pointer]: 
+                              - textbox "Owner 3" [ref=e1858]
+                              - generic "Property 'Owner 3' actions" [ref=e1860]:
+                                - button "Property 'Owner 3' actions" [ref=e1861] [cursor=pointer]:
+                                  - generic [ref=e1862]:
+                                    - generic [ref=e1863]: .
+                                    - generic [ref=e1864]: 
+                            - generic [ref=e1865]:
+                              - generic [ref=e1867]: Owner 4
+                              - generic "Show Property detail" [ref=e1868] [cursor=pointer]: 
+                              - textbox "Owner 4" [ref=e1873]
+                              - generic "Property 'Owner 4' actions" [ref=e1875]:
+                                - button "Property 'Owner 4' actions" [ref=e1876] [cursor=pointer]:
+                                  - generic [ref=e1877]:
+                                    - generic [ref=e1878]: .
+                                    - generic [ref=e1879]: 
+                            - generic [ref=e1880]:
+                              - generic [ref=e1882]: Owner 5
+                              - generic "Show Property detail" [ref=e1883] [cursor=pointer]: 
+                              - textbox "Owner 5" [ref=e1888]
+                              - generic "Property 'Owner 5' actions" [ref=e1890]:
+                                - button "Property 'Owner 5' actions" [ref=e1891] [cursor=pointer]:
+                                  - generic [ref=e1892]:
+                                    - generic [ref=e1893]: .
+                                    - generic [ref=e1894]: 
+                            - generic [ref=e1895]:
+                              - generic [ref=e1897]: Name of Owner 1
+                              - generic "Show Property detail" [ref=e1898] [cursor=pointer]: 
+                              - textbox "Name of Owner 1" [ref=e1903]
+                              - generic "Property 'Name of Owner 1' actions" [ref=e1905]:
+                                - button "Property 'Name of Owner 1' actions" [ref=e1906] [cursor=pointer]:
+                                  - generic [ref=e1907]:
+                                    - generic [ref=e1908]: .
+                                    - generic [ref=e1909]: 
+                            - generic [ref=e1910]:
+                              - generic [ref=e1912]: Name of Owner 2
+                              - generic "Show Property detail" [ref=e1913] [cursor=pointer]: 
+                              - textbox "Name of Owner 2" [ref=e1918]
+                              - generic "Property 'Name of Owner 2' actions" [ref=e1920]:
+                                - button "Property 'Name of Owner 2' actions" [ref=e1921] [cursor=pointer]:
+                                  - generic [ref=e1922]:
+                                    - generic [ref=e1923]: .
+                                    - generic [ref=e1924]: 
+                            - generic [ref=e1925]:
+                              - generic [ref=e1927]: Name of Owner 3
+                              - generic "Show Property detail" [ref=e1928] [cursor=pointer]: 
+                              - textbox "Name of Owner 3" [ref=e1933]
+                              - generic "Property 'Name of Owner 3' actions" [ref=e1935]:
+                                - button "Property 'Name of Owner 3' actions" [ref=e1936] [cursor=pointer]:
+                                  - generic [ref=e1937]:
+                                    - generic [ref=e1938]: .
+                                    - generic [ref=e1939]: 
+                            - generic [ref=e1940]:
+                              - generic [ref=e1942]: Name of Owner 4
+                              - generic "Show Property detail" [ref=e1943] [cursor=pointer]: 
+                              - textbox "Name of Owner 4" [ref=e1948]
+                              - generic "Property 'Name of Owner 4' actions" [ref=e1950]:
+                                - button "Property 'Name of Owner 4' actions" [ref=e1951] [cursor=pointer]:
+                                  - generic [ref=e1952]:
+                                    - generic [ref=e1953]: .
+                                    - generic [ref=e1954]: 
+                            - generic [ref=e1955]:
+                              - generic [ref=e1957]: Name of Owner 5
+                              - generic "Show Property detail" [ref=e1958] [cursor=pointer]: 
+                              - textbox "Name of Owner 5" [ref=e1963]
+                              - generic "Property 'Name of Owner 5' actions" [ref=e1965]:
+                                - button "Property 'Name of Owner 5' actions" [ref=e1966] [cursor=pointer]:
+                                  - generic [ref=e1967]:
+                                    - generic [ref=e1968]: .
+                                    - generic [ref=e1969]: 
+                            - generic [ref=e1970]:
+                              - generic [ref=e1972]: Multiple Owners2
+                              - generic "Show Property detail" [ref=e1973] [cursor=pointer]: 
+                              - textbox "Multiple Owners2" [ref=e1978]
+                              - generic "Property 'Multiple Owners2' actions" [ref=e1980]:
+                                - button "Property 'Multiple Owners2' actions" [ref=e1981] [cursor=pointer]:
+                                  - generic [ref=e1982]:
+                                    - generic [ref=e1983]: .
+                                    - generic [ref=e1984]: 
+                            - generic [ref=e1985]:
+                              - generic [ref=e1987]: Owner Name(s)
+                              - generic "Show Property detail" [ref=e1988] [cursor=pointer]: 
+                              - textbox "Owner Name(s)" [ref=e1993]
+                              - generic "Property 'Owner Name(s)' actions" [ref=e1995]:
+                                - button "Property 'Owner Name(s)' actions" [ref=e1996] [cursor=pointer]:
+                                  - generic [ref=e1997]:
+                                    - generic [ref=e1998]: .
+                                    - generic [ref=e1999]: 
+                            - generic [ref=e2000]:
+                              - generic [ref=e2002]: Company Status
+                              - generic "Show Property detail" [ref=e2003] [cursor=pointer]: 
+                              - textbox "Company Status" [ref=e2008]
+                              - generic "Property 'Company Status' actions" [ref=e2010]:
+                                - button "Property 'Company Status' actions" [ref=e2011] [cursor=pointer]:
+                                  - generic [ref=e2012]:
+                                    - generic [ref=e2013]: .
+                                    - generic [ref=e2014]: 
+                            - generic [ref=e2015]:
+                              - generic [ref=e2017]: DOM/NONDOM
+                              - generic "Show Property detail" [ref=e2018] [cursor=pointer]: 
+                              - textbox "DOM/NONDOM" [ref=e2023]
+                              - generic "Property 'DOM/NONDOM' actions" [ref=e2025]:
+                                - button "Property 'DOM/NONDOM' actions" [ref=e2026] [cursor=pointer]:
+                                  - generic [ref=e2027]:
+                                    - generic [ref=e2028]: .
+                                    - generic [ref=e2029]: 
+                            - generic [ref=e2030]:
+                              - generic [ref=e2032]: Functional Currency
+                              - generic "Show Property detail" [ref=e2033] [cursor=pointer]: 
+                              - textbox "Functional Currency" [ref=e2038]
+                              - generic "Property 'Functional Currency' actions" [ref=e2040]:
+                                - button "Property 'Functional Currency' actions" [ref=e2041] [cursor=pointer]:
+                                  - generic [ref=e2042]:
+                                    - generic [ref=e2043]: .
+                                    - generic [ref=e2044]: 
+                            - generic [ref=e2045]:
+                              - generic [ref=e2047]: Incorporation Country
+                              - generic "Show Property detail" [ref=e2048] [cursor=pointer]: 
+                              - textbox "Incorporation Country" [ref=e2053]
+                              - generic "Property 'Incorporation Country' actions" [ref=e2055]:
+                                - button "Property 'Incorporation Country' actions" [ref=e2056] [cursor=pointer]:
+                                  - generic [ref=e2057]:
+                                    - generic [ref=e2058]: .
+                                    - generic [ref=e2059]: 
+                            - generic [ref=e2060]:
+                              - generic [ref=e2062]: Local Currency
+                              - generic "Show Property detail" [ref=e2063] [cursor=pointer]: 
+                              - textbox "Local Currency" [ref=e2068]
+                              - generic "Property 'Local Currency' actions" [ref=e2070]:
+                                - button "Property 'Local Currency' actions" [ref=e2071] [cursor=pointer]:
+                                  - generic [ref=e2072]:
+                                    - generic [ref=e2073]: .
+                                    - generic [ref=e2074]: 
+                            - generic [ref=e2075]:
+                              - generic [ref=e2077]: Local Tax Number
+                              - generic "Show Property detail" [ref=e2078] [cursor=pointer]: 
+                              - textbox "Local Tax Number" [ref=e2083]
+                              - generic "Property 'Local Tax Number' actions" [ref=e2085]:
+                                - button "Property 'Local Tax Number' actions" [ref=e2086] [cursor=pointer]:
+                                  - generic [ref=e2087]:
+                                    - generic [ref=e2088]: .
+                                    - generic [ref=e2089]: 
+                            - generic [ref=e2090]:
+                              - generic [ref=e2092]: Number of Shares
+                              - generic "Show Property detail" [ref=e2093] [cursor=pointer]: 
+                              - textbox "Number of Shares" [ref=e2098]
+                              - generic "Property 'Number of Shares' actions" [ref=e2100]:
+                                - button "Property 'Number of Shares' actions" [ref=e2101] [cursor=pointer]:
+                                  - generic [ref=e2102]:
+                                    - generic [ref=e2103]: .
+                                    - generic [ref=e2104]: 
+                            - generic [ref=e2105]:
+                              - generic [ref=e2107]: Tax Domicile
+                              - generic "Show Property detail" [ref=e2108] [cursor=pointer]: 
+                              - textbox "Tax Domicile" [ref=e2113]
+                              - generic "Property 'Tax Domicile' actions" [ref=e2115]:
+                                - button "Property 'Tax Domicile' actions" [ref=e2116] [cursor=pointer]:
+                                  - generic [ref=e2117]:
+                                    - generic [ref=e2118]: .
+                                    - generic [ref=e2119]: 
+                            - generic [ref=e2120]:
+                              - generic [ref=e2122]: Tax Entity Type
+                              - generic "Show Property detail" [ref=e2123] [cursor=pointer]: 
+                              - textbox "Tax Entity Type" [ref=e2128]
+                              - generic "Property 'Tax Entity Type' actions" [ref=e2130]:
+                                - button "Property 'Tax Entity Type' actions" [ref=e2131] [cursor=pointer]:
+                                  - generic [ref=e2132]:
+                                    - generic [ref=e2133]: .
+                                    - generic [ref=e2134]: 
+                            - generic [ref=e2135]:
+                              - generic [ref=e2137]: Region
+                              - generic "Show Property detail" [ref=e2138] [cursor=pointer]: 
+                              - textbox "Region" [ref=e2143]
+                              - generic "Property 'Region' actions" [ref=e2145]:
+                                - button "Property 'Region' actions" [ref=e2146] [cursor=pointer]:
+                                  - generic [ref=e2147]:
+                                    - generic [ref=e2148]: .
+                                    - generic [ref=e2149]: 
+                            - generic [ref=e2150]:
+                              - generic [ref=e2152]: Registration/License Number
+                              - generic "Show Property detail" [ref=e2153] [cursor=pointer]: 
+                              - textbox "Registration/License Number" [ref=e2158]
+                              - generic "Property 'Registration/License Number' actions" [ref=e2160]:
+                                - button "Property 'Registration/License Number' actions" [ref=e2161] [cursor=pointer]:
+                                  - generic [ref=e2162]:
+                                    - generic [ref=e2163]: .
+                                    - generic [ref=e2164]: 
+                            - generic [ref=e2165]:
+                              - generic [ref=e2167]: SOX Tier
+                              - generic "Show Property detail" [ref=e2168] [cursor=pointer]: 
+                              - textbox "SOX Tier" [ref=e2173]
+                              - generic "Property 'SOX Tier' actions" [ref=e2175]:
+                                - button "Property 'SOX Tier' actions" [ref=e2176] [cursor=pointer]:
+                                  - generic [ref=e2177]:
+                                    - generic [ref=e2178]: .
+                                    - generic [ref=e2179]: 
+                            - generic [ref=e2180]:
+                              - generic [ref=e2182]: Segment(s)
+                              - generic "Show Property detail" [ref=e2183] [cursor=pointer]: 
+                              - textbox "Segment(s)" [ref=e2188]
+                              - generic "Property 'Segment(s)' actions" [ref=e2190]:
+                                - button "Property 'Segment(s)' actions" [ref=e2191] [cursor=pointer]:
+                                  - generic [ref=e2192]:
+                                    - generic [ref=e2193]: .
+                                    - generic [ref=e2194]: 
+                            - generic [ref=e2195]:
+                              - generic [ref=e2197]: Total Number of Owners
+                              - generic "Show Property detail" [ref=e2198] [cursor=pointer]: 
+                              - generic "0" [ref=e2200]:
+                                - textbox "Total Number of Owners" [ref=e2203]
+                              - generic "Property 'Total Number of Owners' actions" [ref=e2205]:
+                                - button "Property 'Total Number of Owners' actions" [ref=e2206] [cursor=pointer]:
+                                  - generic [ref=e2207]:
+                                    - generic [ref=e2208]: .
+                                    - generic [ref=e2209]: 
+                            - generic [ref=e2210]:
+                              - generic [ref=e2212]: Legal Entity Ancestors
+                              - generic "Show Property detail" [ref=e2213] [cursor=pointer]: 
+                              - generic ">3010LE" [ref=e2215]:
+                                - textbox "Legal Entity Ancestors" [ref=e2218]
+                              - generic "Property 'Legal Entity Ancestors' actions" [ref=e2220]:
+                                - button "Property 'Legal Entity Ancestors' actions" [ref=e2221] [cursor=pointer]:
+                                  - generic [ref=e2222]:
+                                    - generic [ref=e2223]: .
+                                    - generic [ref=e2224]: 
+                            - generic [ref=e2225]:
+                              - generic [ref=e2227]: is LE?
+                              - generic "Show Property detail" [ref=e2228] [cursor=pointer]: 
+                              - generic "Y" [ref=e2230]:
+                                - textbox "is LE?" [ref=e2233]
+                              - generic "Property 'is LE?' actions" [ref=e2235]:
+                                - button "Property 'is LE?' actions" [ref=e2236] [cursor=pointer]:
+                                  - generic [ref=e2237]:
+                                    - generic [ref=e2238]: .
+                                    - generic [ref=e2239]: 
+                            - generic [ref=e2240]:
+                              - generic [ref=e2242]: US Tax ID
+                              - generic "Show Property detail" [ref=e2243] [cursor=pointer]: 
+                              - textbox "US Tax ID" [ref=e2248]
+                              - generic "Property 'US Tax ID' actions" [ref=e2250]:
+                                - button "Property 'US Tax ID' actions" [ref=e2251] [cursor=pointer]:
+                                  - generic [ref=e2252]:
+                                    - generic [ref=e2253]: .
+                                    - generic [ref=e2254]: 
+                            - generic [ref=e2255]:
+                              - generic [ref=e2257]: New Ledger
+                              - generic "Show Property detail" [ref=e2258] [cursor=pointer]: 
+                              - textbox "New Ledger" [ref=e2263]
+                              - generic "Property 'New Ledger' actions" [ref=e2265]:
+                                - button "Property 'New Ledger' actions" [ref=e2266] [cursor=pointer]:
+                                  - generic [ref=e2267]:
+                                    - generic [ref=e2268]: .
+                                    - generic [ref=e2269]: 
+                          - generic: 
+                          - generic: 
+                      - text:    
+              - text: 
+            - text:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        - text:    * * * *     *  *  *

@@ -1,0 +1,29 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img
+    - generic [ref=e6]: Cloud Infrastructure
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - img "Company Logo for a706571"
+      - generic [ref=e14]:
+        - generic:
+          - heading [level=1]
+        - heading [level=2]
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - text: Identity domain
+            - button "What is an identity domain?" [ref=e18] [cursor=pointer]:
+              - img "What is an identity domain?" [ref=e19]
+          - generic [ref=e20]: Default
+    - generic [ref=e21]:
+      - generic:
+        - generic:
+          - main
+  - contentinfo [ref=e22]:
+    - generic [ref=e23]:
+      - link "Terms of Use" [ref=e24] [cursor=pointer]:
+        - /url: https://www.oracle.com/legal/terms.html
+      - link "Privacy" [ref=e25] [cursor=pointer]:
+        - /url: https://www.oracle.com/us/legal/privacy/overview/index.html
+    - paragraph [ref=e26]: Copyright © 2016, 2026, Oracle and/or its affiliates. All rights reserved.
