@@ -21,46 +21,28 @@ const request = {
   businessUnit: 'EP - WellSite Services'
 };
 
-test('Regressiontest bogus 2', async ({ page }) => {
+test('test', async ({ page }) => {
   const home = new Epm18testMainHomePage(page);
   const views = new ViewsPage(page);
   const requestPage = new RequestPage(page);
 
   await home.open();
-  await page.pause();
 
   await home.epm18testtilesopen(linkName.tilename);
-  await page.pause();
-
+  
   await views.openView(request.viewName);
-  await page.pause();
 
   await views.openViewpoint(request.viewpointName);
-  await page.pause();
 
   await requestPage.newRequest();
-  await page.pause();
 
   await requestPage.addNode();
-  await page.pause();
 
-  await requestPage.selectLedgerNumber(request.ledgerNumberRow);
-  await page.pause();
-
-  await requestPage.searchForNode(request.searchTerm);
-  await page.pause();
-
-  await requestPage.selectSearchResult(request.searchResultRowText);
-  await page.pause();
-
-  await requestPage.selectBusinessUnit(request.businessUnit);
-  await page.pause();
+  await requestPage.completeRequestEntry(request);
 
   await requestPage.submit();
-  await page.pause();
 
-  await requestPage.done();
-  await page.pause();
+  await requestPage.returnHome();
 
-  await home.epm18testhomeicon();
+  
 });

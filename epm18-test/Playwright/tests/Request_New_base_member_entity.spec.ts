@@ -91,6 +91,6 @@ test('Request New Base Member Entity', async ({ page }) => {
 
     await requestPage.submit();
 
-    await requestPage.done();
+    await requestPage.returnHome();
 
 });

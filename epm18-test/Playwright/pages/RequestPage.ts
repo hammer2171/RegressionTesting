@@ -125,6 +125,49 @@ async selectBusinessUnit(businessUnit: string): Promise<void> {
 
 }
 
+
+async selectValOmegaLE(omegaLE: string): Promise<void> {
+
+    const control = this.page.getByRole('combobox', {
+        name: 'Valid for Omega LE',
+        exact: true
+    });
+
+    await expect(control).toBeVisible();
+
+    await control.click();
+
+    await this.page
+        .getByRole('option', {
+            name: omegaLE,
+            exact: true
+        })
+        .click();
+
+}
+
+
+async selectValOmegaICLE(omegaICLE: string): Promise<void> {
+
+    const control = this.page.getByRole('combobox', {
+        name: 'Valid for Omega IC LE?',
+        exact: true
+    });
+
+    await expect(control).toBeVisible();
+
+    await control.click();
+
+    await this.page
+        .getByRole('option', {
+            name: omegaICLE,
+            exact: true
+        })
+        .click();
+
+}
+
+
 async completeRequestEntry(request: RequestEntryDetails): Promise<void> {
 
     await this.selectLedgerNumber(request.ledgerNumberRow);
@@ -135,6 +178,18 @@ async completeRequestEntry(request: RequestEntryDetails): Promise<void> {
 
     await this.selectBusinessUnit(request.businessUnit);
 }
+
+async completeRequestOmegaICLE_LE(request: RequestEntryDetails): Promise<void> {
+
+    await this.selectLedgerNumber(request.ledgerNumberRow);
+
+    await this.searchForNode(request.searchTerm);
+
+    await this.selectSearchResult(request.searchResultRowText);
+
+    await this.selectBusinessUnit(request.businessUnit);
+}
+
 
 async dismissConcurrentDataUpdate(): Promise<void> {
 

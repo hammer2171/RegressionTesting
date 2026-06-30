@@ -53,5 +53,42 @@ export class EdmHarness {
     await expect(
       this.page.getByRole('dialog')
     ).toMatchAriaSnapshot();
+    }
+      async snapshotNOVLESelect() {
+    await expect(
+      this.page.getByRole('button') {}
+    ).toMatchAriaSnapshot();
   }
+
+
+      async snapshotNOVLEseacrchNodes() {
+    await expect(
+      this.page.getByRole('button') {}
+    ).toMatchAriaSnapshot();
+  }
+
+
+      async snapshotNOVLEseacrchNodes() {
+    await expect(
+      this.page.getByRole('textbox') {}
+    ).toMatchAriaSnapshot();
+  }
+
+    async snapshotNOVLEgrid() {
+    await expect(
+      this.page.getByRole('grid') {}
+    ).toMatchAriaSnapshot();
+  }
+
+
+
+
+
+
 }
+
+ await this.page.getByRole('button', { name: 'Search NOV_Legal_Entity' }).click();
+  await page.getByRole('textbox', { name: 'Search Nodes' }).click();
+  await page.getByRole('textbox', { name: 'Search Nodes' }).fill('0002');
+  await page.locator('#cf20a9a3-3cae-44eb-954a-1c72921c1139_searchNodeInput > .search > .searchPartialIcon').click();
+  await expect(page.getByRole('grid', { name: 'Results' })).toBeVisible();

@@ -175,3 +175,24 @@ foreach ($workload in $workloads) {
 & "C:\simulateConcurrentUsage\_PS1_scripts\New-PlanningPackageZipFiles.ps1" `
   -RootDir "C:\simulateConcurrentUsage\30\_epm30-test"
   
+  
+  
+  
+
+
+
+epmautomate simulateConcurrentUsage epm2_test_Ruleset_Responsibility_ALLsubvars.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+
+epmautomate simulateConcurrentUsage epm2_test_SnapshotVersion_Allsubvars_bothyrs.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+epmautomate simulateConcurrentUsage epm2_test_AggDataSourceAll.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+epmautomate simulateConcurrentUsage epm2_test_Ruleset_Responsibility.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+epmautomate simulateConcurrentUsage epm2_test_SaveForm_SetForecastPeriodsFinRpt.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+
+epmautomate simulateConcurrentUsage epm2_test_SaveForm_SetForecastPeriodsFinRpt_JunSnapshot_130102.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+epmautomate simulateConcurrentUsage epm2_test_SaveForm_SetForecastPeriodsFinRpt_CurrentSnapshot_130101.zip testName=2testSim iterations=1 notificationEmails="aigul.zhakassova@nov.com" testMode=3 lagTime=4
+
+
+
+epmautomate deleteFile inbox/epm2_test_SaveForm_SetForecastPeriodsFinRpt_JunSnapshot_120102.zip
+epmautomate deleteFile inbox/epm2_test_SaveForm_SetForecastPeriodsFinRpt_CurrentSnapshot_120101.zip
+epmautomate deleteFile inbox/epm2_test_SaveForm_SetForecastPeriodsFinRpt_Working_120103.zip

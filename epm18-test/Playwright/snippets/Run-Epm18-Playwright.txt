@@ -4,89 +4,6 @@ npm run auth:refresh
 npm run test:e2e:evidence:full
 npm run evidence:archive-latest -- --label epm18_smoke
 
-
-Russ only
-
-npm run auth:refresh -- -UserKey aigul -PodKey 11_test_fccs -BaseUrl https://epm11-test-a706571.epm.us2.oraclecloud.com/epmcloud
-
-Others
-npm run auth:refresh -- -UserKey aigul -PodKey 11_test_fccs -BaseUrl https://epm11-test-a706571.epm.us2.oraclecloud.com/epmcloud
-
-recent tasks 
-
-e2e evidence full with buffers for longer timeouts during evidence gathering
-
-
-$env:PW_AUTH_FIELD_TIMEOUT_MS="90000"
-$env:PW_AUTH_STATE_TIMEOUT_MS="180000"
-npm run test:epm22:import-all-maps-cleaned:e2e:evidence:full
-
-full E2E evidence from login to signed out
-
-
-To build eidence from above
-npm run evidence:build-ui-validations-pdf:import-all-maps-cleaned
-
-
-
-
-
-view yml file
-
-Get-Content .\path\to\file.yml -Raw
-
-Get-Content .\output\playwright\epm22test-export-map_0151_20260409_160956\.playwright-cli\page-2026-04-09T21-28-27-841Z.yml -Raw
-
-do at the beginning of the day - reauth refresh authentication
-
-npm run auth:refresh
-
-
-$env:ENV_FILE=".env"
-$env:PW_SLOWMO='0'
-npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
-
-$env:ENV_FILE=".env"
-$env:PW_SLOWMO='0'
-npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --trace on --headed
-
-$env:ENV_FILE=".env"
-$env:PW_SLOWMO='0'
-npx playwright show-trace "C:\epm22_test\Mappings\ExportMapping\test-results\oracle-epm-0057_import_all-f7219-057-import-all-maps-cleaned-edge\trace.zip"
-
-Run test in UI mode 
- 
-$env:ENV_FILE=".env"
-$env:PW_SLOWMO='0'
-npx playwright test --headed --ui tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
-
-Run test debug
-
-$env:ENV_FILE=".env"
-$env:PW_SLOWMO='0'
-npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --debug
-
-
-Run reporter 
-
-npx playwright test --reporter=html
-
-Run Junit reporter
-
-$env:ENV_FILE=".env"
-$env:CI="true";
-$env:PW_SLOWMO='0'
-npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts 
-
-Run blob reporter
-
-$env:ENV_FILE=".env"
-$env:PW_SLOWMO="0"
-npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --reporter=blob
-      
-	  --  To view it as html - optional step
-          npx playwright merge-reports --reporter html ./blob-report
-          npx playwright show-report
      
 
 reauth
@@ -103,7 +20,7 @@ npx playwright codegen `
     --channel msedge `
     --load-storage="playwright/.auth/user.epm18_test.json" `
     --target playwright-test `
-    --output "tests\Request_New_base_member_entity.spec.ts" `
+    --output "tests\Investigate.spec.ts" `
     https://epm18-test-a706571.epm.us2.oraclecloud.com/epm
 
 
@@ -111,7 +28,7 @@ $env:PW_STORAGE_STATE="playwright/.auth/user.epm18_test.json"
 $env:EPM_SIGN_OUT="false"
 $env:ENV_FILE=".env.epm18_test"
 $env:PW_SLOWMO="0"
-npx playwright test tests/Request_New_base_member_entity.spec.ts
+npx playwright test tests/Investigate.spec.ts
 
 
 
@@ -338,6 +255,89 @@ npm run evidence:build-trace-pdf -- -ImagesDir ".\output\trace-images" -OutputPa
 
 
 
+
+Russ only
+
+npm run auth:refresh -- -UserKey aigul -PodKey 11_test_fccs -BaseUrl https://epm11-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+Others
+npm run auth:refresh -- -UserKey aigul -PodKey 11_test_fccs -BaseUrl https://epm11-test-a706571.epm.us2.oraclecloud.com/epmcloud
+
+recent tasks 
+
+e2e evidence full with buffers for longer timeouts during evidence gathering
+
+
+$env:PW_AUTH_FIELD_TIMEOUT_MS="90000"
+$env:PW_AUTH_STATE_TIMEOUT_MS="180000"
+npm run test:epm22:import-all-maps-cleaned:e2e:evidence:full
+
+full E2E evidence from login to signed out
+
+
+To build eidence from above
+npm run evidence:build-ui-validations-pdf:import-all-maps-cleaned
+
+
+
+
+
+view yml file
+
+Get-Content .\path\to\file.yml -Raw
+
+Get-Content .\output\playwright\epm22test-export-map_0151_20260409_160956\.playwright-cli\page-2026-04-09T21-28-27-841Z.yml -Raw
+
+do at the beginning of the day - reauth refresh authentication
+
+npm run auth:refresh
+
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --trace on --headed
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright show-trace "C:\epm22_test\Mappings\ExportMapping\test-results\oracle-epm-0057_import_all-f7219-057-import-all-maps-cleaned-edge\trace.zip"
+
+Run test in UI mode 
+ 
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed --ui tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts
+
+Run test debug
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --debug
+
+
+Run reporter 
+
+npx playwright test --reporter=html
+
+Run Junit reporter
+
+$env:ENV_FILE=".env"
+$env:CI="true";
+$env:PW_SLOWMO='0'
+npx playwright test --headed tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts 
+
+Run blob reporter
+
+$env:ENV_FILE=".env"
+$env:PW_SLOWMO="0"
+npx playwright test tests/oracle-epm-0057_import_all_maps.cleaned.spec.ts --reporter=blob
+      
+	  --  To view it as html - optional step
+          npx playwright merge-reports --reporter html ./blob-report
+          npx playwright show-report
 
 
 

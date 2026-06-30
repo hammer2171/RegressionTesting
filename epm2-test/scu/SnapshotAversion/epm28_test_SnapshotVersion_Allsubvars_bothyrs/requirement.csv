@@ -1,0 +1,5 @@
+# Type of Operation,Artifact Name,Number of Users,Input File,Additional Info
+Run Business Rule,Agg_DataSource_Forecast,1,run_br_input_Agg_DataSource_Forecast_FY26.csv,
+Run Business Rule,CopyForecastWorking2Snapshot,1,run_br_input_CopyForecastWorking2Snapshot_FY26.csv,
+Run Business Rule,Agg_DataSource_Forecast,1,run_br_input_Agg_DataSource_Forecast_FY27.csv,
+Run Business Rule,CopyForecastWorking2Snapshot,1,run_br_input_CopyForecastWorking2Snapshot_FY27.csv,
